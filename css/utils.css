@@ -1,0 +1,62 @@
+.m-def {
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.p-def {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.m-top {
+    margin-top: 140px;
+}
+
+.m-bottom {
+    margin-bottom: 140px;
+}
+
+.p-top {
+    padding-top: 140px;
+}
+
+.p-top {
+    padding-bottom: 140px;
+}
+
+.font1 {
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+}
+
+.font2 {
+    font-family: 'Montserrat-SemiBold';
+    font-weight: 600;
+}
+
+.font3 {
+    font-family: 'Montserrat-Medium';
+    font-weight: 500;
+}
+
+.font4 {
+    font-family: 'Montserrat-Medium';
+    font-weight: 400;
+}
+
+:root {
+    --color1: #699E3C;
+    --color2: #333333;
+}
+
+.form-content {
+    margin: 44px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-btn {
+    margin: 44px 50px;
+    align-content: center;
+    text-align: center;
+}

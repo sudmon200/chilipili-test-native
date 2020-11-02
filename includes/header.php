@@ -11,7 +11,9 @@
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Custom CSS file -->
+    <link rel="stylesheet" href="css/utils.css"> </link>
     <link rel="stylesheet" href="css/style.css"> </link>
+    <link rel="stylesheet" href="css/responsive.css"> </link>
 </head>
 <body>
 <header>
@@ -29,7 +31,7 @@
                 <li><a href="#"><i class="fab fa-blogger-b"></i> Our Services</a></li>
                 <li><a href="#"><i class="fab fa-blogger-b"></i> Blog</a></li>
                 <li><a href="#"><i class="fas fa-question"></i> Our Courses</a></li>
-                <li><a href="#"><i class="fas fa-phone-alt"></i> Contact Us</a></li>
+                <li><a href="contact-us.php"><i class="fas fa-phone-alt"></i> Contact Us</a></li>
                 <label for="toggle-btn" class="hide-menu-btn"><i class="fas fa-times"></i></label>
             </ul>
         </nav>

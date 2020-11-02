@@ -19,8 +19,8 @@
 </section>
 
 <section class="container about-background" style="background-image: url('media/final-asset/wave-3.svg')">
-    <div class="fill">
-    <img src="media/final-asset/branch-1.svg" alt="branch">
+    <div>
+    <img src="media/final-asset/branch-1.svg" class="branch1" alt="branch">
     </div>
     <h3>The Background</h3>
     <p>We are primarily a research and training company focusing on the field of early-stage education. Our team of experts has created and tested learning methodologies that enable a child to absorb concepts and learn faster. We offer online courses for parents on these methodologies which will help them teach their child the basics of language and maths through simple steps making the entire learning process immersive and fun for both parent and child.</p>

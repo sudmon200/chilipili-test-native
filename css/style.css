@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -22,7 +22,6 @@ header {
     background: #ffffff;
     padding: 0 20px;
     color: rgb(0, 0, 0);
-    z-index: 2;
     position: relative;
 }
 
@@ -254,14 +253,16 @@ header {
     background-size: cover;
     position: relative;
     background-position: center top;
+    z-index: -2;
 }
 
-.about-background img {
+.branch1 {
     right: -35vw;
     top: -136px;
     position: absolute;
     height: 50%;
     width: 80%;
+    z-index: -1;
 }
 
 .about-background p {
@@ -353,3 +354,137 @@ header {
 #more {
     display: none;
 }
+
+
+/* Contact Us Page Starts Here */
+
+.contact-top {
+    height: 50px;
+    width: auto;
+}
+
+.contact-top h3 {
+    position: relative;
+    text-align: center;
+}
+
+.color1 {
+    color: #699E3C;
+}
+
+.contact-top h3:after {
+    align-self: center;
+    display: block;
+    content: '';
+    width: 5%;
+    height: 3px;
+    background: var(--color1);
+    position: absolute;
+    bottom: 0;
+    left: 36vw;
+    border-radius: 1500px;
+}
+
+.contact-main {
+    display: flex;
+    height: auto;
+    width: auto;
+    margin-bottom: 100px;
+}
+
+.contact-main-left {
+    height: auto;
+    width: 50%;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+.contact-main-right {
+    height: auto;
+    width: 50%;
+    margin-right: 150px;
+    box-shadow: 5px 3px 30px 2px #dbd6d6;
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+
+.form-content input {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--color2);
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 1px 1px;
+}
+
+.form-btn input {
+    background-color: var(--color1);
+    color: #fff;
+    padding: 6px 37px;
+}
+
+.fill img {
+    right: -35vw;
+    top: 725px;
+    position: absolute;
+    height: 65%;
+    width: 79%;
+    z-index: -1;
+}
+
+.left2 {
+    display: flex;
+}
+
+.left-content {
+    margin-right: 90px;
+}
+
+.left-content h4:after {
+    align-self: center;
+    display: block;
+    content: '';
+    width: 3%;
+    height: 4px;
+    background: var(--color1);
+    position: absolute;
+    bottom: -9vh;
+    left: 11vw;
+    border-radius: 1500px;
+}
+
+.right-content h4:after {
+    align-self: center;
+    display: block;
+    content: '';
+    width: 3%;
+    height: 4px;
+    background: var(--color1);
+    position: absolute;
+    bottom: -9vh;
+    left: 34vw;
+    border-radius: 1500px;
+}
+
+.left-content p {
+    margin: 0;
+}
+
+.right-content p {
+    margin: 0;
+}
+
+.right-content div {
+    display: flex;
+}
+
+.right-content img {
+    height: 28px;
+    width: 28px;
+}
+
+.left1 {
+    margin-bottom: 46px;
+}
+
+
+/* Contact Us Page Starts Here */
