@@ -23,7 +23,7 @@ header {
     padding: 0 20px;
     color: rgb(0, 0, 0);
     z-index: 2;
-    position: fixed;
+    position: relative;
 }
 
 .brand-logo {
@@ -100,7 +100,7 @@ header {
         display: block;
     }
     .navigation {
-        position: fixed;
+        position: relative;
         width: 100%;
         height: 100vh;
         background: #ffffff;
@@ -214,3 +214,142 @@ header {
 
 
 /* Slider Ends Here  */
+
+
+/* ---------------------------------------About Us Page Starts Here------------------------------------- */
+
+.about-top {
+    padding-top: 55px;
+}
+
+
+/* .about-top .row {
+    margin-top: 55px;
+    margin-left: 30px;
+} */
+
+.about-top .about-text {
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-top .about-text h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-top .about-text p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.about-top img {
+    height: 90vh;
+    width: 100%;
+}
+
+.about-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center top;
+}
+
+.about-background img {
+    right: -35vw;
+    top: -136px;
+    position: absolute;
+    height: 50%;
+    width: 80%;
+}
+
+.about-background p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.about-background h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.about-vision {
+    position: relative;
+    top: 80px;
+}
+
+.about-vision h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.about-vision p {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.about-vision img {
+    position: absolute;
+    top: 30vh;
+    left: -47vw;
+    height: 100%;
+    width: 100%;
+    transform: rotate(32deg);
+}
+
+.about-method h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 20%;
+}
+
+.about-method ul {
+    list-style-image: url('media/final-asset/star-1.svg');
+    list-style-position: center;
+}
+
+.about-method p {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.about-tm {
+    background-color: #e8edf7;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.about-tm h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-tm h5 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Montserrat-SemiBold', 'sans-serif';
+}
+
+.about-tm .img-lable {
+    position: relative;
+    top: 4.5%;
+    left: 0;
+    background-color: #699E3C;
+    width: 40%;
+    padding: 5px 15px;
+    color: #fff;
+    font-family: 'Montserrat-Bold', 'sans-serif';
+    text-align: center;
+    font-weight: 600;
+    border-left: solid #699E3C 1px;
+    box-shadow: 0px 0px 5px #699E3C;
+}
+
+#more {
+    display: none;
+}
