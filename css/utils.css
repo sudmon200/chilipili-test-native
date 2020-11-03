@@ -16,6 +16,11 @@
     margin-bottom: 140px;
 }
 
+.m-side {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 .p-top {
     padding-top: 140px;
 }

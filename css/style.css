@@ -358,12 +358,12 @@ header {
 
 /* Contact Us Page Starts Here */
 
-.contact-top {
+.header-top {
     height: 50px;
     width: auto;
 }
 
-.contact-top h3 {
+.header-top h3 {
     position: relative;
     text-align: center;
 }
@@ -372,7 +372,7 @@ header {
     color: #699E3C;
 }
 
-.contact-top h3:after {
+.header-top h3:after {
     align-self: center;
     display: block;
     content: '';
@@ -411,9 +411,25 @@ header {
 .form-content input {
     width: 100%;
     height: auto;
-    border: 1px solid var(--color2);
+    border: 1px solid #b4b0b0;
     box-sizing: border-box;
-    box-shadow: inset 0 1px 1px 1px;
+    /* box-shadow: inset 0 1px 1px 1px; */
+}
+
+.form-content textarea {
+    width: 100%;
+    height: auto;
+    border: 1px solid #b4b0b0;
+    box-sizing: border-box;
+    /* box-shadow: inset 0 1px 1px 1px; */
+}
+
+.form-content select {
+    width: 100%;
+    height: auto;
+    border: 1px solid #b4b0b0;
+    box-sizing: border-box;
+    /* box-shadow: inset 0 1px 1px 1px; */
 }
 
 .form-btn input {
@@ -488,3 +504,63 @@ header {
 
 
 /* Contact Us Page Starts Here */
+
+
+/* Blog Page Starts Here */
+
+.search-form {
+    margin: 0 30vw;
+}
+
+.search-form input {
+    width: 80%;
+    border-radius: 9px;
+    background-color: #F5F5F5;
+}
+
+.search-form button {
+    color: #fff;
+    background-color: #699E3C;
+    border-radius: 6px;
+}
+
+.blog-main {
+    width: auto;
+    height: 100px;
+    margin: 0 150px;
+    display: flex;
+}
+
+.blog-content {
+    width: 65%;
+    height: 100px;
+    margin-left: 2vw;
+}
+
+.blog-sidebar {
+    width: 25%;
+    height: 100px;
+    margin-left: 5vw;
+}
+
+.box {
+    border: 3px solid var(--color1);
+    position: relative;
+    height: 200px;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.box-over {
+    background-color: white;
+    padding: 3px;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.box-over h4 {
+    font-size: 30px;
+}
