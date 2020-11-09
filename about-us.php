@@ -51,17 +51,17 @@
     <div class="row">
         <div class="card col-md" style="width: 18rem;">
         <span class="img-lable">Founder</span>
-            <img class="card-img-top" src="media/suhas.jp" alt="Card image cap">
+            <img class="card-img-top" src="media/Suhas.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Suhas Kulhali</h5>
                 <h6 class="card-subtitle">Founder</h6>
                 <p class="card-text">An inventor and entrepreneur, Suhas holds 6 US patents in addition to multiple international patents. Suhas turned into early stage education after a long and fruitful career in Semi-conductor industry. He founded Chilli-Pilli pre schools and<span id="dots1">.....</span><span id="more1">invented the Chilli-pilli phonics system for language training .Work Exp: MGTS (Texas Instruments), Analog Manager (insilica), Director (SiRF Tech), Sr Mnager (BROADCOM), VP Engineering (Siliconch Systems)</span></p>
-                <a onclick="readMore()" id="myBtn1">Read more</a>
+                <a onclick="readMoreSuhas()" id="myBtn1">Read more</a>
             </div>
         </div>
         <div class="card col-md" style="width: 18rem;">
         <span class="img-lable">Co-Founder</span>
-            <img class="card-img-top" src="media/deepak.jpg" alt="Card image cap">
+            <img class="card-img-top" src="media/Deepak.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Deepak Nambiar</h5>
                 <h6 class="card-subtitle">Co-Founder</h6>
@@ -71,12 +71,12 @@
         </div>
         <div class="card col-md" style="width: 18rem;">
         <span class="img-lable">Co-Founder</span>
-            <img class="card-img-top" src="media/arun.png" alt="Card image cap">
+            <img class="card-img-top" src="media/Arun.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Arun R S</h5>
                 <h6 class="card-subtitle">Co-Founder</h6>
                 <p class="card-text">Passionate about entrepreneurship, Arun had worked across industries including real estate, Logistics,entertainment and has been actively involved with start-ups since 2014. Currently practice as a consultants for budding entrepreneurs in<span id="dots3">.....</span><span id="more3">developing ideas into viable business plans. Work Exp: Young Leader:Brand Management (Bharti Realty Ltd.), Co-Founder (Yantrams Enterprises), Head-Marketing (Pikkol), Strategy Consultant -Start-ups (Freelance)</span></p>
-                <a onclick="readMore()" id="myBtn3">Read more</a>
+                <a onclick="readMoreArun()" id="myBtn3">Read more</a>
             </div>
         </div>
     </div>
@@ -85,7 +85,7 @@
 
 
 <script>
-    function readMore() {
+    function readMoreSuhas() {
     var dots = document.getElementById("dots1");
     var moreText = document.getElementById("more1");
     var btnText = document.getElementById("myBtn1");
@@ -117,7 +117,7 @@ function readMoreDeepak() {
     }
 }
 
-function readMoreDeepak() {
+function readMoreArun() {
     var dots = document.getElementById("dots3");
     var moreText = document.getElementById("more3");
     var btnText = document.getElementById("myBtn3");
