@@ -546,7 +546,7 @@ header {
 .box {
     border: 3px solid var(--color1);
     position: relative;
-    height: 200px;
+    height: 50vh;
     position: relative;
     margin-bottom: 200px;
 }
@@ -555,12 +555,213 @@ header {
     background-color: white;
     padding: 3px;
     width: 100%;
-    height: 200px;
+    height: auto;
     position: absolute;
     top: 30px;
     left: 30px;
 }
 
 .box-over h4 {
+    font-size: 30px;
+}
+
+.date-border {
+    border: 3px solid var(--color1);
+    position: relative;
+    height: 50px;
+    width: 5vw;
+    position: relative;
+}
+
+.date-box {
+    background-color: var(--color1);
+    padding: 3px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.date {
+    color: #fff;
+    text-align: center;
+}
+
+.d-image {
+    display: flex;
+}
+
+.d-image img {
+    height: auto;
+    width: 50%
+}
+
+.d-image p {
+    font-size: 11px;
+    top: 1px;
+}
+
+.second-box {
+    border: 3px solid var(--color1);
+    position: relative;
+    height: 43vh;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.second-box-over {
+    background-color: white;
+    padding: 3px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+.second-box-over h4 {
+    font-size: 30px;
+}
+
+.second-date-border {
+    border: 1px solid var(--color1);
+    height: 50px;
+    width: 5vw;
+    position: relative;
+    margin-left: 2vw;
+}
+
+.second-date-box {
+    background-color: var(--color1);
+    padding: 3px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.second-date {
+    color: #fff;
+    text-align: center;
+}
+
+.second-d-image {
+    display: flex;
+}
+
+.second-d-image img {
+    display: none;
+}
+
+.second-d-image p {
+    padding-left: 54%;
+    font-size: 20px;
+}
+
+.second-d-image p a {
+    font-size: 20px;
+    color: var(--color1);
+}
+
+.second-date {
+    font-size: 30px;
+}
+
+.excerpt {
+    line-height: 1em;
+    height: 3em;
+    overflow: hidden;
+    padding-left: 8vw;
+}
+
+.title {
+    padding-left: 8vw;
+    font-size: 30px;
+}
+
+.first-post {
+    margin-top: 7vh;
+}
+
+.first-box {
+    border: 3px solid var(--color1);
+    position: relative;
+    height: 43vh;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.first-box-over {
+    background-color: white;
+    padding: 3px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+.first-box-over h4 {
+    font-size: 30px;
+}
+
+.first-date-border {
+    border: 1px solid var(--color1);
+    height: 50px;
+    width: 5vw;
+    position: relative;
+    margin-left: 2vw;
+}
+
+.first-date-box {
+    background-color: var(--color1);
+    padding: 3px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.first-date {
+    color: #fff;
+    text-align: center;
+}
+
+.first-d-image {
+    display: flex;
+}
+
+.first-d-image img {
+    display: none;
+    height: auto;
+    width: 100%;
+}
+
+.first-d-image p {
+    padding-left: 54%;
+    font-size: 20px;
+}
+
+.first-d-image p a {
+    font-size: 20px;
+    color: var(--color1);
+}
+
+.first-date {
+    font-size: 30px;
+}
+
+.excerpt {
+    line-height: 1em;
+    height: 3em;
+    overflow: hidden;
+    padding-left: 8vw;
+}
+
+.title {
+    padding-left: 8vw;
     font-size: 30px;
 }
