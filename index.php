@@ -3,45 +3,39 @@
     include 'includes/header.php';
 
 ?>
-<!-- <div class="slider-bg" style="background-image: url('media/final-asset/home.svg');"></div> -->
-<!-- The Main Homepage Starts Here -->
-<section class="home">
-	<div class="slider">
-		<div class="slide active" style="background-image: url('media/final-asset/home.svg');">
-			<div class="containers">
-				<div class="caption active">
-					<h2>Revolutionalize Learning</h2>
-					<p>Research , development and implementation of educational methodologies to make learning effortless</p>
-				</div>
-			</div>
-		</div>
-		<div class="slide" style="background-image: url('media/final-asset/home.svg');">
-			<div class="containers">
-				<div class="caption">
-					<h2>Inspire Learning</h2>
-					<p>Research , development and implementation of educational methodologies to make learning effortless</p>
-				</div>
-			</div>
-		</div>
-		<div class="slide" style="background-image: url('media/final-asset/home.svg');">
-			<div class="containers">
-				<div class="caption">
-					<h2>Unlimited Learning</h2>
-					<p>Research , development and implementation of educational methodologies to make learning effortless</p>
-				</div>
-			</div>
-		</div>
-		<div class="slide" style="background-image: url('media/final-asset/home.svg');">
-			<div class="containers">
-				<div class="caption">
-					<h2>Effectual Learning</h2>
-					<p>Research , development and implementation of educational methodologies to make learning effortless</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
+<!-- new slider design done  -->
+<div class="container-fluid">
+	<div class="slider" style="background-image: url('media/final-asset/home.svg');">
+		<div class="slider-content">
+			<span class="item-1">
+				<h2>Revolutionalize Learning 1</h2>
+				<p>Research , development and implementation of educational methodologies to make learning effortless
+				</p>
+			</span>
+
+			<span class="item-2">
+				<h2>Inspire Learning 2</h2>
+				<p>Research , development and implementation of educational methodologies to make learning effortless
+				</p>
+			</span>
+
+			<span class="item-3">
+				<h2>Inspire Learning 3</h2>
+				<p>Research , development and implementation of educational methodologies to make learning effortless
+				</p>
+			</span>
+			<span class="item-4">
+				<h2>Inspire Learning 4</h2>
+				<p>Research , development and implementation of educational methodologies to make learning effortless
+				</p>
+			</span>
+		</div>
+
+	</div>
+
+</div>
+<!-- slider design completes  -->
 
 <!-- home solutions starts -->
 <div class="container">
