@@ -30,7 +30,7 @@
                 <li><a href="about-us.php"><i class="far fa-image"></i> About Us</a></li>
                 <li><a href="#"><i class="fab fa-blogger-b"></i> Our Services</a></li>
                 <li><a href="blog.php"><i class="fab fa-blogger-b"></i> Blog</a></li>
-                <li><a href="#"><i class="fas fa-question"></i> Our Courses</a></li>
+                <li><a href="store.php"><i class="fas fa-question"></i> Shop</a></li>
                 <li><a href="contact-us.php"><i class="fas fa-phone-alt"></i> Contact Us</a></li>
                 <label for="toggle-btn" class="hide-menu-btn"><i class="fas fa-times"></i></label>
             </ul>
