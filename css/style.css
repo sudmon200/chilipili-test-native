@@ -957,3 +957,19 @@ body {
 .second-icon-row {
     display: flex;
 }
+
+
+/* Language Training Page starts here  */
+
+.language-header {
+    text-align: center;
+    margin: 0 354px;
+}
+
+.language-header h4 {
+    text-align: center;
+}
+
+.language-header p {
+    text-align: center;
+}

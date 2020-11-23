@@ -3,8 +3,6 @@
 include 'includes/header.php'
 
 ?>
-<div class="container" style="height:50px;">
-</div>
 <div class="container header-top m-def">
     <h3 class="font1">
         Montessori At Home
@@ -29,6 +27,7 @@ include 'includes/header.php'
     </div>
 </div>
 
+<!-- Key Feature Icons  -->
 <div class="internal-features m-side">
     <h3>Advantages of Montessori at Home</h3>
     <div class="first-icon-row">

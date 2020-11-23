@@ -73,11 +73,11 @@
 				</li>
 				<li class="nav-item ml-4 mr-4 dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-						Dropdown link
+						Our Services
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">Link 1</a>
-						<a class="dropdown-item" href="#">Link 2</a>
+						<a class="dropdown-item" href="montessori.php">Montessori at Home</a>
+						<a class="dropdown-item" href="language-training.php">New Language Training</a>
 						<a class="dropdown-item" href="#">Link 3</a>
 					</div>
 				</li>

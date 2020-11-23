@@ -1,3 +1,0 @@
-[2020-11-23 13:45:01.840] [sharedprocess] [info] main {"machineId":"f7251af98ac3e88191b7752dd25a9f9fc9ced58d9db94488d68440cc875795ca","windowId":2}
-[2020-11-23 13:45:01.912] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/var/www/html/chilipili-test-native/~/.vscode-root/User/snippets'
-[2020-11-23 13:45:41.875] [sharedprocess] [info] Starting to clean up unused language packs.
