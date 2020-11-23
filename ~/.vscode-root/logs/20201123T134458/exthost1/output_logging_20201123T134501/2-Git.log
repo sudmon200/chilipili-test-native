@@ -1,0 +1,234 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /var/www/html/chilipili-test-native
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :montessori.php
+> git ls-files --stage -- /var/www/html/chilipili-test-native/montessori.php
+> git cat-file -s 1a26a63fa83e16837f7515dc0604749ce301e1dd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :css/style.css
+> git ls-files --stage -- /var/www/html/chilipili-test-native/css/style.css
+> git cat-file -s 1a5f163890bbe7f29a5773a18304fad847576494
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :montessori.php
+> git ls-files --stage -- /var/www/html/chilipili-test-native/montessori.php
+> git cat-file -s 1a26a63fa83e16837f7515dc0604749ce301e1dd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/style.css
+> git ls-files --stage -- /var/www/html/chilipili-test-native/css/style.css
+> git cat-file -s 1a5f163890bbe7f29a5773a18304fad847576494
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :montessori.php
+> git ls-files --stage -- /var/www/html/chilipili-test-native/montessori.php
+> git cat-file -s 1a26a63fa83e16837f7515dc0604749ce301e1dd
+> git show --textconv :css/style.css
+> git ls-files --stage -- /var/www/html/chilipili-test-native/css/style.css
+> git cat-file -s 1a5f163890bbe7f29a5773a18304fad847576494
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :montessori.php
+> git ls-files --stage -- /var/www/html/chilipili-test-native/montessori.php
+> git cat-file -s 1a26a63fa83e16837f7515dc0604749ce301e1dd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/style.css
+> git ls-files --stage -- /var/www/html/chilipili-test-native/css/style.css
+> git cat-file -s 1a5f163890bbe7f29a5773a18304fad847576494
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git add -A -- /var/www/html/chilipili-test-native/css/style.css /var/www/html/chilipili-test-native/includes/header.php /var/www/html/chilipili-test-native/montessori.php /var/www/html/chilipili-test-native/media/Icons/ACCELERATED LEARNING.svg /var/www/html/chilipili-test-native/media/Icons/APTITUDE.svg /var/www/html/chilipili-test-native/media/Icons/CONCEPTUAL ICON.svg /var/www/html/chilipili-test-native/media/Icons/CONVIENENT SLOTS.svg /var/www/html/chilipili-test-native/media/Icons/DOWNLOAD CONTENT.svg /var/www/html/chilipili-test-native/media/Icons/FOR PRESCHOOL AND SCHOOL.svg /var/www/html/chilipili-test-native/media/Icons/JOIN ANYTIME.svg /var/www/html/chilipili-test-native/media/Icons/MULTIFACITATE.svg /var/www/html/chilipili-test-native/media/Icons/NTT certificate.svg /var/www/html/chilipili-test-native/media/Icons/ONLINE + OFFLINE.svg /var/www/html/chilipili-test-native/media/Icons/PERSONALIZED TEACHING.svg /var/www/html/chilipili-test-native/media/Icons/activities.svg /var/www/html/chilipili-test-native/media/Icons/affordable kits.svg /var/www/html/chilipili-test-native/media/Icons/after school p[rogram.svg /var/www/html/chilipili-test-native/media/Icons/child safe.svg /var/www/html/chilipili-test-native/media/Icons/colabrative team work.svg /var/www/html/chilipili-test-native/media/Icons/daycare.svg /var/www/html/chilipili-test-native/media/Icons/easy to set up.svg /var/www/html/chilipili-test-native/media/Icons/infrastructre.svg /var/www/html/chilipili-test-native/media/Icons/interactive session.svg /var/www/html/chilipili-test-native/media/Icons/life skills.svg /var/www/html/chilipili-test-native/media/Icons/online teaching.svg /var/www/html/chilipili-test-native/media/Icons/parent teacher training.svg /var/www/html/chilipili-test-native/media/Icons/pedagogies.svg /var/www/html/chilipili-test-native/media/Icons/personal.svg /var/www/html/chilipili-test-native/media/Icons/potential energy.svg /var/www/html/chilipili-test-native/media/Icons/produvtive icon.svg /var/www/html/chilipili-test-native/media/Icons/ready made kits.svg /var/www/html/chilipili-test-native/media/Icons/safety.svg /var/www/html/chilipili-test-native/media/Icons/small class size.svg /var/www/html/chilipili-test-native/media/Icons/social outreach.svg /var/www/html/chilipili-test-native/media/Icons/soft skill.svg /var/www/html/chilipili-test-native/media/Icons/trainer icon.svg /var/www/html/chilipili-test-native/media/Icons/transport.svg /var/www/html/chilipili-test-native/media/montessori shape leaf .svg /var/www/html/chilipili-test-native/media/montessori-01.png /var/www/html/chilipili-test-native/~/.vscode-root/Backups/workspaces.json /var/www/html/chilipili-test-native/~/.vscode-root/Cache/526a8825caa06dc6_0 /var/www/html/chilipili-test-native/~/.vscode-root/Cache/625bbe30771f2f39_0 /var/www/html/chilipili-test-native/~/.vscode-root/Cache/c85687354a0e770a_0 /var/www/html/chilipili-test-native/~/.vscode-root/Cache/cbc42e4c979f69f0_0 /var/www/html/chilipili-test-native/~/.vscode-root/Cache/index /var/www/html/chilipili-test-native/~/.vscode-root/Cache/index-dir/the-real-index /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/AvailabilityData-62057b7419a19b4b8431c10414b5a399.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Base-05ca97274b87276cf3f6a31402640304.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Channel-dfae541708868d0e3c767ed04a3f990e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Config-43cfb5a2bdaaf8d9c050134be0252e5d.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Console-26c358133a7b5875b53ba06365ef0863.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Constants-c0ff41a6a99034ac03484acd9b7f874e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Context-24b2230226e67f4cbc161a6c56382630.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/ContextTagKeys-3bdba8297a34061742b91a11aa70555c.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/CorrelationContextManager-959a97dc2e262622a9726871db5680a7.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/CorrelationIdManager-5a92a2eb5f293e6486cd2d1290f0940e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Data-bf02349df9288bb503c689a1f0553d86.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/DataPoint-3849ec247b3f39c97f50d679eedeb06a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/DataPointType-39a5092a5ede50c9e7cd9ebb7a053f6f.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Domain-4c9969cd71e6bed10bdcc5f777ad80fd.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Envelope-23332b25b1636112606315723fb122cc.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/EnvelopeFactory-4d5532f9a6b34d6eef051db560b8c200.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/EventData-b2e1896fcff6f81db8bad6689ff3985d.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/ExceptionData-93abbdd176c1c500e83c9daadcf17ffd.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/ExceptionDetails-0e9916b066317870d68fedb11472327b.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Exceptions-f88c2e4f69e3c091f58dea41d18847d1.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/HttpDependencies-0539d0496a66514073f4934b6874993d.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/HttpDependencyParser-212610f5891b3f2b90d40263db23e07b.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/HttpRequestParser-a4db700d4c3a88cbc03a44bdc48bc451.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/HttpRequests-c59b8155d75456d056fdb9152f912e64.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Logging-6594b57682930662e01a65d313167066.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/MessageData-3d99d56606fc00af7f15fecd10b0e1d8.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/MetricData-6d79d94d3bdfabd181cdedd6b2410fd7.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/NodeClient-2ad2d9464eaa9d772d9342f62fe223f9.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/PageViewData-d91ba107be43eb1ce3442d003bde567a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Performance-7a314690d27f7eee759becede44cb5b7.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/RemoteDependencyData-baad575d0006291df459f61980300fc9.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/RequestData-6074e426589504d4b04416431180577b.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/RequestParser-61aac680d1cf5b500a716b4e69e232b2.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/RequestResponseHeaders-4d95b8c3d842803ce85276785bdcdc43.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/SamplingTelemetryProcessor-4b1f7e299b01996758c5f962d02dbaf7.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Sender-c9687af6dc1fac94a7f4372242ba45e7.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/SeverityLevel-79a7f890de8f1a78810e5b013039e1c0.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/StackFrame-1317a8818b0cd0802d878d6c7ad86dc6.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/TelemetryClient-c0cf0556c63c87784f370cb2abd7f067.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/TelemetryType-af99930f0b2425994de1dff95952dbd0.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/Util-9b4fcc11f8b5d6ebf586330b24098e4d.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/applicationinsights-70898e996692dad50a8f37262e9f7aaf.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/bindings-0b5e79346137fadf161f57285cc74214.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/bindings-2f3ae0362ae7d6ec56e08c28d5146841.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/bindings-341628c87f7db9cc111b90e08d7e3442.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/bindings-8929ccaae2aa5002574cd86d5f725bbd.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/clone-cfdd8b55f12338ed8be83d91f348ae5e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/clone-df48bb86038ea0426cd72396da1c0b4a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/clone-ec0137484192e9f772638c21ff673d2b.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/common-0b9741e6bdd1f9f7b5e5afb681feceac.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/common-e158bee7d1722d5579bf1000e7096620.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/compile-2eed9a845f1dc0a2f7dfa8006dc1609a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/constants-0c8e6fb46177aab8e437f7fc3c402269.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/constants-2acd08e572d3afd4428950628d0737c9.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/constants-3419954edb21de0a0abc145549c78be7.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/constants-6e9ba4df2456bcb0d32d7b4727cc2013.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/constants-cd8e2db82dc5412e41986f75bf0fbbbc.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/cssClientMain-564d7a46aca8101fc0565eee28000711.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/debug-a75e9ed4feb430122ac57d51a609e803.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/emmetNodeMain-174c2480a51b99f2d42f4daa928e49b1.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/expand-d72c828c897fa8bfb60e172e12f0ebdd.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extension-1c322eb68f3a0add67e60a6e08caacd6.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extension-4a3d12f6ceb2bde69280a71820377f23.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extension-9d36875bf0c248d792ceb1b27109dfc4.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extension-a682e3ccd5d47cc4bb9afc007239c1ea.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extension-ad2223b05dfb96e1cb1b2a32186263a1.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extension-b42aaabcab31b501f47a42c5241f7303.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extensionHostProcess-5cbd7e2216bb2db73b4c203d8818870f.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extensionHostProcess.nls-59f848a9707ff678bdeed1e040a77439.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/fsevents-handler-27f07b91ce331e7bab203a8535e1d318.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/graceful-fs-0964faf6ff4881519d47c47c8e8a13ad.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/graceful-fs-c0a9475bc30e2a568de0159b9161be92.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/graceful-fs-d0721b0022a90596ffa38c0ecb136b87.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/helpers-a274c333b026b9f11f2d9f9f9ae5916d.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/htmlClientMain-85714562fab15f574057a2136fa3a70a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-0d120bc171aac81aaa0409508fe47f83.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-107a7b6070e87252ddbe44c7d3b84e17.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-10aecd6ea037badf71def07057c14c4a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-1cc277e3469612097277688bf83f161f.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-1d220f43da93c09510328d203955127d.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-207f3286b8b7ed3ea309853c2ea36a25.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-2284824050acb2028b4ae1f72e13f2cc.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-2b7310cac78007597b12d9177b50a799.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-2d730a09c75bc7af5d1c566fb5a23a2d.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-2dd60335a404199720ce53684c53a394.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-2f82d9ebce4e879eadd25936d62afb1c.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-39c933fc5aa12d95b68e76d79ec9eeff.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-3db93c8a4c049e19f40fb6eafd5519aa.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-47c7017275725c3d8b2d70f0f4775f5e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-4e9ff8331131fdbddef91008a6ae6ba4.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-54497e24837e35980bd20aab242d414c.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-55f9ba83516a3e99696365652405990a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-589bc0f357562211313d6d9f672acaf9.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-5dddafff4d87547f789d0f4d966453c0.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-5e0af8bd7179704d1c7b9533a430aec3.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-5f3266cb317b4bd405f83adc95d4726c.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-6311b528de50f4a86567fa63238d270e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-68e53791d43690bbb72f0a07df817286.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-6b25303137171b43632e894f93784c5f.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-6c3e246f24482d8999d491de9234257d.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-780aced5ba8c926559bbe7ebe9b47789.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-783e3b0f1a51c4451c811a7d30621e5a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-7adbc462860484698f16c101eca8cc28.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-82e62817c0ef0b7a46115ef5ce7f199e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-8934557822f31de67fcfc4c9a3230c1b.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-8baa7350bd8ce5bd5666fcfc7432d576.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-96659eb875ce30b40fc272657ede70ec.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-a0cc37dde9c6d251b474983e5f52588a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-a38716f9483c3cfd343d6d77130c27d5.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-a7d75a55400253ce93bba382021651a3.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-ae0ec1db05fc22a12ed52a0efc8a6c76.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-b7dc02b6b8ad4242a53017deafbc0efb.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-b7deb0cc67b98d940bc15fa20342e54c.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-c64883ee839333f249505d354852f3ce.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-c94d336ba87af99e9926505d9fa404ab.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-c96fcca4c2baacfcb7aa35d90dc77edb.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-d3f0b555a598ee03c85db0e9594dc572.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-d47bb835479427f6c445b7c6cdcab9e0.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-d9ab6c485a10d2f9d45ae8414a998f65.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-dd2f13110e7391c05dcf7126d578cc12.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-e044ab68c532bd607672c154b7b243ec.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-e0f33ec6ec9158f934c78e2dc5549388.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-e1d60762aa6b3dc4879451a10cf1b92b.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-e42aa92f008a7bda2cee4f5400ed09a9.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-e52eda95dc5ae639c3efcb1fd7c9c2a4.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-ea4900fc625b8397839afc92444bffe5.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-ef6c40630e29f7ed512079f46a163a97.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-f37a13fb27cc016e84ecac4c301ea1d8.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-f7088c0482eb1b17a02bc90e0107bc5a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/index-f80842848223c4981cf47b7112454668.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/initialization-4cc7144beaad27f0c62881150b760725.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/ip-cd38d493fd5cb460984f0929f19f3897.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/keytar-aaa8d4e995febe5b89863a1da7ec7e3f.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/legacy-streams-429dbf2a404630b91ffb23cbc8fd3c66.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/legacy-streams-b832660d6027740f08f8801924baace2.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/legacy-streams-d9756fc7b8636cead216f971e092a025.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/main-131e136b1be8702e3ed220700ccd790e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/main-304566732e4bf435b17a67ade3cfa916.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/main-dc7a4392474e516c953d50a38c90be54.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/main-e58cdc2ae76fff789eb0909f92865d9d.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/main.nls-7103bba05813c6f1ebbce4dbf6068f57.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/mergeConflictMain-bf8fdc44f6e14b3ab7faec3a2cf5b7f8.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/node-47b63dfe92a64262a1c4e198857ff77d.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/node-9c3ac534d43783ba0dceb362d813cf9b.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/node-dcae9fb79861caf02c6769d53291c5c6.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/nodefs-handler-6f34467a161beef2ddbcc5ea9ae8174e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/parse-2408fc2555b8917be354d6027e2e577a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/parse-3f7825fc470339bdc8fc4f08201a130f.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/parse-d81e7965eaabc4d7a5484c99f7410e0e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/patch-core-89a668c3c8e38c52f767b869e207338b.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/patch-core-e1de0b9c725a3624c635bee65420213a.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/patch-core-f06d065afdccbd114a2f6c45714a8d51.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/paths-7c9524384c8a7178be5dc4fb7d753d81.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/paths-91d2e3b09a3dbc4fcf9ae3b83ca077e3.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/phpMain-45360524e87761a3e1c70b6ac53ed5c7.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/picomatch-116e3951ba9ae545a1c360a51e6c2b4e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/picomatch-45c99dae61407208a0a7eec208d755f2.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/polyfills-3be7b948488832402e7a356c34d3651e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/polyfills-54ef5c2d2b9edb7d6f001ff38d1df997.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/polyfills-f788e141e324a16a7ae11d3338bb67b2.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/promise-39fa1aef22d74e6f85348eb7127f6864.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/promisify-58143135e12f622281fa61220cbb314e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/receivebuffer-8cecb1c6899e42b8ac7ced765ffb05ed.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/scan-442883c11c889926e673731362778816.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/scan-92abd5d71f24866dbb461662ecf74e95.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/sharedProcessMain-5e8658f28bbffca2c9e8071d9290f5cc.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/sharedProcessMain.nls-85c70f140e8becae3a789add74d1e6e3.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/smartbuffer-05497bdf5ba740820c18efc76a7ad012.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/socksclient-1c4f97ae5944405b3df99978e7b47fca.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/sqlite3-043bee650f0e2204ceb7fffb20b47eec.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/sqlite3-275c5c616f875363932860973c5c0704.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/stringify-3263c31c777971e5b3245a3d40b9de90.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/tas-client-umd-4740cd966b451e861f03e1e1c5069168.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/util-d42cd626f84e885d41a17719b9369769.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/utils-31e52eec816113c9da4c97b8c92fcea8.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/utils-5edc4b0d0314d6eb7a2859c5074b3040.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/utils-c1d1f7a3142fed07f8f3a0e1561835dc.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/utils-d3d3cdd45a64fa947f5d7fa51ca509d1.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/watcherApp-913e7dae727852109e08dbba63f6b57e.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/watcherApp.nls-27e147c2c0f38a3a981e5287dd896063.code
+> git add -A -- /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/workbench.desktop.main-745f393b013b1b59f1eb2bd928b9c1e0.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedData/e5a624b788d92b8d34d1392e4c4d9789406efe8f/workbench.desktop.main.nls-fa28e5d26fa1e98ccfa680b67df2b050.code /var/www/html/chilipili-test-native/~/.vscode-root/CachedExtensions/builtin /var/www/html/chilipili-test-native/~/.vscode-root/CachedExtensions/user /var/www/html/chilipili-test-native/~/.vscode-root/Code Cache/js/index /var/www/html/chilipili-test-native/~/.vscode-root/Code Cache/js/index-dir/the-real-index /var/www/html/chilipili-test-native/~/.vscode-root/Code Cache/wasm/index /var/www/html/chilipili-test-native/~/.vscode-root/Code Cache/wasm/index-dir/the-real-index /var/www/html/chilipili-test-native/~/.vscode-root/Cookies /var/www/html/chilipili-test-native/~/.vscode-root/Cookies-journal /var/www/html/chilipili-test-native/~/.vscode-root/Crash Reports/client_id /var/www/html/chilipili-test-native/~/.vscode-root/GPUCache/data_0 /var/www/html/chilipili-test-native/~/.vscode-root/GPUCache/data_1 /var/www/html/chilipili-test-native/~/.vscode-root/GPUCache/data_2 /var/www/html/chilipili-test-native/~/.vscode-root/GPUCache/data_3 /var/www/html/chilipili-test-native/~/.vscode-root/GPUCache/index /var/www/html/chilipili-test-native/~/.vscode-root/Local Storage/leveldb/000003.log /var/www/html/chilipili-test-native/~/.vscode-root/Local Storage/leveldb/CURRENT /var/www/html/chilipili-test-native/~/.vscode-root/Local Storage/leveldb/LOCK /var/www/html/chilipili-test-native/~/.vscode-root/Local Storage/leveldb/LOG /var/www/html/chilipili-test-native/~/.vscode-root/Local Storage/leveldb/MANIFEST-000001 /var/www/html/chilipili-test-native/~/.vscode-root/Network Persistent State /var/www/html/chilipili-test-native/~/.vscode-root/User/globalStorage/state.vscdb /var/www/html/chilipili-test-native/~/.vscode-root/User/workspaceStorage/8fc0a82b015ca531a0564b8a66da445e/state.vscdb /var/www/html/chilipili-test-native/~/.vscode-root/User/workspaceStorage/8fc0a82b015ca531a0564b8a66da445e/workspace.json /var/www/html/chilipili-test-native/~/.vscode-root/exthost Crash Reports/client_id /var/www/html/chilipili-test-native/~/.vscode-root/languagepacks.json /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/exthost1/exthost.log /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/exthost1/output_logging_20201123T134501/1-Microsoft Authentication.log /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/exthost1/output_logging_20201123T134501/2-Git.log /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/exthost1/output_logging_20201123T134502/3-GitHub Authentication.log /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/main.log /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/output_1_20201123T134500/extensions.log /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/output_1_20201123T134500/tasks.log /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/renderer1.log /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/sharedprocess.log /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/telemetry.log /var/www/html/chilipili-test-native/~/.vscode-root/logs/20201123T134458/userDataSync.log /var/www/html/chilipili-test-native/~/.vscode-root/machineid /var/www/html/chilipili-test-native/~/.vscode-root/rapid_render.json /var/www/html/chilipili-test-native/~/.vscode-root/storage.json

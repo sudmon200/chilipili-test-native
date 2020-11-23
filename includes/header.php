@@ -57,6 +57,12 @@
 		<div class="collapse navbar-collapse " id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item ml-4 mr-4">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item ml-4 mr-4">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item ml-4 mr-4">
 					<a class="nav-link" href="#">Link</a>
 				</li>
 				<li class="nav-item ml-4 mr-4">
