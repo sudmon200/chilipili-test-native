@@ -872,12 +872,10 @@ body {
 }
 
 .side1 {
-    background-color: red;
     width: 50%;
 }
 
 .side2 {
-    background-color: blue;
     width: 50%;
 }
 
@@ -968,8 +966,33 @@ body {
 
 .language-header h4 {
     text-align: center;
+    margin-bottom: 64px;
 }
 
 .language-header p {
     text-align: center;
+}
+
+.contact-form {
+    background-color: #E8EDF7;
+}
+
+.contact-form-inside {
+    margin: 0 250px;
+}
+
+.contact-flex {
+    display: flex;
+}
+
+.contact-flex div {
+    display: block;
+}
+
+.contact-subject div {
+    display: block;
+}
+
+.contact-subject {
+    display: flex;
 }
