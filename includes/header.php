@@ -80,7 +80,7 @@
 						<a class="dropdown-item" href="language-training.php">New Language Training</a>
 						<a class="dropdown-item" href="phonics.php">Phonics</a>
 						<a class="dropdown-item" href="alternate-school.php">Alternate School</a>
-						<a class="dropdown-item" href="training-training.php">Teacher Training</a>
+						<a class="dropdown-item" href="teacher-training.php">Teacher Training</a>
 					</div>
 				</li>
 			</ul>
