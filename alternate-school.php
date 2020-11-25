@@ -34,17 +34,17 @@ include 'includes/header.php'
 
 <div class="video-box m-side m-def">
     <div class="video-boxover">
-
+        <iframe src="https://player.vimeo.com/video/460930431" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
 </div>
 <div class="video-box m-side m-def">
     <div class="video-boxover">
-
+        <iframe src="https://player.vimeo.com/video/460930606" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
 </div>
 <div class="video-box m-side m-def">
     <div class="video-boxover">
-
+        <iframe src="https://player.vimeo.com/video/460930299" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
 </div>
 
@@ -113,6 +113,47 @@ include 'includes/header.php'
                 <div class="icon-name">
                     <p>Life Skill Developement</p>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contact-form m-def m-side">
+    <h4 class="font1 m-def text-center">Enquire and Join</h4>
+
+    <div class="contact-form-inside">
+        <div class="row">
+            <div class="col-md">
+                <label for="Full Name">Full Name:</label>
+                <input type="text" name="fname" id="name">
+            </div>
+            <div class="col-md">
+                <label for="Full Name">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <label for="Full Name">Phone Number:</label>
+                <input type="text" name="number" id="number">
+            </div>
+            <div class="col-md">
+                <label for="Full Name">Call us Anytime:</label>
+                <input type="email" name="call" id="call">
+            </div>
+
+        </div>
+        <div class="contact-subject">
+            <div>
+                <label for="Full Name">Subject:</label>
+                <input type="text" name="subject" id="subject">
+            </div>
+        </div>
+        <div class="contact-subject">
+            <div>
+                <label for="Full Name">Query</label>
+                <textarea name="query" id="query" cols="30" rows="3"></textarea>
             </div>
         </div>
     </div>
