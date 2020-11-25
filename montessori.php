@@ -4,9 +4,9 @@ include 'includes/header.php'
 
 ?>
 <div class="container header-top m-def">
-    <h3 class="font1">
+    <h2 class="font1">
         Montessori At Home
-    </h3>
+    </h2>
 </div>
 <div class="m-side internal-header">
     <div class="side1">
