@@ -4,9 +4,9 @@ include 'includes/header.php'
 
 ?>
 <div class="container header-top m-def">
-    <h3 class="font1">
+    <h2 class="font1">
         New Language Training
-    </h3>
+    </h2>
 </div>
 
 <!-- Header Main Section  -->
