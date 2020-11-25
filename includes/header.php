@@ -78,7 +78,9 @@
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="montessori.php">Montessori at Home</a>
 						<a class="dropdown-item" href="language-training.php">New Language Training</a>
-						<a class="dropdown-item" href="#">Link 3</a>
+						<a class="dropdown-item" href="phonics.php">Phonics</a>
+						<a class="dropdown-item" href="alternate-school.php">Alternate School</a>
+						<a class="dropdown-item" href="training-training.php">Teacher Training</a>
 					</div>
 				</li>
 			</ul>
