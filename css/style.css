@@ -1059,6 +1059,9 @@ body {
     font-size: 20px;
 }
 
+
+/* Alternate School page Starts Here  */
+
 .alternate-bg {
     background-repeat: no-repeat;
     background-size: cover;
@@ -1087,4 +1090,16 @@ body {
     position: absolute;
     top: -30px;
     left: -30px;
+}
+
+
+/* Teacher Training page Starts here  */
+
+.teacher-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center top;
+    z-index: -882;
+    height: auto;
 }
