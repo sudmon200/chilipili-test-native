@@ -374,7 +374,7 @@ body {
     width: auto;
 }
 
-.header-top h3 {
+.header-top h2 {
     position: relative;
     text-align: center;
 }
@@ -383,17 +383,20 @@ body {
     color: #699E3C;
 }
 
-.header-top h3:after {
-    align-self: center;
-    display: block;
+.header-top h2:after {
     content: '';
-    width: 5%;
-    height: 3px;
+    display: block;
+    width: 50px;
+    height: 4px;
     background: var(--color1);
-    position: absolute;
-    bottom: 0;
-    left: 36vw;
-    border-radius: 1500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.header-top h2.small-line:after {
+    width: 40px;
+    background: #99a3b1;
 }
 
 .contact-main {
@@ -912,13 +915,14 @@ body {
 
 .first-icon-row {
     display: flex;
+    margin: 0 auto;
 }
 
 .icon-box {
     border: 3px solid var(--color1);
     position: relative;
     height: 27vh;
-    width: 100vw;
+    width: 17vw;
     position: relative;
     margin-bottom: 200px;
     margin-right: 10vw;
@@ -954,6 +958,7 @@ body {
 
 .second-icon-row {
     display: flex;
+    margin: 0 auto;
 }
 
 
@@ -995,4 +1000,91 @@ body {
 
 .contact-subject {
     display: flex;
+}
+
+
+/* Phonics Page starts here   */
+
+.phonics-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center top;
+    z-index: -2;
+    height: auto;
+}
+
+.phonics-img {
+    height: auto;
+}
+
+.phonics-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.phonics-main h4 {
+    margin-bottom: 39px;
+    text-align: center;
+}
+
+.phonics-main p {
+    margin-bottom: 41px;
+    text-align: center;
+}
+
+.testimonials {
+    background-color: var(--color3);
+    padding-bottom: 30vh;
+    display: block;
+}
+
+.testimonial-head {
+    margin-bottom: 9vh;
+    padding-top: 14vh;
+}
+
+.testimonial-name {
+    position: relative;
+    top: 50%;
+    font-size: 30px;
+    margin: auto;
+}
+
+.testimonial-desc {
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+}
+
+.alternate-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center top;
+    z-index: -882;
+    height: auto;
+}
+
+.alternate-text {
+    padding-top: 13vh;
+}
+
+.video-box {
+    border: 3px solid var(--color1);
+    position: relative;
+    height: 43vh;
+    position: relative;
+}
+
+.video-boxover {
+    background-color: white;
+    padding: 3px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -30px;
+    left: -30px;
 }

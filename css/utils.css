@@ -52,6 +52,7 @@
 :root {
     --color1: #699E3C;
     --color2: #333333;
+    --color3: #E8EDF7;
 }
 
 .form-content {
@@ -64,4 +65,56 @@
     margin: 44px 50px;
     align-content: center;
     text-align: center;
+}
+
+.section-head h3 {
+    position: relative;
+    text-align: center;
+}
+
+.section-head h3:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: var(--color1);
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.section-head h3.small-line:after {
+    width: 40px;
+    background: #99a3b1;
+}
+
+.section-head h4 {
+    position: relative;
+    text-align: center;
+}
+
+.section-head h4:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: var(--color1);
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.section-head h4.small-line:after {
+    width: 40px;
+    background: #99a3b1;
+}
+
+.branch2 {
+    position: absolute;
+    bottom: -51vh;
+    left: -23vw;
+    height: 29%;
+    width: 50%;
+    transform: rotate(37deg);
+    z-index: -20;
 }
