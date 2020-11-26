@@ -16,13 +16,17 @@
 	<link rel="stylesheet" href="css/utils.css"></link>
 	<link rel="stylesheet" href="css/responsive.css"></link>
 	<style>
-		li:hover{
-			border-bottom:2px solid green;
-			/* width:80%; */
-			color:green;
-		}
 		li{
 			font-size:20px;
+		}
+		.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover .dropdown-menu .dropdown-item:hover {
+    	color: var(--color1) !important;
+		}
+		.active{
+		color: var(--color1) !important;
+		border-bottom:2px solid var(--color1);
+		border-width:20%;
+		text-align:center;
 		}
 	</style>
 </head>
@@ -50,17 +54,17 @@
     </header> -->
 
 
-	<nav class="navbar navbar-expand-md navbar-light" style="background-color:transparent">
+	<nav class="navbar navbar-expand-md navbar-light" id="navbar-main"style="background-color:transparent">
 		<a class="navbar-brand" href="#">Navbar</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse " id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item ml-4 mr-4">
+				<li class="nav-item active ml-4 mr-4" id="home.php">
 					<a class="nav-link" href="index.php">Home</a>
 				</li>
-				<li class="nav-item ml-4 mr-4">
+				<li class="nav-item ml-4 mr-4" id="about-us.php">
 					<a class="nav-link" href="about-us.php">About Us</a>
 				</li>
 				<li class="nav-item ml-4 mr-4 dropdown">
@@ -75,16 +79,16 @@
 						<a class="dropdown-item" href="teacher-training.php">Teacher Training</a>
 					</div>
 				</li>
-				<li class="nav-item ml-4 mr-4">
+				<li class="nav-item ml-4 mr-4" id="blog.php">
 					<a class="nav-link" href="blog.php">Blog</a>
 				</li>
-				<li class="nav-item ml-4 mr-4">
+				<li class="nav-item ml-4 mr-4" id="contact-us">
 					<a class="nav-link" href="contact-us.php">Contact Us</a>
 				</li>
-				<li class="nav-item ml-4 mr-4">
+				<li class="nav-item ml-4 mr-4" id="store.php">
 					<a class="nav-link" href="store.php">Shop</a>
 				</li>
-				
+
 			</ul>
 		</div>
 	</nav>

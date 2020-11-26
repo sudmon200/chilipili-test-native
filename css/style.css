@@ -14,7 +14,9 @@ body {
 
 
 /* -------------------Navigation Bar Starts Here----------------------- */
-
+#top-image{
+    display: none;
+}
 
 /* Devkant Navbar class  */
 
@@ -127,6 +129,152 @@ body {
         opacity: 0;
     }
 }
+
+
+
+
+
+.itema-1,
+.itema-2,
+.itema-3,
+.itema-4 {
+    position: absolute;
+    display: block;
+    top: 2em;
+    width: 90%;
+    animation-duration: 25s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.itema-1 {
+    animation-name: anima-1;
+}
+
+.itema-2 {
+    animation-name: anima-2;
+}
+
+.itema-3 {
+    animation-name: anima-3;
+}
+
+.itema-4 {
+    animation-name: anima-4;
+}
+
+@keyframes anima-1 {
+    0%,
+    5% {
+        left: -100%;
+        opacity: 0;
+    }
+    8%,
+    20% {
+        left: 5%;
+        opacity: 1;
+    }
+    25%,
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
+}
+
+@keyframes anima-2 {
+    0%,
+    25% {
+        left: -100%;
+        opacity: 0;
+    }
+    30%,
+    45% {
+        left: 5%;
+        opacity: 1;
+    }
+    50%,
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
+}
+
+@keyframes anima-3 {
+    0%,
+    50% {
+        left: -100%;
+        opacity: 0;
+    }
+    55%,
+    70% {
+        left: 5%;
+        opacity: 1;
+    }
+    75%,
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
+}
+
+@keyframes anima-4 {
+    0%,
+    75% {
+        left: -100%;
+        opacity: 0;
+    }
+    80%,
+    95% {
+        left: 5%;
+        opacity: 1;
+    }
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
+}
+
+.testimonial-slider{
+    position: relative;
+    top: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .slider-content {
     position: relative;

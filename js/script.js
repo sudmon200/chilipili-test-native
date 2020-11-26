@@ -1,4 +1,25 @@
-// This portion of the code for the slider deisgn of the cards in the index.php page 
+// This portion of the code for the slider deisgn of the cards in the index.php page
+var navitemcontainer = document.getElementById("navbar-main");
+var navlink = navitemcontainer.getElementsByClassName("nav-item");
+for (var i = 0; i < navlink.length; i++) {
+    navlink[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        console.log(current)
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    });
+}
+
+// this approach adds active class using link but it does not work
+
+let href = window.location.href;
+let dynamicId = href.substring(href.lastIndexOf("/")+1,href.length)
+document.addEventListener('click',function(e){
+    console.log(dynamicId)
+    console.log(e.target)
+})
+
+
 var owl = $('.owl-carousel');
 $('.owl-carousel').owlCarousel({
     rtl: true,
@@ -20,7 +41,7 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
-owl.on('mousewheel', '.owl-stage', function(e) {
+owl.on('mousewheel', '.owl-stage', function (e) {
     if (e.deltaY > 0) {
         owl.trigger('next.owl');
     } else {
@@ -29,7 +50,7 @@ owl.on('mousewheel', '.owl-stage', function(e) {
     e.preventDefault();
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
     $(".owl-carousel").owlCarousel();
 });
 
