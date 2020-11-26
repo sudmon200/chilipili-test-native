@@ -7,4 +7,13 @@
     .icon-box {
         width: 60vw;
     }
+    #top-image{
+        display: block;
+    }
+    #bottom-image{
+        display: none;
+    }
+    .m-side{
+        margin: 0 ;
+    }
 }
