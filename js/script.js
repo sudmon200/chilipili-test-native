@@ -1,3 +1,4 @@
+// This portion of the code for the slider deisgn of the cards in the index.php page 
 var owl = $('.owl-carousel');
 $('.owl-carousel').owlCarousel({
     rtl: true,
