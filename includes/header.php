@@ -10,15 +10,16 @@
 	<link rel="stylesheet" href="css/imagehover.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css"></link>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<!-- Custom CSS file -->
 	<link rel="stylesheet" href="css/utils.css"></link>
-	<link rel="stylesheet" href="css/style.css"></link>
 	<link rel="stylesheet" href="css/responsive.css"></link>
 	<style>
 		li:hover{
 			border-bottom:2px solid green;
 			width:50%;
+			color:green;
 		}
 		li{
 			font-size:20px;
@@ -49,7 +50,7 @@
     </header> -->
 
 
-	<nav class="navbar navbar-expand-md bg-light navbar-light">
+	<nav class="navbar navbar-expand-md navbar-light" style="background-color:transparent">
 		<a class="navbar-brand" href="#">Navbar</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
