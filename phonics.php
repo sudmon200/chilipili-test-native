@@ -111,59 +111,6 @@ include 'includes/header.php'
 	</div>
 </div>
 
-<!-- Devkant-I have tried making this responsive using bootsrap 4 and
-I have made it and i have made some changes to your icon-box and icon-box-over class
-have commented it out so that when we sit together we can talk and discuss.Pls don't delte te following codes  -->
-<!-- <div class="container">
-
-	<div class="row">
-		<div class="col-lg-2">
-
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-12">
-			<div class="icon-box">
-				<div class="icon-box-over">
-					<div class="icon">
-						<img src="media/Icons/FOR PRESCHOOL AND SCHOOL.svg" alt="preschool">
-					</div>
-					<div class="icon-name">
-						<p>For Pre-schools and Schools</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-12">
-			<div class="icon-box">
-				<div class="icon-box-over">
-					<div class="icon">
-						<img src="media/Icons/FOR PRESCHOOL AND SCHOOL.svg" alt="preschool">
-					</div>
-					<div class="icon-name">
-						<p>For Pre-schools and Schools</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-12">
-			<div class="icon-box">
-				<div class="icon-box-over">
-					<div class="icon">
-						<img src="media/Icons/FOR PRESCHOOL AND SCHOOL.svg" alt="preschool">
-					</div>
-					<div class="icon-name">
-						<p>For Pre-schools and Schools</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-2">
-
-			</div>
-		</div>
-	</div>
-</div> -->
-<!-- Devkant-The code here  -->
 <div class="testimonials">
 	<div class="section-head">
 		<h3 class="font1 testimonial-head">Testimonials</h3>

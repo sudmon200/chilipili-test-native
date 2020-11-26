@@ -18,7 +18,7 @@
 	<style>
 		li:hover{
 			border-bottom:2px solid green;
-			width:50%;
+			/* width:80%; */
 			color:green;
 		}
 		li{
@@ -58,19 +58,10 @@
 		<div class="collapse navbar-collapse " id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item ml-4 mr-4">
-					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="index.php">Home</a>
 				</li>
 				<li class="nav-item ml-4 mr-4">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item ml-4 mr-4">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item ml-4 mr-4">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item ml-4 mr-4">
-					<a class="nav-link" href="#">Link</a>
+					<a class="nav-link" href="about-us.php">About Us</a>
 				</li>
 				<li class="nav-item ml-4 mr-4 dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -84,6 +75,16 @@
 						<a class="dropdown-item" href="teacher-training.php">Teacher Training</a>
 					</div>
 				</li>
+				<li class="nav-item ml-4 mr-4">
+					<a class="nav-link" href="blog.php">Blog</a>
+				</li>
+				<li class="nav-item ml-4 mr-4">
+					<a class="nav-link" href="contact-us.php">Contact Us</a>
+				</li>
+				<li class="nav-item ml-4 mr-4">
+					<a class="nav-link" href="store.php">Shop</a>
+				</li>
+				
 			</ul>
 		</div>
 	</nav>

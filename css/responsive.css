@@ -1,0 +1,10 @@
+/* Icons modification */
+
+@media only screen and (max-width:600px) {
+    .first-icon-row {
+        display: block;
+    }
+    .icon-box {
+        width: 60vw;
+    }
+}

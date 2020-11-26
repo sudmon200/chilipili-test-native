@@ -13,9 +13,9 @@ $result = $connection->query($sql);
 <div class="container" style="height:50px;">
 </div>
 <div class="container header-top m-def">
-    <h3 class="font1">
+    <h2 class="font1">
         Blog
-    </h3>
+    </h2>
 </div>
 
 <div class="font1 m-def text-center">

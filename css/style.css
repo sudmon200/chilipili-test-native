@@ -17,13 +17,17 @@ body {
 
 
 /* Devkant Navbar class  */
-.nav-link:hover{
+
+.nav-link:hover {
     color: green;
 }
+
+
 /* Devkant navbar class ends  */
 
 
 /* slider animation starts  */
+
 .item-1,
 .item-2,
 .item-3,
@@ -936,32 +940,6 @@ body {
     top: 30px;
     left: 30px;
 }
-/* here is my modified css  code don't remove it check phonics.php for reference that why u should not delete it  */
-/* .first-icon-row {
-    display: flex;
-    /* margin: 0 auto; */
-}
-
-/* .icon-box {
-    /* flex-basis: 33%; */
-    /* align-items: center; */
-    border: 3px solid var(--color1);
-    /* position: relative; */
-    height: 27vh;
-    /* width: 17vw; */
-    margin-bottom: 200px;
-    /* margin-right: 10vw; */
-} */
-
-/* .icon-box-over {
-    background-color: white;
-    padding: 3px;
-    /* width: 100%; */
-    /* height: auto; */
-    position: relative;
-    top: 30px;
-    left: 30px;
-} */ */
 
 .icon {
     text-align: center;
