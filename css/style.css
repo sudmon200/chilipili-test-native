@@ -1073,6 +1073,7 @@ body {
 
 .alternate-text {
     padding-top: 13vh;
+    /* padding-bottom: 82vh; */
 }
 
 .video-box {
@@ -1102,4 +1103,8 @@ body {
     background-position: center top;
     z-index: -882;
     height: auto;
+}
+
+.teacher-img {
+    width: 80%;
 }

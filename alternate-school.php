@@ -10,7 +10,7 @@ include 'includes/header.php'
     </h2>
 </div>
 
-<section class="alternate-bg" style="background-image: url(media/final-asset/wave.svg);">
+<section class="alternate-bg" style="background-image: url(media/final-asset/Alternate_wave-01.png);">
     <div class="m-side internal-header">
         <div class="side1">
             <div class="section-head">
@@ -30,13 +30,14 @@ include 'includes/header.php'
     <div>
     <img src="media/final-asset/bush-1.svg" class="branch2" alt="branch">
     </div>
-</section>
-
-<div class="video-box m-side m-def">
+    <div class="video-box m-side m-def">
     <div class="video-boxover">
         <iframe src="https://player.vimeo.com/video/460930431" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
 </div>
+</section>
+
+
 <div class="video-box m-side m-def">
     <div class="video-boxover">
         <iframe src="https://player.vimeo.com/video/460930606" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
