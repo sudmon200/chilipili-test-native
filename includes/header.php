@@ -34,7 +34,7 @@
 <body>
 	<nav class="navbar navbar-expand-md navbar-light" id="navbar-main"style="background-color:transparent">
 		<a class="navbar-brand" href="index.php">
-			<img src="media/logo.png" alt="Chili Pili">
+			<img src="media/logo.png" class="logo" alt="Chili Pili">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>

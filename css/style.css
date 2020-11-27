@@ -6,6 +6,11 @@ body {
     overflow-x: hidden;
 }
 
+.logo {
+    width: 112px;
+    height: auto;
+}
+
 
 /*
 .body {
@@ -14,9 +19,11 @@ body {
 
 
 /* -------------------Navigation Bar Starts Here----------------------- */
-#top-image{
+
+#top-image {
     display: none;
 }
+
 
 /* Devkant Navbar class  */
 
@@ -130,10 +137,6 @@ body {
     }
 }
 
-
-
-
-
 .itema-1,
 .itema-2,
 .itema-3,
@@ -234,47 +237,10 @@ body {
     }
 }
 
-.testimonial-slider{
+.testimonial-slider {
     position: relative;
     top: 0%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .slider-content {
     position: relative;
