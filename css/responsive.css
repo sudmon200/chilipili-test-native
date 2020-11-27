@@ -1,19 +1,59 @@
-/* Icons modification */
-
-@media only screen and (max-width:600px) {
-    .first-icon-row {
-        display: block;
-    }
-    .icon-box {
-        width: 60vw;
-    }
-    #top-image{
-        display: block;
-    }
-    #bottom-image{
-        display: none;
-    }
-    .m-side{
-        margin: 0 ;
-    }
-}
+                /* Icons modification */
+                
+                @media only screen and (max-width:600px) {
+                    /* Utils functions made for responsive design  */
+                    .m-def {
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                    }
+                    .p-def {
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                    }
+                    .m-top {
+                        margin-top: 30px;
+                    }
+                    .m-bottom {
+                        margin-bottom: 30px;
+                    }
+                    .m-side {
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+                    .p-top {
+                        padding-top: 30px;
+                    }
+                    .p-top {
+                        padding-bottom: 30px;
+                    }
+                    /* Features icon box made responsive  */
+                    .first-icon-row {
+                        display: block;
+                    }
+                    .icon-box {
+                        width: 60vw;
+                    }
+                    /* Page elements removed in responsive design  */
+                    .branch2 {
+                        display: none;
+                    }
+                    .branch1 {
+                        display: none;
+                    }
+                    #top-image {
+                        display: block;
+                    }
+                    #bottom-image {
+                        display: none;
+                    }
+                    /* Store page Modifications */
+                    .search {
+                        margin: 0 1vw;
+                    }
+                    .prod-cards {
+                        flex-direction: column;
+                    }
+                    .bg-image {
+                        background-image: none !important;
+                    }
+                }

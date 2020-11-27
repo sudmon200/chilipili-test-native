@@ -32,28 +32,6 @@
 </head>
 
 <body>
-	<!-- <header>
-        <div class="brand-logo">
-            <a href="#"><img src="media/logo.png" alt="Brand Logo"></a>
-        </div>
-
-        <input type="checkbox" id="toggle-btn">
-        <label for="toggle-btn" class="show-menu-btn navbar-toggler"><i class="fas fa-bars"></i></label>
-
-        <nav>
-            <ul class="navigation">
-                <li><a href="index.php" class="fas fa-house-damage">Home</a></li>
-                <li><a href="about-us.php"><i class="far fa-image"></i> About Us</a></li>
-                <li><a href="#"><i class="fab fa-blogger-b"></i> Our Services</a></li>
-                <li><a href="blog.php"><i class="fab fa-blogger-b"></i> Blog</a></li>
-                <li><a href="store.php"><i class="fas fa-question"></i> Shop</a></li>
-                <li><a href="contact-us.php"><i class="fas fa-phone-alt"></i> Contact Us</a></li>
-                <label for="toggle-btn" class="hide-menu-btn"><i class="fas fa-times"></i></label>
-            </ul>
-        </nav>
-    </header> -->
-
-
 	<nav class="navbar navbar-expand-md navbar-light" id="navbar-main"style="background-color:transparent">
 		<a class="navbar-brand" href="#">Navbar</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
