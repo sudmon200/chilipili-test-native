@@ -9,7 +9,7 @@ include 'includes/header.php';
 <div class="container-fluid">
 
 
-		<div class="slider" style="background-image: url('media/final-asset/home.svg');">
+	<div class="slider" style="background-image: url('media/final-asset/home.svg');">
 		<div class="slider-content">
 			<span class="item-1">
 				<h2>Revolutionalize Learning 1</h2>
@@ -392,193 +392,117 @@ include 'includes/header.php';
 	</div>
 </div>
 <!-- our offerings ends  -->
-
-
-
-
-
-
-<!-- testimonial section -->
-<!-- <div class="row m-side mb-4">
-	<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
-		<div class="row">
-			<div class="mx-auto">
-				<img src="media/Suhas.jpg" alt="" width="100" style="border-radius:80px">
+<!-- testimonial section  -->
+<div class="container" >
+	<div class="testimonial-slider">
+		<span class="itema-1">
+			<div class="row m-side mb-4">
+				<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/Suhas.jpg" alt="" width="100" style="border-radius:80px">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center">
+					<h3 class="text-center">Heading portion</h3>
+					<p class="text-center">
+						This is a contet of the system Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Ipsum, cum! Lorem ipsum dolor sit,
+						aa saepe molestias soluta aut. Laborum labore quisquam est!
+					</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12" id="bottom-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/Suhas.jpg" alt="" width="300">
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
+		</span>
+
+		<span class="itema-2">
+			<div class="row m-side mb-4">
+				<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/Suhas.jpg" alt="" width="100" style="border-radius:80px">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center">
+					<h3 class="text-center">Heading portion</h3>
+					<p class="text-center">
+						This is a contet of the system Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Ipsum, cum! Lorem ipsum dolor sit,
+						aa saepe molestias soluta aut. Laborum labore quisquam est!
+					</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12" id="bottom-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/Suhas.jpg" alt="" width="300">
+						</div>
+					</div>
+				</div>
+			</div>
+		</span>
+
+		<span class="itema-3">
+			<div class="row m-side mb-4">
+				<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/Suhas.jpg" alt="" width="100" style="border-radius:80px">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center">
+					<h3 class="text-center">Heading portion</h3>
+					<p class="text-center">
+						This is a contet of the system Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Ipsum, cum! Lorem ipsum dolor sit,
+						aa saepe molestias soluta aut. Laborum labore quisquam est!
+					</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12" id="bottom-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/Suhas.jpg" alt="" width="300">
+						</div>
+					</div>
+				</div>
+			</div>
+		</span>
+		<span class="itema-4">
+			<div class="row m-side mb-4">
+				<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/Suhas.jpg" alt="" width="100" style="border-radius:80px">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center">
+					<h3 class="text-center">Heading portion</h3>
+					<p class="text-center">
+						This is a contet of the system Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Ipsum, cum! Lorem ipsum dolor sit,
+						aa saepe molestias soluta aut. Laborum labore quisquam est!
+					</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12" id="bottom-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/Suhas.jpg" alt="" width="300">
+						</div>
+					</div>
+				</div>
+			</div>
+		</span>
 	</div>
-	<div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center">
-		<h3 class="text-center">Heading portion</h3>
-		<p class="text-center">
-			This is a contet of the system Lorem ipsum dolor sit amet consectetur
-			adipisicing elit. Ipsum, cum! Lorem ipsum dolor sit,
-			aa saepe molestias soluta aut. Laborum labore quisquam est!
-		</p>
-	</div>
-	<div class="col-lg-6 col-md-6 col-sm-12" id="bottom-image">
-		<div class="row">
-			<div class="mx-auto">
-				<img src="media/Suhas.jpg" alt="" width="300">
-			</div>
-		</div>
-	</div>
-</div> -->
-
-
-
-
-<div class="container">
-<div class="testimonial-slider">
-	<span class="itema-1">
-		<div class="row m-side mb-4">
-			<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
-				<div class="row">
-					<div class="mx-auto">
-						<img src="media/Suhas.jpg" alt="" width="100" style="border-radius:80px">
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center">
-				<h3 class="text-center">Heading portion</h3>
-				<p class="text-center">
-					This is a contet of the system Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Ipsum, cum! Lorem ipsum dolor sit,
-					aa saepe molestias soluta aut. Laborum labore quisquam est!
-				</p>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12" id="bottom-image">
-				<div class="row">
-					<div class="mx-auto">
-						<img src="media/Suhas.jpg" alt="" width="300">
-					</div>
-				</div>
-			</div>
-		</div>
-	</span>
-
-	<span class="itema-2">
-		<div class="row m-side mb-4">
-			<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
-				<div class="row">
-					<div class="mx-auto">
-						<img src="media/Suhas.jpg" alt="" width="100" style="border-radius:80px">
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center">
-				<h3 class="text-center">Heading portion</h3>
-				<p class="text-center">
-					This is a contet of the system Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Ipsum, cum! Lorem ipsum dolor sit,
-					aa saepe molestias soluta aut. Laborum labore quisquam est!
-				</p>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12" id="bottom-image">
-				<div class="row">
-					<div class="mx-auto">
-						<img src="media/Suhas.jpg" alt="" width="300">
-					</div>
-				</div>
-			</div>
-		</div>
-	</span>
-
-	<span class="itema-3">
-		<div class="row m-side mb-4">
-			<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
-				<div class="row">
-					<div class="mx-auto">
-						<img src="media/Suhas.jpg" alt="" width="100" style="border-radius:80px">
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center">
-				<h3 class="text-center">Heading portion</h3>
-				<p class="text-center">
-					This is a contet of the system Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Ipsum, cum! Lorem ipsum dolor sit,
-					aa saepe molestias soluta aut. Laborum labore quisquam est!
-				</p>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12" id="bottom-image">
-				<div class="row">
-					<div class="mx-auto">
-						<img src="media/Suhas.jpg" alt="" width="300">
-					</div>
-				</div>
-			</div>
-		</div>
-	</span>
-	<span class="itema-4">
-		<div class="row m-side mb-4">
-			<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
-				<div class="row">
-					<div class="mx-auto">
-						<img src="media/Suhas.jpg" alt="" width="100" style="border-radius:80px">
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center">
-				<h3 class="text-center">Heading portion</h3>
-				<p class="text-center">
-					This is a contet of the system Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Ipsum, cum! Lorem ipsum dolor sit,
-					aa saepe molestias soluta aut. Laborum labore quisquam est!
-				</p>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12" id="bottom-image">
-				<div class="row">
-					<div class="mx-auto">
-						<img src="media/Suhas.jpg" alt="" width="300">
-					</div>
-				</div>
-			</div>
-		</div>
-	</span>
 </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php
 include 'includes/footer.php';
 
