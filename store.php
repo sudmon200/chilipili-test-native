@@ -3,6 +3,7 @@
 include 'config.php';
 include 'includes/header.php';
 
+
 ?>
 
 <div class="main-img m-def">
@@ -20,7 +21,7 @@ include 'includes/header.php';
             <div class="prod-cards">
                 <div class="prod-card">
                     <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Montessori@Home</p>
+                    <p class="prod-title font2" name="prod_title" id="prod_title">Montessori@Home</p>
                     <p class="price font2">9500</p>
                     <p class="learn font3">Learn More</p>
                 </div>
