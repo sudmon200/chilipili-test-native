@@ -19,11 +19,11 @@
 		li{
 			font-size:20px;
 		}
-		.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover .dropdown-menu .dropdown-item:hover {
+		.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     	color: var(--color1) !important;
 		}
-		.active{
-		color: var(--color1) !important;
+		.active {
+		color: var(--color1) ;
 		border-bottom:2px solid var(--color1);
 		border-width:20%;
 		text-align:center;
@@ -42,7 +42,7 @@
 		</button>
 		<div class="collapse navbar-collapse " id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active ml-4 mr-4" id="home.php">
+				<li class="nav-item ml-4 mr-4" id="index.php">
 					<a class="nav-link" href="index.php">Home</a>
 				</li>
 				<li class="nav-item ml-4 mr-4" id="about-us.php">
@@ -63,7 +63,7 @@
 				<li class="nav-item ml-4 mr-4" id="blog.php">
 					<a class="nav-link" href="blog.php">Blog</a>
 				</li>
-				<li class="nav-item ml-4 mr-4" id="contact-us">
+				<li class="nav-item ml-4 mr-4" id="contact-us.php">
 					<a class="nav-link" href="contact-us.php">Contact Us</a>
 				</li>
 				<li class="nav-item ml-4 mr-4" id="store.php">
