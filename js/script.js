@@ -1,6 +1,6 @@
 
 
-// this approach adds active class using url and it works 
+// this approach adds active class using url and it works
 let href = window.location.href;
 let dynamicId = href.substring(href.lastIndexOf("/")+1,href.length)
 document.getElementById(dynamicId).classList.add("active")
@@ -40,25 +40,6 @@ $(document).ready(function () {
     $(".owl-carousel").owlCarousel();
 });
 
-
-
-
-// Function for Read More in About Us Page
-function readMore() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
-
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
-    }
-}
 
 // // Initialize and add the map
 // function initMap() {
