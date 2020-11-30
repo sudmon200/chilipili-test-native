@@ -118,3 +118,8 @@
     transform: rotate(37deg);
     z-index: -20;
 }
+
+.m-pre {
+    margin-right: 140px;
+    margin-left: 290px;
+}
