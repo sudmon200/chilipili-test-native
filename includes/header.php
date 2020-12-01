@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/imagehover.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-	<link rel="stylesheet" href="/css/style.css"></link>
+	<link rel="stylesheet" href="css/style.css"></link>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<!-- Custom CSS file -->
 	<link rel="stylesheet" href="css/utils.css"></link>
@@ -53,6 +53,7 @@
 						Our Services
 					</a>
 					<div class="dropdown-menu">
+						<a class="dropdown-item" href="preschool/">Preschool</a>
 						<a class="dropdown-item" href="montessori.php">Montessori at Home</a>
 						<a class="dropdown-item" href="language-training.php">New Language Training</a>
 						<a class="dropdown-item" href="phonics.php">Phonics</a>

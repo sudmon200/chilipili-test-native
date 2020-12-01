@@ -14,8 +14,8 @@ include 'includes/header.php'
             <p>In addition to this, we have two extensive PTM (Parent Teacher Meeting) sessions in a year, where each parent gets to talk to all the teachers in the school.</p>
             <p>As a parent, is there something special you would like to share or show to the small children? Be it a musical instrument, paper origami, a story (and maybe in your language) – we welcome that ! … We host special events every now and then. Drop in a note and you are welcome.</p>
         </div>
-        <div class="col-md col-lg col-sm">
-
+        <div class="col-md col-lg col-sm pre-side-img">
+            <img src="../media/preschool/be_involved.png" alt="involved">
         </div>
     </div>
 </section>

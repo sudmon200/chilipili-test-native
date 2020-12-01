@@ -4,7 +4,7 @@ include 'includes/header.php'
 
 <div class="container header-top m-def">
     <h2 class="font1">
-        Parents Guildlines
+        Parents Guideline
     </h2>
 </div>
 <section class="m-pre m-bottom">
@@ -24,7 +24,8 @@ include 'includes/header.php'
             <a href="../blog.php">..see our blogs for more insight into these</a>
 
         </div>
-        <div class="col-md col-lg col-sm">
+        <div class="col-md col-lg col-sm pre-side-img">
+            <img src="../media/preschool/parents_guidlines.png" alt="guideline">
         </div>
     </div>
 </section>
