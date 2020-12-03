@@ -48,38 +48,29 @@ if (isset($_POST['submit'])) {
     $image6 = sanitize($_POST['image6']);
 
 
-    echo $include;
+    echo $category;
 
 
     // Uploading Image into database and folder
 
-    $img_name = $_FILES['image']['name'];
-    $img_name2 = $_FILES['image2']['name'];
-    $img_name3 = $_FILES['image3']['name'];
-    $img_name4 = $_FILES['image4']['name'];
-    $img_name5 = $_FILES['image5']['name'];
-    $img_name6 = $_FILES['image6']['name'];
-    $target_dir = "../media";
-    $target_file = $target_dir . basename($img_name);
-    $target_file = $target_dir . basename($img_name2);
-    $target_file = $target_dir . basename($img_name3);
-    $target_file = $target_dir . basename($img_name4);
-    $target_file = $target_dir . basename($img_name5);
-    $target_file = $target_dir . basename($img_name6);
-
-    // Validating Extensions for image 
-    $imgFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
-    $extensions_arr = array("jpg", "jpeg", "png");
-
-    // Upload File 
-    move_uploaded_file($_FILES['image']['temp_name'], $target_dir . $img_name);
-    move_uploaded_file($_FILES['image2']['temp_name'], $target_dir . $img_name2);
-    move_uploaded_file($_FILES['image3']['temp_name'], $target_dir . $img_name3);
-    move_uploaded_file($_FILES['image4']['temp_name'], $target_dir . $img_name4);
-    move_uploaded_file($_FILES['image5']['temp_name'], $target_dir . $img_name5);
-    move_uploaded_file($_FILES['image6']['temp_name'], $target_dir . $img_name6);
+    $countfiles = count($_FILES['image']['name']);
 
 
+    for($i=0; $i<$countfiles; $i++) {
+        $img_name = $_FILES['image']['name'];
+        
+        $target_dir = "../media/uploads";
+        $target_file = $target_dir . basename($img_name);
+    
+        // Validating Extensions for image 
+        $imgFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+        $extensions_arr = array("jpg", "jpeg", "png");
+    
+        // Upload File 
+        move_uploaded_file($_FILES['image']['temp_name'], $target_dir . $img_name);
+        
+    }
+        
     // Uploading form data into database
     $query = "INSERT INTO products (prod_name, prod_desc, prod_excerpt, prod_price, prod_include, prod_img1, prod_img2, prod_img3, prod_img4, prod_img5, prod_img6, prod_benefit, prod_benefit2, prod_link, category) 
                 VALUES ('$title',' $desc', '$excerpt',' $price', '$searialized_include', '$image', '$image2', '$image3', '$image4', '$image5', '$image6','$searialized_benefit', '$searialized_benefit2', '$link', '$category')";
@@ -125,11 +116,11 @@ if (isset($_POST['submit'])) {
         <div class="form-group">
             <select name="category" id="category">
                 <option value="">Select a Category</option>
-                <option value="3-5">Online Course</option>
-                <option value="5-6">Montessori at Home</option>
-                <option value="6+">Phonics</option>
-                <option value="6+">Books</option>
-                <option value="6+">Bundles and Packages</option>
+                <option value="online_course">Online Course</option>
+                <option value="montessori">Montessori at Home</option>
+                <option value="phonics">Phonics</option>
+                <option value="books">Books</option>
+                <option value="bundles">Bundles and Packages</option>
             </select>
         </div>
         
@@ -153,27 +144,7 @@ if (isset($_POST['submit'])) {
         <!-- Images to upload into site -->
         <div class="form-group">
             <label for="image" class="col-sm-2 col-form-label">Image</label>
-            <input class="form-control" type="file" name="image" id="image">
-        </div>
-        <div class="form-group">
-            <label for="image" class="col-sm-2 col-form-label">Image 2</label>
-            <input class="form-control" type="file" name="image2" id="image2">
-        </div>
-        <div class="form-group">
-            <label for="image" class="col-sm-2 col-form-label">Image 3</label>
-            <input class="form-control" type="file" name="image3" id="image3">
-        </div>
-        <div class="form-group">
-            <label for="image" class="col-sm-2 col-form-label">Image 4</label>
-            <input class="form-control" type="file" name="image4" id="image4">
-        </div>
-        <div class="form-group">
-            <label for="image" class="col-sm-2 col-form-label">Image 5</label>
-            <input class="form-control" type="file" name="image5" id="image5">
-        </div>
-        <div class="form-group">
-            <label for="image" class="col-sm-2 col-form-label">Image 6</label>
-            <input class="form-control" type="file" name="image6" id="image6">
+            <input class="form-control" type="file" name="image[]" id="image" multiple>
         </div>
         <div class="form-group">
             <label for="title" class="col-sm-2 col-form-label">Benefit</label>

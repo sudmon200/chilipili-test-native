@@ -4,6 +4,27 @@ include 'config.php';
 include 'includes/header.php';
 
 
+$online_sql = "SELECT * FROM products WHERE category='online_course'";
+
+$online = $connection->query($online_sql);
+
+$montessori_sql = "SELECT * FROM products WHERE category='montessori'";
+
+$montessori = $connection->query($montessori_sql);
+
+$phonics_sql = "SELECT * FROM products WHERE category='phonics'";
+
+$phonics = $connection->query($phonics_sql);
+
+$books_sql = "SELECT * FROM products WHERE category='books'";
+
+$books = $connection->query($books_sql);
+
+$bundles_sql = "SELECT * FROM products WHERE category='bundles'";
+
+$bundles = $connection->query($bundles_sql);
+
+
 ?>
 
 <div class="main-img m-def">
@@ -25,18 +46,18 @@ include 'includes/header.php';
                     <p class="price font2">9500</p>
                     <p class="learn font3">Learn More</p>
                 </div>
+                <?php while ($online_row = mysqli_fetch_array($online)): ?>
                 <div class="prod-card">
-                    <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Phonics</p>
-                    <p class="price font2">9500</p>
-                    <p class="learn font3">Learn More</p>
+                        <?php $img = $online_row['prod_img1']; ?>
+                        <?php $img_src = "media/".$img ; ?>
+                    <img src="<?= $img_src ?>" alt="">
+                    <a href="products.php?id=<?= $online_row['prod_id'] ?>">
+                        <p class="prod-title font2"><?= $online_row['prod_name'] ?></p>
+                        <p class="price font2"><?= $online_row['prod_price'] ?></p>
+                        <p class="learn font3">Learn More</p>
+                    </a>
                 </div>
-                <div class="prod-card">
-                    <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Kannada LS</p>
-                    <p class="price font2">9500</p>
-                    <p class="learn font3">Learn More</p>
-                </div>
+                <?php endwhile; ?>
             </div>
         </div>
         <div class="product">
@@ -48,18 +69,18 @@ include 'includes/header.php';
                     <p class="price font2">9500</p>
                     <p class="learn font3">Learn More</p>
                 </div>
+                <?php while ($montessori_row = mysqli_fetch_array($montessori)): ?>
                 <div class="prod-card">
-                    <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Phonics</p>
-                    <p class="price font2">9500</p>
-                    <p class="learn font3">Learn More</p>
+                        <?php $img = $montessori_row['prod_img1']; ?>
+                        <?php $img_src = "media/".$img ; ?>
+                    <img src="<?= $img_src ?>" alt="">
+                    <a href="products.php?id=<?= $montessori_row['prod_id'] ?>">
+                        <p class="prod-title font2"><?= $montessori_row['prod_name'] ?></p>
+                        <p class="price font2"><?= $montessori_row['prod_price'] ?></p>
+                        <p class="learn font3">Learn More</p>
+                    </a>
                 </div>
-                <div class="prod-card">
-                    <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Kannada LS</p>
-                    <p class="price font2">9500</p>
-                    <p class="learn font3">Learn More</p>
-                </div>
+                <?php endwhile; ?>
             </div>
         </div>
         <div class="product">
@@ -71,18 +92,18 @@ include 'includes/header.php';
                     <p class="price font2">9500</p>
                     <p class="learn font3">Learn More</p>
                 </div>
+                <?php while ($bundles_row = mysqli_fetch_array($bundles)): ?>
                 <div class="prod-card">
-                    <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Phonics</p>
-                    <p class="price font2">9500</p>
-                    <p class="learn font3">Learn More</p>
+                        <?php $img = $bundles_row['prod_img1']; ?>
+                        <?php $img_src = "media/".$img ; ?>
+                    <img src="<?= $img_src ?>" alt="">
+                    <a href="products.php?id=<?= $bundles_row['prod_id'] ?>">
+                        <p class="prod-title font2"><?= $bundles_row['prod_name'] ?></p>
+                        <p class="price font2"><?= $bundles_row['prod_price'] ?></p>
+                        <p class="learn font3">Learn More</p>
+                    </a>
                 </div>
-                <div class="prod-card">
-                    <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Kannada LS</p>
-                    <p class="price font2">9500</p>
-                    <p class="learn font3">Learn More</p>
-                </div>
+                <?php endwhile; ?>
             </div>
         </div>
         <div class="product">
@@ -94,18 +115,18 @@ include 'includes/header.php';
                     <p class="price font2">9500</p>
                     <p class="learn font3">Learn More</p>
                 </div>
+                <?php while ($phonics_row = mysqli_fetch_array($phonics)): ?>
                 <div class="prod-card">
-                    <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Phonics</p>
-                    <p class="price font2">9500</p>
-                    <p class="learn font3">Learn More</p>
+                        <?php $img = $phonics_row['prod_img1']; ?>
+                        <?php $img_src = "media/".$img ; ?>
+                    <img src="<?= $img_src ?>" alt="">
+                    <a href="products.php?id=<?= $phonics_row['prod_id'] ?>">
+                        <p class="prod-title font2"><?= $phonics_row['prod_name'] ?></p>
+                        <p class="price font2"><?= $phonics_row['prod_price'] ?></p>
+                        <p class="learn font3">Learn More</p>
+                    </a>
                 </div>
-                <div class="prod-card">
-                    <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Kannada LS</p>
-                    <p class="price font2">9500</p>
-                    <p class="learn font3">Learn More</p>
-                </div>
+                <?php endwhile; ?>
             </div>
         </div>
         <div class="product">
@@ -117,18 +138,18 @@ include 'includes/header.php';
                     <p class="price font2">9500</p>
                     <p class="learn font3">Learn More</p>
                 </div>
+                <?php while ($books_row = mysqli_fetch_array($books)): ?>
                 <div class="prod-card">
-                    <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Phonics</p>
-                    <p class="price font2">9500</p>
-                    <p class="learn font3">Learn More</p>
+                        <?php $img = $books_row['prod_img1']; ?>
+                        <?php $img_src = "media/".$img ; ?>
+                    <img src="<?= $img_src ?>" alt="">
+                    <a href="products.php?id=<?= $books_row['prod_id'] ?>">
+                        <p class="prod-title font2"><?= $books_row['prod_name'] ?></p>
+                        <p class="price font2"><?= $books_row['prod_price'] ?></p>
+                        <p class="learn font3">Learn More</p>
+                    </a>
                 </div>
-                <div class="prod-card">
-                    <img src="media/pink_tower.png" alt="">
-                    <p class="prod-title font2">Kannada LS</p>
-                    <p class="price font2">9500</p>
-                    <p class="learn font3">Learn More</p>
-                </div>
+                <?php endwhile; ?>
             </div>
         </div>
     </div>

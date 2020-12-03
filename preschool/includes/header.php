@@ -53,21 +53,21 @@
 						Our Services
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="montessori.php">Montessori at Home</a>
-						<a class="dropdown-item" href="language-training.php">New Language Training</a>
-						<a class="dropdown-item" href="phonics.php">Phonics</a>
-						<a class="dropdown-item" href="alternate-school.php">Alternate School</a>
-						<a class="dropdown-item" href="teacher-training.php">Teacher Training</a>
+						<a class="dropdown-item" href="../montessori.php">Montessori at Home</a>
+						<a class="dropdown-item" href="../language-training.php">New Language Training</a>
+						<a class="dropdown-item" href="../phonics.php">Phonics</a>
+						<a class="dropdown-item" href="../alternate-school.php">Alternate School</a>
+						<a class="dropdown-item" href="../teacher-training.php">Teacher Training</a>
 					</div>
 				</li>
 				<li class="nav-item ml-4 mr-4" id="blog.php">
-					<a class="nav-link" href="blog.php">Blog</a>
+					<a class="nav-link" href="../blog.php">Blog</a>
 				</li>
 				<li class="nav-item ml-4 mr-4" id="contact-us.php">
-					<a class="nav-link" href="contact-us.php">Contact Us</a>
+					<a class="nav-link" href="../contact-us.php">Contact Us</a>
 				</li>
 				<li class="nav-item ml-4 mr-4" id="store.php">
-					<a class="nav-link" href="store.php">Shop</a>
+					<a class="nav-link" href="../store.php">Shop</a>
 				</li>
 
 			</ul>

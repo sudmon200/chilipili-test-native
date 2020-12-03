@@ -11,7 +11,7 @@
             <li>
                 <a href="../preschool/index.php">
                     <i class="fa fa-2x">
-                        <img src="../media/final-asset/preschool/home-icon.png" alt="">
+                        <img src="../media/final-asset/preschool/home-icon.svg" alt="">
                     </i>
                     <span class="nav-text font3">
                         Home
@@ -21,7 +21,9 @@
             </li>
             <li class="has-subnav">
                 <a href="#">
-                    <i class="fa fa-laptop fa-2x"></i>
+                    <i class="fa fa-laptop fa-2x">
+                        <img src="../media/final-asset/preschool/about-icon.svg" alt="">
+                    </i>
                     <span class="nav-text font3">
                         About Us
                     </span>
@@ -30,7 +32,9 @@
             </li>
             <li class="has-subnav">
                 <a href="#">
-                    <i class="fa fa-list fa-2x"></i>
+                    <i class="fa fa-list fa-2x">
+                        <img src="../media/final-asset/preschool/life-icon.svg" alt="">
+                    </i>
                     <span class="nav-text font3">
                         Life at Chili Pili
                     </span>
@@ -40,7 +44,9 @@
             </li>
             <li class="has-subnav">
                 <a href="#">
-                    <i class="fa fa-folder-open fa-2x"></i>
+                    <i class="fa fa-folder-open fa-2x">
+                        <img src="../media/final-asset/preschool/parent-icon.svg" alt="">
+                    </i>
                     <span class="nav-text font3">
                         Parents Corner
                     </span>
@@ -49,7 +55,9 @@
             </li>
             <li>
                 <a href="#">
-                    <i class="fa fa-bar-chart-o fa-2x"></i>
+                    <i class="fa fa-bar-chart-o fa-2x">
+                        <img src="../media/final-asset/preschool/curriculum-icon.svg" alt="">
+                    </i>
                     <span class="nav-text font3">
                         Curriculum
                     </span>
@@ -57,7 +65,9 @@
             </li>
             <li>
                 <a href="#">
-                    <i class="fa fa-font fa-2x"></i>
+                    <i class="fa fa-font fa-2x">
+                        <img src="../media/final-asset/preschool/gallery-icon.svg" alt="">
+                    </i>
                     <span class="nav-text font3">
                         Gallery
                     </span>
@@ -65,7 +75,9 @@
             </li>
             <li>
                 <a href="#">
-                    <i class="fa fa-table fa-2x"></i>
+                    <i class="fa fa-table fa-2x">
+                        <img src="../media/final-asset/preschool/more-icon.svg" alt="">
+                    </i>
                     <span class="nav-text font3">
                         More
                     </span>
