@@ -76,5 +76,18 @@ $(document).ready(function () {
 //     }
 // }
 
+function preschool(preschoolId){
+    console.log(preschoolId)
+    var dropdownContent = document.getElementById(preschoolId)
+    if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+        }
+         else {
+        dropdownContent.style.display = "block";
+        }
 
-
+}
+function deselect(preschoolId){
+    var dropdownContent = document.getElementById(preschoolId)
+    dropdownContent.style.display = "none";
+}
