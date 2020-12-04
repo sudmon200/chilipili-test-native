@@ -20,13 +20,13 @@ include 'includes/header.php';
     </div>
     <div class="prod-main m-def">
         <div class="prod-imgs">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="media/Suhas.jpg" alt="">
+            <img src="media/Suhas.jpg" alt="">
+            <img src="media/Suhas.jpg" alt="">
+            <img src="media/Suhas.jpg" alt="">
+            <img src="media/Suhas.jpg" alt="">
+            <img src="media/Suhas.jpg" alt="">
+            <img src="media/Suhas.jpg" alt="">
 
         </div>
         <div class="prod-content">
