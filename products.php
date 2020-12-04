@@ -18,7 +18,7 @@ include 'includes/header.php';
     <div class="pagination">
         <p>Store ->> Age 3-4 ->> Phonics</p>
     </div>
-    <div class="prod-main m-def">
+    <div class="prod-main m-def m-side">
         <div class="prod-imgs">
             <img src="media/Suhas.jpg" alt="">
             <img src="media/Suhas.jpg" alt="">
@@ -76,7 +76,7 @@ include 'includes/header.php';
         </div>
     </div>
 
-    <div class="prod-description m-def">
+    <div class="prod-description m-def m-side">
         <h5 class="font2">Detailed Product Description</h5>
 
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ratione dolore odit molestias sequi error corrupti similique et enim voluptatibus omnis sint molestiae dignissimos corporis quod modi velit, saepe nisi quo quae dicta. Iure pariatur reprehenderit sit aliquid. Praesentium, ipsam? Facilis dignissimos ullam nostrum cumque quaerat?</p>
@@ -85,35 +85,41 @@ include 'includes/header.php';
 
 </section>
 
-<div class="benefits">
+<div class="benefits m-side">
     <h5 class="font2">Benefits:</h5>
 
     <div class="d-flex flex-row">
-        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
+        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+        <p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
     </div>
     <div class="d-flex flex-row">
-        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
+        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+        <p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
     </div>
     <div class="d-flex flex-row">
-        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
+        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+        <p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
     </div>
     <div class="d-flex flex-row">
-        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
+        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+        <p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
     </div>
     <div class="d-flex flex-row">
-        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
+        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+        <p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
     </div>
     <div class="d-flex flex-row">
-        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
+        <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+        <p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a voluptatibus sunt laudantium consequuntur cupiditate!</p>
     </div>
 
 </div>
 
-<div class="similar-prod m-def">
+<div class="similar-prod m-def m-side">
 
 </div>
 
-<div class="reccomended">
+<div class="reccomended m-side">
 
 </div>
 
