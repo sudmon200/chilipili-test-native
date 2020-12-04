@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/style.css"></link>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Custom CSS file -->
 	<link rel="stylesheet" href="css/utils.css"></link>
 	<link rel="stylesheet" href="css/responsive.css"></link>
@@ -32,7 +33,7 @@
 </head>
 
 <body>
-	<?php include 'helpers.php'; ?>
+	<?php include 'helper.php'; ?>
 	<nav class="navbar navbar-expand-md navbar-light" id="navbar-main"style="background-color:transparent">
 		<a class="navbar-brand" href="index.php">
 			<img src="media/logo.png" class="logo" alt="Chili Pili">

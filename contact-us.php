@@ -60,7 +60,7 @@ include "includes/header.php";
 				<input type="number" name="number" id="number" placeholder="+91 8888999955">
 			</div>
 			<div class="form-content font2">
-				<label for="Name">Intested In</label>
+				<label for="Name">Intrested In</label>
 				<select name="intested" id="interested">
 					<option value="">I'm Intested In</option>
 					<option value="school">School/Preschool Admissions</option>

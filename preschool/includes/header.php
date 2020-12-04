@@ -32,7 +32,7 @@
 </head>
 
 <body>
-	<?php include 'helpers.php'; ?>
+	<?php include 'helper.php'; ?>
 	<nav class="navbar navbar-expand-md navbar-light" id="navbar-main"style="background-color:transparent">
 		<a class="navbar-brand" href="index.php">
 			<img src="../media/logo.png" class="logo" alt="Chili Pili">
