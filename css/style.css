@@ -375,7 +375,6 @@
         height: 50%;
         width: 80%;
         z-index: -1;
-        opacity: 0.5;
     }
     
     .about-background p {
@@ -1155,14 +1154,12 @@
     
     .testimonial-name {
         position: relative;
-        top: 50%;
         font-size: 30px;
         margin: auto;
     }
     
     .testimonial-desc {
         position: relative;
-        top: 50%;
         font-size: 20px;
     }
     /* Alternate School page Starts Here  */

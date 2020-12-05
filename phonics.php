@@ -9,12 +9,12 @@ include 'includes/header.php'
 		Phonics
 	</h2>
 </div>
-<section class="phonics-bg" style="background-image: url(media/final-asset/wave-3.svg);">
+<section class="phonics-bg" style="background-image: url(media/final-asset/phonics_wave-01.png);">
 	<div>
 		<img src="media/final-asset/branch-1.svg" class="branch1" alt="branch">
 	</div>
 	<div class="phonics-img m-side">
-		<img src="media/franchise.png" alt="phonics-img-1" align="middle">
+		<img src="media/PHONICS BULB-01.png" alt="phonics-img-1" align="middle">
 	</div>
 
 	<div class="phonics-main m-side m-top">
@@ -26,9 +26,7 @@ include 'includes/header.php'
 	</div>
 
 	<div class="phonics-video">
-		<iframe width="732" height="412" class="m-side" src="https://www.youtube.com/embed/kc1h3IYyXus" frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-			allowfullscreen></iframe>
+	<iframe src="https://player.vimeo.com/video/487199210" class="align-self-center" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 	</div>
 
 
@@ -36,6 +34,16 @@ include 'includes/header.php'
 		<img src="media/final-asset/bush-1.svg" class="branch2" alt="branch">
 	</div>
 </section>
+
+<div class="method m-top">
+	<div class="section-head">
+		<h3 class="font1">Methods</h3>
+	</div>
+	<div class="phonics-img m-side">
+		<img src="media/infograpichs pjhonics-01.png" alt="phonics-img-1" align="middle">
+	</div>
+	
+</div>
 
 <!-- Key Feature Icons  -->
 <div class="internal-features m-side m-def">
@@ -67,7 +75,7 @@ include 'includes/header.php'
 		<div class="icon-box">
 			<div class="icon-box-over">
 				<div class="icon">
-					<img src="media/Icons/affordable kits.svg" alt="">
+					<img src="media/Icons/afoordable kits.svg" alt="">
 				</div>
 				<div class="icon-name">
 					<p>Affordable Montessori Kits</p>
@@ -115,17 +123,65 @@ include 'includes/header.php'
 	<div class="section-head">
 		<h3 class="font1 testimonial-head">Testimonials</h3>
 	</div>
-	<div class="row m-side">
-		<div class="col-md">
-			<p class="testimonial-name font2">Name of Parent</p>
-			<p class="testimonial-desc font4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, magnam
-				modi error sapiente aspernatur maiores doloribus ipsa, quos rerum eaque quisquam? Quisquam, dolorem
-				commodi facere dolore nesciunt sit repellat ab esse iure unde mollitia fugit?</p>
+	<div class="testimonial-slider">
+		<div class="itema-1">
+			<div class="row m-side">
+				<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/RAKESH_SHARMA.png" alt="" width="100" style="border-radius:80px">
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<p class="testimonial-name text-center font2">Rakesh Sharma</p>
+					<p class="testimonial-desc text-center font4">Mein Varanasi se aya tha aur mujhe ek sal katna tha. Mere ek saal ka experience bahut hi accha raha. Ek saal mein mera UKG ka beta jo ABC sikh raha ab newspaper bhi badne laga hai. Hamara jab Kannada ka door door tak ko sabandh nahi hai, lekin ek hi saal me mera beta Kannada padhne laga or yahan vahan jab hume dikkat hoti hai, hamme Kannada padhe ke batata hai.  Yahan ke teachers bahut hi hardworking hai aur Phonics program yahan pe bahut hi badiya hai.</p>
+				</div>
+				<div class="col-md" id="bottom-image">
+					<img src="media/RAKESH_SHARMA.png" alt="Parent">
+				</div>
+			</div>
 		</div>
-		<div class="col-md">
-			<img src="media/Suhas.jpg" alt="Parent">
+		<div class="itema-2">
+			<div class="row m-side">
+				<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/deepak_nitya.png" alt="" width="100" style="border-radius:80px">
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<p class="testimonial-name text-center font2">Deepak & Nitya</p>
+					<p class="testimonial-desc text-center font4">It has been more than 2 years since my daughter joined here . We were looking for a place where she does not see the stress of learning and she learns naturally. She is very comfortable and very happy here. Everyday, she comes back home and tells us stories about the school which are really enjoyable.. The compassion the teachers show towards the children is really amazing.  Whether it is learning Maths, logical reasoning, discipline or character development .. . I see that the basics are getting done right</p>
+				</div>
+				<div class="col-md" id="bottom-image">
+					<img src="media/deepak_nitya.png" alt="Parent">
+				</div>
+			</div>
 		</div>
+		<div class="itema-3">
+			<div class="row m-side">
+				<div class="col-lg-6 col-md-6 col-sm-12" id="top-image">
+					<div class="row">
+						<div class="mx-auto">
+							<img src="media/KRISHNA_VIDYA.png" alt="" width="100" style="border-radius:80px">
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<p class="testimonial-name text-center font2">Krishna & Vidya</p>
+					<p class="testimonial-desc text-center font4">ಚಿಲಿಪಿಲಿ ಮಕ್ಕಳ ಕೂಟದಲ್ಲಿ ನಮ್ಮ ಮಗಳ ಆತ್ಮಸ್ಥಯ೯ ಕುಂದದೆ ಚೆನ್ನಾಗಿದೆ , ಹಾಗು ಶಾಲೆ ಎಂದರೆ ಯಾವುದೇ ತರಹದ ಭಯವಾಗಲಿ ಅಥವ ಹೆದರಿಕೆಯಾಗಲಿ ಇಲ್ಲವೇ ಇಲ್ಲ. ಅಲ್ಲಿ ಕಲಿಕೆಯೂ ಕೂಡ ಉತ್ತಮ ಮಟ್ಟದಲ್ಲಿ ಇರುವುದರಿಂದ ನಮಗೆ ಶಾಲೆ ಬಹಳ ಇಷ್ಟ.</p>
+				</div>
+				<div class="col-md" id="bottom-image">
+					<img src="media/KRISHNA_VIDYA.png" alt="Parent">
+				</div>
+			</div>
+		</div>
+		
+		
 	</div>
+	
 
 </div>
 

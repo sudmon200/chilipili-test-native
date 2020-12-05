@@ -14,7 +14,7 @@ include 'includes/header.php'
         <p class="internal-para font3">Montessori method is widely considered as an effective way to train your child in the early stages of development. Developed over a hundred years ago, it uses specialized learning materials to encourage a child to learn through play and activities. As learning is a continuous process, the child should be having access to the learning aids at all times so that they can engage in learning whenever they desire to do so.Any convenient place in the house can be converted into a Montessori corner where all the learning materials and toys can be stored so that the child can go and engage in learning.</p>
     </div>
     <div class="side2">
-        <img src="media/montessori-01.png" alt="Montessori-leaf">
+        <img src="/var/www/html/chilipili-test-native/media/montessori_new-01.png" alt="Montessori-leaf">
     </div>
 </div>
 <div class="internal-body m-def m-side">

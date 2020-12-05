@@ -12,28 +12,28 @@ include 'includes/header.php';
 	<div class="slider" style="background-image: url('media/final-asset/home.svg');">
 		<div class="slider-content">
 			<span class="item-1">
-				<h2>Revolutionalize Learning 1</h2>
-				<p>Research , development and implementation of educational methodologies to make learning
+				<h2 class="font1">Revolutionalize Learning 1</h2>
+				<p class="font2">Research , development and implementation of educational methodologies to make learning
 					effortless
 				</p>
 			</span>
 
 			<span class="item-2">
-				<h2>Inspire Learning 2</h2>
-				<p>Research , development and implementation of educational methodologies to make learning
+				<h2 class="font1">Inspire Learning 2</h2>
+				<p class="font2">Research , development and implementation of educational methodologies to make learning
 					effortless
 				</p>
 			</span>
 
 			<span class="item-3">
-				<h2>Inspire Learning 3</h2>
-				<p>Research , development and implementation of educational methodologies to make learning
+				<h2 class="font1">Inspire Learning 3</h2>
+				<p class="font2">Research , development and implementation of educational methodologies to make learning
 					effortless
 				</p>
 			</span>
 			<span class="item-4">
-				<h2>Inspire Learning 4</h2>
-				<p>Research , development and implementation of educational methodologies to make learning
+				<h2 class="font1">Inspire Learning 4</h2>
+				<p class="font2">Research , development and implementation of educational methodologies to make learning
 					effortless
 				</p>
 			</span>
