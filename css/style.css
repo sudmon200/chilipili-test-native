@@ -328,6 +328,89 @@
         font-family: 'Montserrat-medium', 'sans-serif';
     }
     /* Slider Ends Here  */
+    
+    .home-bg {
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 999;
+    }
+    
+    .pre-section {
+        position: relative;
+        background-color: var(--color3);
+        height: auto;
+        width: 100%;
+    }
+    
+    .rainbow {
+        position: absolute;
+        right: 0;
+    }
+    
+    .tree1 {
+        position: absolute;
+        right: 0;
+        bottom: 1vh;
+        width: 11vw;
+        height: auto;
+    }
+    
+    .sap-section {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .shrub {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: auto;
+        width: 17vw;
+    }
+    
+    .adult-section {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: var(--color3);
+    }
+    
+    .branch3 {
+        position: absolute;
+        right: 0;
+        top: -84px;
+        height: auto;
+        width: 17vw;
+        z-index: 50;
+    }
+    
+    .branch4 {
+        position: absolute;
+        left: 0;
+        bottom: -93px;
+        height: auto;
+        width: 17vw;
+        z-index: 50;
+    }
+    
+    .rainbow2 {
+        position: absolute;
+        width: 17vw;
+        height: auto;
+    }
+    
+    .tree3 {
+        position: absolute;
+        width: 17vw;
+        height: auto;
+        right: 0;
+        top: 0;
+    }
+    
+    .testimonials {
+        position: relative;
+    }
     /* ---------------------------------------About Us Page Starts Here------------------------------------- */
     
     .about-top {
