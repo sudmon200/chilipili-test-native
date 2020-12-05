@@ -91,3 +91,9 @@ function deselect(preschoolId){
     var dropdownContent = document.getElementById(preschoolId)
     dropdownContent.style.display = "none";
 }
+
+// var zoomImageGallery = document.getElementById("image-gallery");
+// console.log(zoomImageGallery)
+// zoomImageGallery.addEventListener('click',(e)=>{
+//     console.log(e.target)
+// })
