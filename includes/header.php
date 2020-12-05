@@ -10,31 +10,39 @@
 	<link rel="stylesheet" href="css/imagehover.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/style.css"></link>
+	<link rel="stylesheet" href="css/style.css">
+	</link>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Custom CSS file -->
-	<link rel="stylesheet" href="css/utils.css"></link>
-	<link rel="stylesheet" href="css/responsive.css"></link>
+	<link rel="stylesheet" href="css/utils.css">
+	</link>
+	<link rel="stylesheet" href="css/responsive.css">
+	</link>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.elevatezoom.js"></script>
 	<style>
-		li{
-			font-size:20px;
-		}
-		.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    	color: var(--color1) !important;
-		}
-		.active {
-		color: var(--color1) ;
-		border-bottom:2px solid var(--color1);
-		border-width:20%;
-		text-align:center;
-		}
+	li {
+		font-size: 20px;
+	}
+
+	.navbar-light .navbar-nav .nav-link:focus,
+	.navbar-light .navbar-nav .nav-link:hover {
+		color: var(--color1) !important;
+	}
+
+	.active {
+		color: var(--color1);
+		border-bottom: 2px solid var(--color1);
+		border-width: 20%;
+		text-align: center;
+	}
 	</style>
 </head>
 
 <body>
 	<?php include 'helper.php'; ?>
-	<nav class="navbar navbar-expand-md navbar-light" id="navbar-main"style="background-color:transparent">
+	<nav class="navbar navbar-expand-md navbar-light" id="navbar-main" style="background-color:transparent">
 		<a class="navbar-brand" href="index.php">
 			<img src="media/logo.png" class="logo" alt="Chili Pili">
 		</a>
