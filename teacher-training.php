@@ -19,7 +19,7 @@ include 'includes/header.php'
             <p class="internal-para font3">It is no secret that the teacher plays a crucial role in crafting a child’s future. Along with the parents, the aptitude for learning is cultivated by the attitude of the teacher. Inculcating this love for learning at an early stage is vital to ensure that the child will have a lifelong yearning to learn and excel in life. At Chili Pili, not only are teachers trained to be experts at the subject, but also teaching methodologies, soft skills, planning and assessing so as to be able to tailor teaching to each and every child. We at Chili Pili Teachers Training Program ensure that every teacher comes out not only with very good subject knowledge, but also as an inspirational individual with broad skills to be the guiding light to future generations.</p>
         </div>
         <div class="side2">
-            <img src="media/final-asset/Group 6005.svg" class="teacher-img" alt="Montessori-leaf">
+            <img src="media/teacher-training.png" class="teacher-img" alt="Montessori-leaf">
         </div>
     </div>
 

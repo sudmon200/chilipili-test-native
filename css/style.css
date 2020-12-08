@@ -40,6 +40,20 @@
         animation-iteration-count: infinite;
     }
     
+    .item-1 h2,
+    .item-2 h2,
+    .item-3 h2,
+    .item-4 h2 {
+        font-size: 45px;
+    }
+    
+    .item-1 p,
+    .item-2 p,
+    .item-3 p,
+    .item-4 p {
+        font-size: 25px;
+    }
+    
     .item-1 {
         animation-name: anim-1;
     }
@@ -136,7 +150,7 @@
         display: block;
         top: 2em;
         width: 90%;
-        animation-duration: 35s;
+        animation-duration: 25s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
     }
@@ -248,7 +262,7 @@
         right: -17%;
         background-repeat: no-repeat;
         background-position: right;
-        z-index: -2
+        z-index: 2;
     }
     
     @media screen and (max-width:400px) {
@@ -334,6 +348,26 @@
         background-size: cover;
         z-index: 999;
         background-position: 15vw;
+    }
+    
+    .main-content {
+        font-size: 20px;
+    }
+    
+    .card-h3 {
+        position: relative;
+        bottom: 20px;
+        left: 3px;
+        color: rgb(65, 235, 43);
+    }
+    
+    .pop-up-effect {
+        background-color: green;
+        color: white;
+    }
+    
+    .home-section {
+        position: relative;
     }
     
     .pre-section {
@@ -443,13 +477,17 @@
         width: 100%;
     }
     
+    .about-wave {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0 71vh;
+        z-index: -22;
+    }
+    
     .about-background {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        /* background-position: center top; */
-        z-index: -2;
-        /* width: 300%; */
     }
     
     .branch1 {
@@ -458,7 +496,7 @@
         position: absolute;
         height: 50%;
         width: 80%;
-        z-index: -1;
+        z-index: -3;
     }
     
     .about-background p {
@@ -469,6 +507,7 @@
     .about-background h3 {
         font-size: 35px;
         font-weight: 600;
+        padding-bottom: 10vh;
     }
     
     .about-vision {

@@ -25,7 +25,7 @@
     padding-top: 140px;
 }
 
-.p-top {
+.p-bottom {
     padding-bottom: 140px;
 }
 
@@ -116,7 +116,7 @@
     height: 29%;
     width: 50%;
     transform: rotate(37deg);
-    z-index: -20;
+    z-index: 20;
 }
 
 .m-pre {
