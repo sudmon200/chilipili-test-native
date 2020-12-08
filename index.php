@@ -5,7 +5,7 @@ include 'includes/header.php';
 ?>
 
 
-<section class="home-bg" style="background: url(media/final-asset/wave.svg); background-size: cover; background-repeat: no-repeat; background-position: 0 20vw;">
+<section class="home-bg" style="background: url(media/final-asset/wave.svg); background-size: cover; background-repeat: no-repeat; background-position: 0 14vw;">
 	<!-- new slider design done  -->
 
 	<div class="container-fluid">
