@@ -24,7 +24,7 @@
 
 	<section class="container m-def about-background" >
 		<div>
-			<img src="media/final-asset/branch-1.svg" class="branch1" alt="branch">
+			<img src="media/final-asset/branch-1.svg" style="z-index:-1;" class="branch1" alt="branch">
 		</div>
 		<h3 >The Background</h3>
 		<p>We are primarily a research and training company focusing on the field of early-stage education. Our team of

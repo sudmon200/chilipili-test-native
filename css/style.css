@@ -250,13 +250,13 @@
     
     .slider-content {
         position: relative;
-        top: 50%;
+        top: 35%;
         left: -10%;
     }
     
     .slider {
         background-size: contain;
-        height: 100vh;
+        height: 81vh;
         /* width: 100%; */
         position: relative;
         right: -17%;
