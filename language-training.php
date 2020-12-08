@@ -10,27 +10,38 @@ include 'includes/header.php'
 </div>
 
 <!-- Header Main Section  -->
-<div class="language-header m-side">
-    <h4 class="font1">Advantages of new language training</h4>
-    <p class="font3">Learning a new language opens up new vistas, expands the mind, improves social life, builds perspective and breath, enriches the cultural experiences, improves brain functioning and reduces brain related illnesses, builds confidence, helps you meet new people
-</p>
-</div>
 
-<!-- Main Div  -->
+<section class="language-bg" style="background-image: url(media/final-asset/new_language_wave-01.png);">
+<div>
+		<img src="media/final-asset/branch-1.svg" class="branch1" alt="branch">
+	</div>
+    <div class="language-header m-side">
+        <h4 class="font1">Advantages of new language training</h4>
+        <p class="font3">Learning a new language opens up new vistas, expands the mind, improves social life, builds perspective and breath, enriches the cultural experiences, improves brain functioning and reduces brain related illnesses, builds confidence, helps you meet new people
+    </p>
+    </div>
+    
+    <!-- Main Div  -->
+    
+    <div class="m-side internal-header m-def">
+        <div class="side1">
+            <h4 class="font1 internal-head">Individual Training</h4>
+            <p class="internal-para font3">In today’s world, it is not uncommon for people to live and settle in places different from where they were born and brought up. In a muticultural place like india, this involves dealing with local language and culture in most cases. Learning a new language often proves to be a challenge as available methods of learning a new language are often cumbersome. Chilipili New Language training offers the fastest and effective way of picking up a new language at the shortest time possible. Our unique online courses helps in learning the basics of the language, equipping one to read, speak and write a new language with ease in as less as 30 hours. Learn more about our course and enroll into the one most fitting your needs.</p>
+        </div>
+        <div class="side2">
+            <img src="media/individual_training.png" alt="Language-leaf">
+        </div>
+    </div>
 
-<div class="m-side internal-header m-def">
-    <div class="side1">
-        <h4 class="font1 internal-head">Individual Training</h4>
-        <p class="internal-para font3">In today’s world, it is not uncommon for people to live and settle in places different from where they were born and brought up. In a muticultural place like india, this involves dealing with local language and culture in most cases. Learning a new language often proves to be a challenge as available methods of learning a new language are often cumbersome. Chilipili New Language training offers the fastest and effective way of picking up a new language at the shortest time possible. Our unique online courses helps in learning the basics of the language, equipping one to read, speak and write a new language with ease in as less as 30 hours. Learn more about our course and enroll into the one most fitting your needs.</p>
-    </div>
-    <div class="side2">
-        <img src="media/montessori-01.png" alt="Language-leaf">
-    </div>
-</div>
+    <div>
+		<img src="media/final-asset/bush-1.svg" style="bottom: -19vh;" class="branch2" alt="branch">
+	</div>
+    <span class="m-top"> </span>
+</section>
 
 <div class="internal-body m-def m-side">
     <div class="side1">
-        <img src="media/montessori-01.png" alt="Montessori-leaf">
+        <img src="media/institutional_training.png" alt="Institutional-leaf">
     </div>
     <div class="side2">
         <h4 class="font1 internal-head">Institutional Training</h4>

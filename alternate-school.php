@@ -25,7 +25,7 @@ include 'includes/header.php'
 				engage in learning.</p>
 		</div>
 		<div class="side2">
-			<img src="media/montessori-01.png" alt="Montessori-leaf">
+			<img src="media/special.png" alt="Special-leaf">
 		</div>
 	</div>
 
@@ -65,7 +65,7 @@ include 'includes/header.php'
 	<div class="section-head">
 		<h3>Key Feature</h3>
 	</div>
-	<div class="first-icon-row">
+	<div class="first-icon-row align-self-center">
 		<div class="icon-box">
 			<div class="icon-box-over">
 				<div class="icon">

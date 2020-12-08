@@ -42,7 +42,7 @@ zoomImageGallery.addEventListener('click', (e) => {
     console.log(largeImage);
 });
 </script> -->
-Don't touch this code
+
 
 
 

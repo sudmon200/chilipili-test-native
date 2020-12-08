@@ -15,67 +15,81 @@ include 'includes/header.php';
 </div>
 
 <section class="product-bg">
-	<div class="pagination">
-		<p>Store ->> Age 3-4 ->> Phonics</p>
+	<div class="pagination" style="background-image:url(media/final-asset/rectangle_cut.svg);">
+		<p class="font1 text-center">Store ->> Age 3-4 ->> Phonics</p>
 	</div>
 	<!-- Image zoom feature  -->
 
-	<!-- <div class="prod-main m-def m-side">
-        <div class="prod-imgs">
-            <img src="media/Suhas.jpg" alt="">
-            <img src="media/Suhas.jpg" alt="">
-            <img src="media/Suhas.jpg" alt="">
-            <img src="media/Suhas.jpg" alt="">
-            <img src="media/Suhas.jpg" alt="">
-            <img src="media/Suhas.jpg" alt="">
-            <img src="media/Suhas.jpg" alt="">
+	<div class="prod-main m-def m-side">
+		<div class="prod-imgs">
+			<img id="zoom_01" src='media/small/image1.png' data-zoom-image="media/large/image2.jpg" class="mb-4" />
+			<div id="gallery_09" style="width:500px; float:left;text-decoration:none;">
+				<a href="#" class="elevatezoom-gallery" data-update="" data-image="http://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/small/image1.png" data-zoom-image="http://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/large/image1.jpg">
+					<img src="https://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/small/image1.png" width="100">
+				</a>
+				<a href="#" class="elevatezoom-gallery" data-image="http://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/small/image2.png" data-zoom-image="http://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/large/image2.jpg">
+					<img src="https://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/small/image2.png" width="100"></a>
+				<a href="tester" class="elevatezoom-gallery active" data-image="http://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/small/image3.png" data-zoom-image="http://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/large/image3.jpg">
+					<img src="https://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/small/image3.png" width="100"> </a>
+				<a href="tester" class="elevatezoom-gallery" data-image="http://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/small/image4.png" data-zoom-image="http://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/large/image4.jpg">
+					<img src="https://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/small/image4.png" width="100"></a>
 
-        </div>
-        <div class="prod-content">
-            <h5 class="font2">Product Description</h5>
-            <p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo, id ea tenetur ut voluptas, quis sint neque qui nobis possimus voluptate quos! Vero incidunt necessitatibus hic officiis delectus autem non, sapiente debitis aliquid.</p>
+			</div>
 
-            <span class="price"></span>
+		</div>
+		<div class="prod-content">
+			<h5 class="font2">Product Description</h5>
+			<p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo, id ea tenetur ut voluptas, quis sint neque qui nobis possimus voluptate quos! Vero incidunt necessitatibus hic officiis delectus autem non, sapiente debitis aliquid.</p>
 
-            <p class="font3">Ideal for age Groups 3-5.</p>
+			<span class="price"></span>
 
-            <div class="include">
-                <p class="font3">Contents Include:</p>
-                <div class="row">
-                    <div class="col-md col-sm col-lg">
-                        <div class="d-flex flex-row">
-                            <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p>Lorem, ipsum dolor.</p>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p>Lorem, ipsum dolor.</p>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p>Lorem, ipsum dolor.</p>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p>Lorem, ipsum dolor.</p>
-                        </div>
-                    </div>
-                    <div class="col-md col-sm col-lg">
-                        <div class="d-flex flex-row">
-                            <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p>Lorem, ipsum dolor.</p>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p>Lorem, ipsum dolor.</p>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p>Lorem, ipsum dolor.</p>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon"><p>Lorem, ipsum dolor.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button>Buy Now</button>
+			<p class="font3">Ideal for age Groups 3-5.</p>
 
-        </div>
-    </div> -->
+			<div class="include">
+				<p class="font3">Contents Include:</p>
+				<div class="row">
+					<div class="col-md col-sm col-lg">
+						<div class="d-flex flex-row">
+							<img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+							<p>Lorem, ipsum dolor.</p>
+						</div>
+						<div class="d-flex flex-row">
+							<img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+							<p>Lorem, ipsum dolor.</p>
+						</div>
+						<div class="d-flex flex-row">
+							<img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+							<p>Lorem, ipsum dolor.</p>
+						</div>
+						<div class="d-flex flex-row">
+							<img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+							<p>Lorem, ipsum dolor.</p>
+						</div>
+					</div>
+					<div class="col-md col-sm col-lg">
+						<div class="d-flex flex-row">
+							<img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+							<p>Lorem, ipsum dolor.</p>
+						</div>
+						<div class="d-flex flex-row">
+							<img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+							<p>Lorem, ipsum dolor.</p>
+						</div>
+						<div class="d-flex flex-row">
+							<img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+							<p>Lorem, ipsum dolor.</p>
+						</div>
+						<div class="d-flex flex-row">
+							<img src="media/final-asset/star-1.svg" alt="star-icon" class="star-icon">
+							<p>Lorem, ipsum dolor.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button>Buy Now</button>
+
+		</div>
+	</div>
 
 	<div class="prod-description m-def m-side">
 		<h5 class="font2">Detailed Product Description</h5>
@@ -88,14 +102,10 @@ include 'includes/header.php';
 	</div>
 
 </section>
-<div class="container">
+<!-- <div class="container">
 <div class="row">
 		<div class="col-lg-6 col-md-6 col-sm-12">
 			<img id="zoom_01" src='media/small/image1.png' data-zoom-image="media/large/image2.jpg" class="mb-4"/>
-			<!-- <div id="image-gallery" style="display:inline-block;">
-				<img src="media/small/image1.png" width="65px" alt="">
-				<img src="media/small/image2.png" width="65px" alt="">
-			</div> -->
 			<div id="gallery_09" style="width= 500px; float:left;text-decoration:none;">
 				<a href="#" class="elevatezoom-gallery" data-update=""
 					data-image="http://www.elevateweb.co.uk/wp-content/themes/radial/zoom/images/small/image1.png"
@@ -125,7 +135,7 @@ include 'includes/header.php';
 			<p>This is the world</p>
 		</div>
 	</div>
-</div>
+</div> -->
 <div class="benefits m-side">
 	<h5 class="font2">Benefits:</h5>
 
