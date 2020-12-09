@@ -347,7 +347,7 @@
     .footer {
         display: flex;
         width: 100vw;
-        height: 25vh;
+        height: auto;
         background-color: #FBFCFF;
         position: relative;
     }
@@ -569,7 +569,7 @@
     
     .about-wave {
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: contain;
         background-position: 0 71vh;
         z-index: -22;
     }

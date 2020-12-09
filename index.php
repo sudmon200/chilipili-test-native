@@ -51,7 +51,7 @@ include 'includes/header.php';
 	</div>
 	<!-- slider design completes  -->
 
-	<h2 class="text-center m-top font1" style="padding-bottom: 4%; margin-top:20vh;">Learn at Home</h2>
+	<h2 class="text-center m-top font1" style="padding-bottom: 5vh; margin-top:20vh;">Learn at Home</h2>
 </section>
 
 <!-- home solutions starts -->
@@ -125,7 +125,7 @@ include 'includes/header.php';
 		<img src="media/final-asset/rainbow.svg" class="rainbow" alt="rainbow">
 	</div>
 	<div class="container p-def">
-		<h2 class="text-center font1" style="padding: 2% 0;">PRESCHOOL SOLUTIONS</h2>
+		<h2 class="text-center font1" style="padding-bottom: 5vh;">PRESCHOOL SOLUTIONS</h2>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="card">
@@ -151,10 +151,10 @@ include 'includes/header.php';
 						<img class="card-img-top" src="media/PReschoolfranchise.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">02</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text card-head font1">Preschool Franchise</p>
+							<p class="card-text card-head font1">Chili Pili Makkala Koota Preschool Franchise</p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
-							<h4 class="ih-fade-up font1">Preschool Franchise</h4>
+							<h4 class="ih-fade-up font1">Chili Pili Makkala Koota Preschool Franchise</h4>
 							<p class="ih-fade-down-big font2">
 								<i>Are you an entrepreneur thinking about setting up a preschool? We offer you opportunity to open a franchise with complete support over setting up, curriculum and training. Let us know and our expert team will make your dream come true.</i>
 							</p>
@@ -193,7 +193,7 @@ include 'includes/header.php';
 <section class="sap-section m-def">
 
 	<div class="container sap-section">
-		<h2 class="text-center font1" style="padding-bottom: 5%;">Chili Pili SaPs</h2>
+		<h2 class="text-center font1" style="padding-bottom: 5vh;">Chili Pili SaPs</h2>
 		<div class="row self-align-center">
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="card">
@@ -219,10 +219,10 @@ include 'includes/header.php';
 						<img class="card-img-top" src="media/BuildyourSAP.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">02</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text card-head font1">Build your own SaP</p>
+							<p class="card-text card-head font1">Build your own SaP ( Small and Personal Schools)</p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
-							<h4 class="ih-fade-up font1">Build your own SaP</h4>
+							<h4 class="ih-fade-up font1">Build your own SaP ( Small and Personal Schools)</h4>
 							<p class="ih-fade-down-big font2">
 								<i> Passionate about teaching and be responsible for the success of a handful of children? If you are interested in a career for teaching, why not have your own SaPS set up. Contact us and we can discuss how to set up your own Chili Pili SaPSunder our support.</i>
 							</p>
@@ -244,7 +244,7 @@ include 'includes/header.php';
 		<img src="media/final-asset/top-right-branch.svg" class="branch3" alt="branch3">
 	</div>
 	<div class="container p-def adult-section">
-		<h2 class="text-center font1" style="padding-bottom: 5%;">Chili Pili Beyond</h2>
+		<h2 class="text-center font1" style="padding-bottom: 5vh;">Chili Pili Beyond</h2>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="card">
@@ -309,7 +309,7 @@ include 'includes/header.php';
 
 <!-- our offering section starts  -->
 <div class="container m-def offer-section">
-	<h2 class="text-center font1" style="padding-bottom: 5%;">OUR OFFERINGS</h2>
+	<h2 class="text-center font1" style="padding-bottom: 5vh;">OUR OFFERINGS</h2>
 	<div class="owl-carousel owl-theme">
 		<div class="item">
 			<div class="card">

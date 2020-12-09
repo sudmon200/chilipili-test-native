@@ -83,7 +83,7 @@
 </section>
 
 <section class="about-tm">
-	<h3>TEAM MEMEBERS</h3>
+	<h3>TEAM MEMBERS</h3>
 	<div class="container">
 		<div class="row">
 			<div class="card col-lg-4 col-md-6 col-12 mb-1">

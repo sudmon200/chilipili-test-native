@@ -35,7 +35,7 @@ include 'includes/header.php'
 
 
 
-<div class="internal-features m-side">
+<div class="internal-features m-def m-side">
     <div class="section-head">
         <h3>Features</h3>
     </div>
