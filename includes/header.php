@@ -36,6 +36,14 @@
 		border-width: 20%;
 		text-align: center;
 	}
+
+	.footer::before {
+		content: "";
+		background-image: url('media/logo.png');
+		position: absolute;
+		background-size: cover;
+		opacity: 0.70;
+    }
 	</style>
 </head>
 
@@ -56,7 +64,7 @@
 				<li class="nav-item ml-4 mr-4" id="about-us.php">
 					<a class="nav-link" href="about-us.php">About Us</a>
 				</li>
-				<li class="nav-item ml-4 mr-4 dropdown">
+				<li class="nav-item ml-4 mr-4 dropdown" id="our-services">
 					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
 						Our Services
 					</a>

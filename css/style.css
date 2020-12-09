@@ -245,7 +245,7 @@
     .testimonial-slider {
         position: relative;
         top: 0%;
-        height: 60vh
+        height: 38vh;
     }
     
     .slider-content {
@@ -256,7 +256,7 @@
     
     .slider {
         background-size: contain;
-        height: 81vh;
+        height: 87vh;
         /* width: 100%; */
         position: relative;
         right: -17%;
@@ -342,6 +342,92 @@
         font-family: 'Montserrat-medium', 'sans-serif';
     }
     /* Slider Ends Here  */
+    /* Footer Section Starts Here */
+    
+    .footer {
+        display: flex;
+        width: 100vw;
+        height: 25vh;
+        background-color: #FBFCFF;
+        position: relative;
+    }
+    
+    .footer-logo {
+        height: 112px;
+        width: 112px;
+        margin: auto;
+    }
+    
+    .footer-logo img {
+        height: auto;
+        width: 100%;
+    }
+    
+    .footer-menu {
+        width: 15%;
+        margin-top: 2%;
+    }
+    
+    .footer-menu h3 {
+        font-size: 35px;
+        margin-left: auto;
+    }
+    
+    .footer-menu p {
+        padding-top: 4%;
+    }
+    
+    .footer-menu ul li {
+        list-style-type: none;
+    }
+    
+    .footer-menu ul li a {
+        color: #333333;
+        font-size: 20px;
+    }
+    
+    .footer-menu ul li a:hover,
+    .footer-menu-2 ul li a:hover {
+        color: var(--color1);
+        text-decoration: underline;
+        font-size: 22px;
+        transition: ease-in-out;
+    }
+    
+    .footer-menu-2 ul li a {
+        color: #333333;
+        font-size: 20px;
+    }
+    
+    .footer-menu-2 ul li {
+        list-style-type: none;
+    }
+    
+    .footer-menu-2 {
+        width: 15%;
+        margin-top: 4.2%;
+    }
+    
+    .footer-contact {
+        width: 15%;
+        margin-top: 2%;
+    }
+    
+    .footer-contact h3 {
+        font-size: 35px;
+        margin-left: auto;
+    }
+    
+    .footer-social {
+        width: 15%;
+        margin-top: 2%;
+    }
+    
+    .footer-social h3 {
+        font-size: 35px;
+        margin-left: auto;
+    }
+    /* Home page Content Starts here  */
     
     .home-bg {
         background-repeat: no-repeat;
@@ -351,7 +437,7 @@
     }
     
     .main-content {
-        font-size: 20px;
+        font-size: 25px;
     }
     
     .card-h3 {
@@ -359,6 +445,10 @@
         bottom: 20px;
         left: 3px;
         color: rgb(65, 235, 43);
+    }
+    
+    .card-head {
+        font-size: 20px;
     }
     
     .pop-up-effect {
@@ -437,7 +527,7 @@
     
     .tree3 {
         position: absolute;
-        width: 17vw;
+        width: 19vw;
         height: auto;
         right: 0;
         top: 0;
@@ -1275,7 +1365,7 @@
     
     .testimonials {
         background-color: var(--color3);
-        padding-bottom: 30vh;
+        /* padding-bottom: 30vh; */
         display: block;
     }
     

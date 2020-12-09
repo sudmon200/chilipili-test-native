@@ -1,3 +1,56 @@
+
+<footer>
+	<div class="footer">
+
+		<!-- Footer section for Logo  -->
+		<div class="footer-logo">
+			<img src="media/logo.png" alt="Logo">
+		</div>
+		<!-- Footer section for Menu -->
+		<div class="footer-menu">
+			<h3 class="font1">Menus</h3>
+	
+			<ul>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="about.php">About</a></li>
+				<li><a href="#our-services">Our Services</a></li>
+				<li><a href="blog.php">Blog</a></li>
+			</ul>
+		</div>
+		<!-- Footer section for  Second list in Menu -->
+		<div class="footer-menu-2">
+			<ul>
+				<li><a href="contact-us.php">Contact Us</a></li>
+				<li><a href="store.php">Shop</a></li>
+			</ul>
+		</div>
+		<!-- Footer section for Contact Page -->
+		<div class="footer-contact">
+			<h3 class="font1">Contact Us</h3>
+			<p class="font3">admin@chilipili.in</p>
+			<p class="font3">+91 - 8762173621</p>
+			<p class="font3">Chili Pili, 31st Main, Sector-1,</p>
+			<p class="font3">HSR Layout, Banglore - 560102</p>
+		</div>
+		<!-- Footer section for Social icons -->
+		<div class="footer-social">
+			<h3 class="font1">Social</h3>
+			<img src="media/final-asset/Insta-icon.svg" alt="Instagram">
+			<img src="media/final-asset/fb-icon.svg" alt="Facebook">
+			<img src="media/final-asset/twitter-icon.svg" alt="Twitter">
+	
+		</div>
+	</div>
+
+	<div>
+		<hr>
+		<p class="text-center font3">Copyright &copy; 2020-21 Chili Pili by Shri Vigneshwara Vidyadeepam Educational Ventures PVT LTD</p>
+	</div>
+
+</footer>
+
+
+
 <!-- Bootstrap JS -->
 <!-- JavaScript Bundle with Popper.js -->
 <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->

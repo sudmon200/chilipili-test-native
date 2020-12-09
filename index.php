@@ -5,7 +5,7 @@ include 'includes/header.php';
 ?>
 
 
-<section class="home-bg" style="background: url(media/final-asset/wave.svg); background-size: cover; background-repeat: no-repeat; background-position: 0 14vw;">
+<section class="home-bg" style="background: url(media/final-asset/wave.svg); background-size: cover; background-repeat: no-repeat; background-position: 0 15vw;">
 	<!-- new slider design done  -->
 
 	<div class="container-fluid">
@@ -40,11 +40,10 @@ include 'includes/header.php';
 					</p>
 				</span>
 			</div>
-
 		</div>
 
-		<div class="m-side m-top p-bottom main-content">
-			<p class="font3">We are an early education R&D company specializing in developing and deploying innovative ways to make education
+		<div class="m-side m-top p-bottom main-content" style="margin-top: 200px;">
+				<p class="font3">We are an early education R&D company specializing in developing and deploying innovative ways to make education
 				more fruitful and impactful for children. We aim to transform the educational environment into an ecosystem where 
 				children learn uninhibited to maximize their potential with life long benefits. Chili Pili offers <strong>Learn at Home solutions</strong> for parents,<strong>SaPS (Small and Personalised Schools)</strong> from preschool onwards with Franchising/Enabling options for entrepreneurs, <strong>ChiliPili Plus</strong> learning solutions for adults including </strong>Teacher's Training, New Language Training for individuals as well as institutions(Corporate houses/Educational Institutes)</strong></p>
 		</div>
@@ -52,7 +51,7 @@ include 'includes/header.php';
 	</div>
 	<!-- slider design completes  -->
 
-	<h2 class="text-center m-top " style="padding-bottom: 4%; margin-top:20vh;">Learn at Home</h2>
+	<h2 class="text-center m-top font1" style="padding-bottom: 4%; margin-top:20vh;">Learn at Home</h2>
 </section>
 
 <!-- home solutions starts -->
@@ -64,14 +63,14 @@ include 'includes/header.php';
 		<div class="col-lg-4 col-md-4 col-sm-6">
 			<div class="card">
 				<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-					<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
+					<img class="card-img-top" src="media/Phonicsathome1.jpg" alt="Card image" style="width:100%">
 					<h3  class="card-h3">01</h3>
 					<div class="card-body" style="background-color: white; color: black;">
-						<p class="card-text">Chili Pili Phonics at Home</p>
+						<p class="card-text card-head font1">Chili Pili Phonics at Home</p>
 					</div>
 					<figcaption style="background-color: green; color: white;">
-						<h4 class="ih-fade-up">Chili Pili Phonics at Home</h4>
-						<p class="ih-fade-down-big">
+						<h4 class="ih-fade-up font1">Chili Pili Phonics at Home</h4>
+						<p class="ih-fade-down-big font2">
 							<i>A Highly efficacious language learning system for children starting to learn reading and writing. This unique system enables a child to learn multiple languages simultaneously and become adept at handling the languages at an early stage.</i>
 						</p>
 					</figcaption>
@@ -85,11 +84,11 @@ include 'includes/header.php';
 					<img class="card-img-top" src="media/montessori@home.jpg" alt="Card image" style="width:100%">
 					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">02</h3>
 					<div class="card-body" style="background-color: white; color: black;">
-						<p class="card-text">ChiliPili Maths with Montessori at Home</p>
+						<p class="card-text card-head font1">ChiliPili Maths with Montessori at Home</p>
 					</div>
 					<figcaption style="background-color: green; color: white;">
-						<h4 class="ih-fade-up">ChiliPili Maths with Montessori at Home</h4>
-						<p class="ih-fade-down-big">
+						<h4 class="ih-fade-up font1">ChiliPili Maths with Montessori at Home</h4>
+						<p class="ih-fade-down-big font2">
 							<i>who said setting up a montessori corner at home for your child be out of your reach. These eco-friendly solutions comes up with online tutorials for the parents along with montessori toys at your doorstep. never let your child miss out on an opportunity to learn.</i>
 						</p>
 					</figcaption>
@@ -99,14 +98,14 @@ include 'includes/header.php';
 		<div class="col-lg-4 col-md-4 col-sm-6">
 			<div class="card">
 				<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-					<img class="card-img-top" src="media/preschool@home.jpg" alt="Card image" style="width:100%">
+					<img class="card-img-top" src="media/Preschoolathome.jpg" alt="Card image" style="width:100%">
 					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">03</h3>
 					<div class="card-body" style="background-color: white; color: black;">
-						<p class="card-text">Chilipili Preschool at Home</p>
+						<p class="card-text card-head font1">Chilipili Preschool at Home</p>
 					</div>
 					<figcaption style="background-color: green; color: white;">
-						<h4 class="ih-fade-up">Chilipili Preschool at Home</h4>
-						<p class="ih-fade-down-big">
+						<h4 class="ih-fade-up font1">Chilipili Preschool at Home</h4>
+						<p class="ih-fade-down-big font2">
 							<i>Let the preschool come to your home. Don't miss out on the learning intensive period of a child's life due to external factors. Check out our unique playschool experience delivered right at home</i>
 						</p>
 					</figcaption>
@@ -126,7 +125,7 @@ include 'includes/header.php';
 		<img src="media/final-asset/rainbow.svg" class="rainbow" alt="rainbow">
 	</div>
 	<div class="container p-def">
-		<h2 class="text-center" style="padding: 2% 0;">PRESCHOOL SOLUTIONS</h2>
+		<h2 class="text-center font1" style="padding: 2% 0;">PRESCHOOL SOLUTIONS</h2>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="card">
@@ -134,11 +133,11 @@ include 'includes/header.php';
 						<img class="card-img-top" src="media/preschool.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text">Chili Pili Makkala Kootta Preschools</p>
+							<p class="card-text card-head font1">Chili Pili Makkala Kootta Preschools</p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
-							<h4 class="ih-fade-up">Chili Pili Makkala Kootta Preschools</h4>
-							<p class="ih-fade-down-big">
+							<h4 class="ih-fade-up font1">Chili Pili Makkala Kootta Preschools</h4>
+							<p class="ih-fade-down-big font2">
 								<i>this unique preschool situated in HSR Layout, Bangalore is often dubbed as ""the school a child always wants to go'. The innovation in curriculum and teaching methods allows for holistic growth of a child while giving them a learning experience that they cannot get enough of.</i>
 							</p>
 						</figcaption>
@@ -149,14 +148,14 @@ include 'includes/header.php';
 
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-						<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
+						<img class="card-img-top" src="media/PReschoolfranchise.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">02</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text">Preschool Franchise</p>
+							<p class="card-text card-head font1">Preschool Franchise</p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
-							<h4 class="ih-fade-up">Preschool Franchise</h4>
-							<p class="ih-fade-down-big">
+							<h4 class="ih-fade-up font1">Preschool Franchise</h4>
+							<p class="ih-fade-down-big font2">
 								<i>Are you an entrepreneur thinking about setting up a preschool? We offer you opportunity to open a franchise with complete support over setting up, curriculum and training. Let us know and our expert team will make your dream come true.</i>
 							</p>
 						</figcaption>
@@ -166,14 +165,14 @@ include 'includes/header.php';
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-						<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
+						<img class="card-img-top" src="media/curriculumsupport.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">03</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text">Curriculum Support for Preschools</p>
+							<p class="card-text card-head font1">Curriculum Support for Preschools</p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
-							<h4 class="ih-fade-up">Curriculum Support for Preschools</h4>
-							<p class="ih-fade-down-big">
+							<h4 class="ih-fade-up font1">Curriculum Support for Preschools</h4>
+							<p class="ih-fade-down-big font2">
 								<i>Are you having a preschool and looking to revamp the curriculum into the most effective one providing tangible results? Our expert educators will help you transform your school by providing curriculum support and training. Let us know and we can discuss how the magic can happen</i>
 							</p>
 						</figcaption>
@@ -194,19 +193,19 @@ include 'includes/header.php';
 <section class="sap-section m-def">
 
 	<div class="container sap-section">
-		<h2 class="text-center" style="padding-bottom: 5%;">Chili Pili SaPs</h2>
+		<h2 class="text-center font1" style="padding-bottom: 5%;">Chili Pili SaPs</h2>
 		<div class="row self-align-center">
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-						<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
+						<img class="card-img-top" src="media/SAP.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text">Chili Pili SaPS ( Small and Personal Schools)</p>
+							<p class="card-text card-head font1">Chili Pili SaPS ( Small and Personal Schools)</p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
-							<h4 class="ih-fade-up">Chili Pili SaPS ( Small and Personal Schools)</h4>
-							<p class="ih-fade-down-big">
+							<h4 class="ih-fade-up font1">Chili Pili SaPS ( Small and Personal Schools)</h4>
+							<p class="ih-fade-down-big font2">
 								<i>"Are you concerned that your child's learning needs may not be addressed with individual care at a traditional school with classroom of 40 to 50 children? Are you that parent who recognize your child's ability to stand apart from crowd and achieve great success in whatever they choose to do? then we would want you to explore our unique schooling system which will let your child grow all facets that they will require to excel in the exam called life.</i>
 							</p>
 						</figcaption>
@@ -217,39 +216,20 @@ include 'includes/header.php';
 
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-						<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
+						<img class="card-img-top" src="media/BuildyourSAP.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">02</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text">Build your own SaP</p>
+							<p class="card-text card-head font1">Build your own SaP</p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
-							<h4 class="ih-fade-up">Build your own SaP</h4>
-							<p class="ih-fade-down-big">
+							<h4 class="ih-fade-up font1">Build your own SaP</h4>
+							<p class="ih-fade-down-big font2">
 								<i> Passionate about teaching and be responsible for the success of a handful of children? If you are interested in a career for teaching, why not have your own SaPS set up. Contact us and we can discuss how to set up your own Chili Pili SaPSunder our support.</i>
 							</p>
 						</figcaption>
 					</figure>
 				</div>
 			</div>
-			<!-- <div class="col-lg-4 col-md-4 col-sm-6">
-				<div class="card">
-					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-						<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
-						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
-						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text">Some example text some example text. John Doe is an architect and
-								engineer</p>
-						</div>
-						<figcaption style="background-color: green; color: black;">
-							<h4 class="ih-fade-up">Some example text some example text. John Doe is an architect and
-								engineer</h4>
-							<p class="ih-fade-down-big">
-								<i>"I have the simplest tastes, I am always satisfied with the best."</i>
-							</p>
-						</figcaption>
-					</figure>
-				</div>
-			</div> -->
 		</div>
 	</div>
 	<div>
@@ -264,19 +244,19 @@ include 'includes/header.php';
 		<img src="media/final-asset/top-right-branch.svg" class="branch3" alt="branch3">
 	</div>
 	<div class="container p-def adult-section">
-		<h2 class="text-center" style="padding-bottom: 5%;">Chili Pili Beyond</h2>
+		<h2 class="text-center font1" style="padding-bottom: 5%;">Chili Pili Beyond</h2>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-						<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
+						<img class="card-img-top" src="media/NLTEI.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text">NLT for Educational Institutes</p>
+							<p class="card-text card-head font1">NLT for Educational Institutes</p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
-							<h4 class="ih-fade-up">NLT for Educational Institutes</h4>
-							<p class="ih-fade-down-big">
+							<h4 class="ih-fade-up font1">NLT for Educational Institutes</h4>
+							<p class="ih-fade-down-big font2">
 								<i>We provide language training for education institutes at graduate and postgraduate level as an additional skill enabling them to excel at their future careers. The accelerated training module let the students learn a new language at a lightning pace in a fun and immersive way.</i>
 							</p>
 						</figcaption>
@@ -287,14 +267,14 @@ include 'includes/header.php';
 
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-						<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
+						<img class="card-img-top" src="media/Corporatetrainning.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text">NLT for Corporates</p>
+							<p class="card-text card-head font1">NLT for Corporates</p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
-							<h4 class="ih-fade-up">NLT for Corporates</h4>
-							<p class="ih-fade-down-big">
+							<h4 class="ih-fade-up font1">NLT for Corporates</h4>
+							<p class="ih-fade-down-big font2">
 								<i>May it be a sales professional, supply chain professional or a civil servant, learning a local language will add an edge to their professional success. We offer specialized Language training module for corporates and other establishments which enable professionals in learning to talk, read and write a new language within a short period.</i>
 							</p>
 						</figcaption>
@@ -304,14 +284,14 @@ include 'includes/header.php';
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-						<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
+						<img class="card-img-top" src="media/Teacherstranning.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text">Teacher's Training </p>
+							<p class="card-text card-head font1">Teacher's Training </p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
-							<h4 class="ih-fade-up">Teacher's Training</h4>
-							<p class="ih-fade-down-big">
+							<h4 class="ih-fade-up font1">Teacher's Training</h4>
+							<p class="ih-fade-down-big font2">
 								<i>Our specialized teacher's training program is aimed to create inspiring individuals who will be able to guide the future generation in the right path of growth.</i>
 							</p>
 						</figcaption>
@@ -329,7 +309,7 @@ include 'includes/header.php';
 
 <!-- our offering section starts  -->
 <div class="container m-def offer-section">
-	<h2 class="text-center" style="padding-bottom: 5%;">OUR OFFERINGS</h2>
+	<h2 class="text-center font1" style="padding-bottom: 5%;">OUR OFFERINGS</h2>
 	<div class="owl-carousel owl-theme">
 		<div class="item">
 			<div class="card">
@@ -337,15 +317,15 @@ include 'includes/header.php';
 					<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
 					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 					<div class="card-body" style="background-color: white; color: black;">
-						<p class="card-text">Some example text some example text. John Doe is an architect
+						<p class="card-text card-head font1">Some example text some example text. John Doe is an architect
 							and
 							engineer</p>
 					</div>
 					<figcaption style="background-color: green; color: white;">
-						<h4 class="ih-fade-up">Some example text some example text. John Doe is an architect
+						<h4 class="ih-fade-up font1">Some example text some example text. John Doe is an architect
 							and
 							engineer</h4>
-						<p class="ih-fade-down-big">
+						<p class="ih-fade-down-big font2">
 							<i>"I have the simplest tastes, I am always satisfied with the best."</i>
 						</p>
 					</figcaption>
