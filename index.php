@@ -45,7 +45,7 @@ include 'includes/header.php';
 		<div class="m-side m-top p-bottom main-content" style="margin-top: 200px;">
 				<p class="font3">We are an early education R&D company specializing in developing and deploying innovative ways to make education
 				more fruitful and impactful for children. We aim to transform the educational environment into an ecosystem where 
-				children learn uninhibited to maximize their potential with life long benefits. Chili Pili offers <strong>Learn at Home solutions</strong> for parents,<strong>SaPS (Small and Personalised Schools)</strong> from preschool onwards with Franchising/Enabling options for entrepreneurs, <strong>ChiliPili Plus</strong> learning solutions for adults including </strong>Teacher's Training, New Language Training for individuals as well as institutions(Corporate houses/Educational Institutes)</strong></p>
+				children learn uninhibited to maximize their potential with life long benefits. Chili Pili offers <strong>Learn at Home solutions</strong> for parents,<strong>SaPS (Small and Personalised Schools)</strong> from preschool onwards with Franchising/Enabling options for entrepreneurs, <strong>Chili Pili Plus</strong> learning solutions for adults including </strong>Teacher's Training, New Language Training for individuals as well as institutions(Corporate houses/Educational Institutes)</strong></p>
 		</div>
 
 	</div>
@@ -63,7 +63,7 @@ include 'includes/header.php';
 		<div class="col-lg-4 col-md-4 col-sm-6">
 			<div class="card">
 				<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-					<img class="card-img-top" src="media/Phonicsathome1.jpg" alt="Card image" style="width:100%">
+					<img class="card-img-top" src="media/Phonicsathome2.jpg" alt="Card image" style="width:100%">
 					<h3  class="card-h3">01</h3>
 					<div class="card-body" style="background-color: white; color: black;">
 						<p class="card-text card-head font1">Chili Pili Phonics at Home</p>
@@ -84,10 +84,10 @@ include 'includes/header.php';
 					<img class="card-img-top" src="media/montessori@home.jpg" alt="Card image" style="width:100%">
 					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">02</h3>
 					<div class="card-body" style="background-color: white; color: black;">
-						<p class="card-text card-head font1">ChiliPili Maths with Montessori at Home</p>
+						<p class="card-text card-head font1">Chili Pili Maths with Montessori at Home</p>
 					</div>
 					<figcaption style="background-color: green; color: white;">
-						<h4 class="ih-fade-up font1">ChiliPili Maths with Montessori at Home</h4>
+						<h4 class="ih-fade-up font1">Chili Pili Maths with Montessori at Home</h4>
 						<p class="ih-fade-down-big font2">
 							<i>who said setting up a montessori corner at home for your child be out of your reach. These eco-friendly solutions comes up with online tutorials for the parents along with montessori toys at your doorstep. never let your child miss out on an opportunity to learn.</i>
 						</p>
@@ -101,10 +101,10 @@ include 'includes/header.php';
 					<img class="card-img-top" src="media/Preschoolathome.jpg" alt="Card image" style="width:100%">
 					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">03</h3>
 					<div class="card-body" style="background-color: white; color: black;">
-						<p class="card-text card-head font1">Chilipili Preschool at Home</p>
+						<p class="card-text card-head font1">Chili Pili Preschool at Home</p>
 					</div>
 					<figcaption style="background-color: green; color: white;">
-						<h4 class="ih-fade-up font1">Chilipili Preschool at Home</h4>
+						<h4 class="ih-fade-up font1">Chili Pili Preschool at Home</h4>
 						<p class="ih-fade-down-big font2">
 							<i>Let the preschool come to your home. Don't miss out on the learning intensive period of a child's life due to external factors. Check out our unique playschool experience delivered right at home</i>
 						</p>
@@ -133,7 +133,7 @@ include 'includes/header.php';
 						<img class="card-img-top" src="media/preschool.jpg" alt="Card image" style="width:100%">
 						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
-							<p class="card-text card-head font1">Chili Pili Makkala Kootta Preschools</p>
+							<p class="card-text card-head font1">Chili Pili Makkala Koota Preschools</p>
 						</div>
 						<figcaption style="background-color: green; color: white;">
 							<h4 class="ih-fade-up font1">Chili Pili Makkala Kootta Preschools</h4>
