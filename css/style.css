@@ -572,6 +572,7 @@
         background-size: contain;
         background-position: 0 71vh;
         z-index: -22;
+        background: none;
     }
     
     .about-background {
