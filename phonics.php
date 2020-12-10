@@ -9,7 +9,7 @@ include 'includes/header.php'
 		Phonics
 	</h2>
 </div>
-<section class="phonics-bg" style="background-image: url(media/final-asset/phonics_wave-01.png);">
+<section class="phonics-bg">
 	<div>
 		<img src="media/final-asset/branch-1.svg" class="branch1" alt="branch" style="right: -11vw; top: -38px; height: 23%; width: 34%">
 	</div>
@@ -25,15 +25,20 @@ include 'includes/header.php'
 			Chili Pili Phonics is an innovative new phonics approach wherein one learn</p>
 	</div>
 
-	<div class="phonics-video">
-		<!-- <iframe src="https://player.vimeo.com/video/3873878" width="630" height="255" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-		<!-- <img src="media/img.jpg" alt="" data-toggle="modal" class="video-btn" data-src="https://player.vimeo.com/video/58385453?badge=0" data-target="#myModal" onclick="playVideo()">	 -->
+	<div class="video-box m-side m-def">
+		<div class="video-boxover">
+			<img src="media/1.jpg" alt="">
+		</div>
+	</div>
+
+	<!-- <div class="phonics-video">
+		 <iframe src="https://player.vimeo.com/video/3873878" width="630" height="255" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		 <img src="media/img.jpg" alt="" data-toggle="modal" class="video-btn" data-src="https://player.vimeo.com/video/58385453?badge=0" data-target="#myModal" onclick="playVideo()">
 		<button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/58385453?badge=0" data-target="#myModal">
   			Play Vimeo Video
 		</button>
 	</div>
 
-	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -44,7 +49,7 @@ include 'includes/header.php'
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 					</button>        
-					<!-- 16:9 aspect ratio -->
+					 16:9 aspect ratio
 					<div class="embed-responsive embed-responsive-16by9">
 					<iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
 					</div>
@@ -54,7 +59,7 @@ include 'includes/header.php'
 
 			</div>
 		</div>
-	</div> 
+	</div>  -->
 	<div>
 		<img src="media/final-asset/bush-1.svg" class="branch2" alt="branch">
 	</div>
@@ -211,44 +216,39 @@ include 'includes/header.php'
 </div>
 
 <div class="contact-form m-def m-side">
-	<h4 class="font1 m-def text-center">Enquire and Join</h4>
+    <h4 class="font1 text-center">Enquire and Join</h4>
 
-	<div class="contact-form-inside">
-		<div class="row">
-			<div class="col-md">
-				<label for="Full Name">Full Name:</label>
-				<input type="text" name="fname" id="name">
-			</div>
-			<div class="col-md">
-				<label for="Full Name">Email:</label>
-				<input type="email" name="email" id="email">
-			</div>
-
-		</div>
-		<div class="row">
-			<div class="col-md">
-				<label for="Full Name">Phone Number:</label>
-				<input type="text" name="number" id="number">
-			</div>
-			<div class="col-md">
-				<label for="Full Name">Call us Anytime:</label>
-				<input type="email" name="call" id="call">
-			</div>
-
-		</div>
-		<div class="contact-subject">
-			<div>
-				<label for="Full Name">Subject:</label>
-				<input type="text" name="subject" id="subject">
-			</div>
-		</div>
-		<div class="contact-subject">
-			<div>
-				<label for="Full Name">Query</label>
-				<textarea name="query" id="query" cols="30" rows="3"></textarea>
-			</div>
-		</div>
-	</div>
+    <form class="m-side">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+            <label for="inputEmail4">Full Name</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Your Name">
+            </div>
+            <div class="form-group col-md-6">
+            <label for="inputPassword4">Email</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+            <label for="inputEmail4">Phone Number</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Ex.8889994445">
+            </div>
+            <div class="form-group col-md-6">
+            <label for="inputPassword4">Call us Anytime</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="9am - 4pm">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Subject</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Subject for your query">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Query</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn contact-btn">Submit</button>
+    </form>
 </div>
 
 <?php

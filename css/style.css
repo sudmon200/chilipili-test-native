@@ -571,7 +571,7 @@
     .about-wave {
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: 0 71vh;
+        background-position: 0 59%;
         z-index: -22;
     }
     /* .about-background {
@@ -704,7 +704,7 @@
     .header-top {
         height: 50px;
         width: auto;
-        margin: 14vh 0;
+        margin: 14vh auto;
     }
     
     .header-top h2 {
@@ -1447,7 +1447,7 @@
     .video-box {
         border: 3px solid var(--color1);
         position: relative;
-        height: 43vh;
+        height: 69vh;
         position: relative;
     }
     
@@ -1459,6 +1459,10 @@
         position: absolute;
         top: -30px;
         left: -30px;
+    }
+    
+    .video-boxover img {
+        width: 75%;
     }
     /* Teacher Training page Starts here  */
     

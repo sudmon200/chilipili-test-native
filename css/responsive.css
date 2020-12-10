@@ -29,6 +29,26 @@
     .p-bottom {
         padding-bottom: 30px;
     }
+    .footer {
+        flex-direction: column;
+    }
+    .footer-menu {
+        margin: 0;
+    }
+    .footer-menu-2 {
+        margin: 0;
+    }
+    .footer-contact {
+        margin: auto;
+        width: 100%;
+    }
+    .footer-social {
+        margin: 0;
+    }
+    .footer-social div {
+        margin: 0;
+        display: flex;
+    }
     /* Features icon box made responsive */
     .first-icon-row {
         display: block;

@@ -10,14 +10,14 @@ include 'includes/header.php'
 	</h2>
 </div>
 
-<section class="alternate-bg" style="background-image: url(media/final-asset/Alternate_wave-01.png);">
+<section class="alternate-bg">
 	<div>
 		<img src="media/final-asset/branch-1.svg" class="branch1" alt="branch">
 	</div>
 	<div class="m-side internal-header">
 		<div class="side1">
 			<div class="section-head">
-				<h4 class="font1 internal-head">Relevence of Alternate Learning System</h4>
+				<h4 class="font1 internal-head">Relevance of Alternate Learning System</h4>
 			</div>
 			<p class="internal-para font3">Montessori method is widely considered as an effective way to train your
 				child in the early stages of development. Developed over a hundred years ago, it uses specialized
@@ -44,8 +44,7 @@ include 'includes/header.php'
 	</div>
 	<div class="video-box m-side m-def">
 		<div class="video-boxover">
-			<iframe src="https://player.vimeo.com/video/460930431" width="640" height="564" frameborder="0"
-				allow="autoplay; fullscreen" allowfullscreen></iframe>
+			<img src="media/1.jpg" alt="">
 		</div>
 	</div>
 </section>
@@ -53,14 +52,12 @@ include 'includes/header.php'
 
 <div class="video-box m-side m-def">
 	<div class="video-boxover">
-		<iframe src="https://player.vimeo.com/video/460930606" width="640" height="564" frameborder="0"
-			allow="autoplay; fullscreen" allowfullscreen></iframe>
+		<img src="media/2.jpg" alt="">
 	</div>
 </div>
 <div class="video-box m-side m-def">
 	<div class="video-boxover">
-		<iframe src="https://player.vimeo.com/video/460930299" width="640" height="564" frameborder="0"
-			allow="autoplay; fullscreen" allowfullscreen></iframe>
+		<img src="media/3.jpg" alt="">
 	</div>
 </div>
 
@@ -135,45 +132,41 @@ include 'includes/header.php'
 </div>
 
 <div class="contact-form m-def m-side">
-	<h4 class="font1 m-def text-center">Enquire and Join</h4>
+    <h4 class="font1 text-center">Enquire and Join</h4>
 
-	<div class="contact-form-inside">
-		<div class="row">
-			<div class="col-md">
-				<label for="Full Name">Full Name:</label>
-				<input type="text" name="fname" id="name">
-			</div>
-			<div class="col-md">
-				<label for="Full Name">Email:</label>
-				<input type="email" name="email" id="email">
-			</div>
-
-		</div>
-		<div class="row">
-			<div class="col-md">
-				<label for="Full Name">Phone Number:</label>
-				<input type="text" name="number" id="number">
-			</div>
-			<div class="col-md">
-				<label for="Full Name">Call us Anytime:</label>
-				<input type="email" name="call" id="call">
-			</div>
-
-		</div>
-		<div class="contact-subject">
-			<div>
-				<label for="Full Name">Subject:</label>
-				<input type="text" name="subject" id="subject">
-			</div>
-		</div>
-		<div class="contact-subject">
-			<div>
-				<label for="Full Name">Query</label>
-				<textarea name="query" id="query" cols="30" rows="3"></textarea>
-			</div>
-		</div>
-	</div>
+    <form class="m-side">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+            <label for="inputEmail4">Full Name</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Your Name">
+            </div>
+            <div class="form-group col-md-6">
+            <label for="inputPassword4">Email</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+            <label for="inputEmail4">Phone Number</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Ex.8889994445">
+            </div>
+            <div class="form-group col-md-6">
+            <label for="inputPassword4">Call us Anytime</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="9am - 4pm">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Subject</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Subject for your query">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Query</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn contact-btn">Submit</button>
+    </form>
 </div>
+
 
 <?php
 

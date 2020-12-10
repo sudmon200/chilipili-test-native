@@ -10,7 +10,7 @@ include 'includes/header.php'
     </h2>
 </div>
 
-<section class="teacher-bg" style="background-image: url(media/final-asset/teacher_wave.png);">
+<section class="teacher-bg">
     <div class="m-side internal-header">
         <div class="side1">
             <div class="section-head">

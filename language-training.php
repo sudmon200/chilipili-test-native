@@ -11,7 +11,7 @@ include 'includes/header.php'
 
 <!-- Header Main Section  -->
 
-<section class="language-bg" style="background-image: url(media/final-asset/new_language_wave-01.png);">
+<section class="language-bg">
 <div>
 		<img src="media/final-asset/branch-1.svg" class="branch1" alt="branch">
 	</div>

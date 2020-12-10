@@ -8,7 +8,7 @@
 		</div>
 		<!-- Footer section for Menu -->
 		<div class="footer-menu">
-			<h3 class="font1">Menus</h3>
+			<h3 class="font1 m-auto">Menus</h3>
 	
 			<ul>
 				<li><a href="index.php">Home</a></li>
@@ -26,7 +26,7 @@
 		</div>
 		<!-- Footer section for Contact Page -->
 		<div class="footer-contact">
-			<h3 class="font1">Contact Us</h3>
+			<h3 class="font1 m-auto">Contact Us</h3>
 			<p class="font3">admin@chilipili.in</p>
 			<p class="font3">+91 - 8762173621</p>
 			<p class="font3">Chili Pili, 31st Main, Sector-1,</p>
@@ -34,10 +34,12 @@
 		</div>
 		<!-- Footer section for Social icons -->
 		<div class="footer-social">
-			<h3 class="font1">Social</h3>
-			<img src="media/final-asset/Insta-icon.svg" alt="Instagram">
-			<img src="media/final-asset/fb-icon.svg" alt="Facebook">
-			<img src="media/final-asset/twitter-icon.svg" alt="Twitter">
+			<h3 class="font1 m-auto">Social</h3>
+			<div>
+				<img src="media/final-asset/Insta-icon.svg" alt="Instagram">
+				<img src="media/final-asset/fb-icon.svg" alt="Facebook">
+				<img src="media/final-asset/twitter-icon.svg" alt="Twitter">
+			</div>
 	
 		</div>
 	</div>

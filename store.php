@@ -31,7 +31,7 @@ $bundles = $connection->query($bundles_sql);
     <img src="media/online course website banner.jpg" alt="banner">
 </div>
 
-<div class="bg-image" style="background-image: url('media/final-asset/wave.svg');">
+<div class="bg-image">
     <div class="search">
         <input type="text" name="search" id="search" placeholder="Search">
         <button>Search</button>

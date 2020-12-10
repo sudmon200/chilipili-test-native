@@ -1,11 +1,18 @@
 <?php
 
+include 'config.php';
+
+
 include 'includes/header.php';
+
+$online_sql = "SELECT * FROM products WHERE category='online_course'";
+
+$online = $connection->query($online_sql);
 
 ?>
 
 
-<section class="home-bg" style="background: url(media/final-asset/wave.svg); background-size: cover; background-repeat: no-repeat; background-position: 0 15vw;">
+<section class="home-bg">
 	<!-- new slider design done  -->
 
 	<div class="container-fluid">
@@ -63,8 +70,8 @@ include 'includes/header.php';
 		<div class="col-lg-4 col-md-4 col-sm-6">
 			<div class="card">
 				<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
-					<img class="card-img-top" src="media/Phonicsathome2.jpg" alt="Card image" style="width:100%">
-					<h3  class="card-h3">01</h3>
+					<img class="card-img-top" src="media/Phonicsathome1.jpg" alt="Card image" style="width:100%">
+					
 					<div class="card-body" style="background-color: white; color: black;">
 						<p class="card-text card-head font1">Chili Pili Phonics at Home</p>
 					</div>
@@ -82,7 +89,6 @@ include 'includes/header.php';
 			<div class="card">
 				<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 					<img class="card-img-top" src="media/montessori@home.jpg" alt="Card image" style="width:100%">
-					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">02</h3>
 					<div class="card-body" style="background-color: white; color: black;">
 						<p class="card-text card-head font1">Chili Pili Maths with Montessori at Home</p>
 					</div>
@@ -99,7 +105,6 @@ include 'includes/header.php';
 			<div class="card">
 				<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 					<img class="card-img-top" src="media/Preschoolathome.jpg" alt="Card image" style="width:100%">
-					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">03</h3>
 					<div class="card-body" style="background-color: white; color: black;">
 						<p class="card-text card-head font1">Chili Pili Preschool at Home</p>
 					</div>
@@ -131,7 +136,6 @@ include 'includes/header.php';
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 						<img class="card-img-top" src="media/preschool.jpg" alt="Card image" style="width:100%">
-						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
 							<p class="card-text card-head font1">Chili Pili Makkala Koota Preschools</p>
 						</div>
@@ -149,7 +153,6 @@ include 'includes/header.php';
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 						<img class="card-img-top" src="media/PReschoolfranchise.jpg" alt="Card image" style="width:100%">
-						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">02</h3>
 						<div class="card-body" style="background-color: white; color: black;">
 							<p class="card-text card-head font1">Chili Pili Makkala Koota Preschool Franchise</p>
 						</div>
@@ -166,7 +169,6 @@ include 'includes/header.php';
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 						<img class="card-img-top" src="media/curriculumsupport.jpg" alt="Card image" style="width:100%">
-						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">03</h3>
 						<div class="card-body" style="background-color: white; color: black;">
 							<p class="card-text card-head font1">Curriculum Support for Preschools</p>
 						</div>
@@ -199,7 +201,6 @@ include 'includes/header.php';
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 						<img class="card-img-top" src="media/SAP.jpg" alt="Card image" style="width:100%">
-						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
 							<p class="card-text card-head font1">Chili Pili SaPS ( Small and Personal Schools)</p>
 						</div>
@@ -217,7 +218,6 @@ include 'includes/header.php';
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 						<img class="card-img-top" src="media/BuildyourSAP.jpg" alt="Card image" style="width:100%">
-						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">02</h3>
 						<div class="card-body" style="background-color: white; color: black;">
 							<p class="card-text card-head font1">Build your own SaP ( Small and Personal Schools)</p>
 						</div>
@@ -250,7 +250,6 @@ include 'includes/header.php';
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 						<img class="card-img-top" src="media/NLTEI.jpg" alt="Card image" style="width:100%">
-						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
 							<p class="card-text card-head font1">NLT for Educational Institutes</p>
 						</div>
@@ -268,7 +267,6 @@ include 'includes/header.php';
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 						<img class="card-img-top" src="media/Corporatetrainning.jpg" alt="Card image" style="width:100%">
-						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
 							<p class="card-text card-head font1">NLT for Corporates</p>
 						</div>
@@ -285,7 +283,6 @@ include 'includes/header.php';
 				<div class="card">
 					<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 						<img class="card-img-top" src="media/Teacherstranning.jpg" alt="Card image" style="width:100%">
-						<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 						<div class="card-body" style="background-color: white; color: black;">
 							<p class="card-text card-head font1">Teacher's Training </p>
 						</div>
@@ -315,12 +312,13 @@ include 'includes/header.php';
 			<div class="card">
 				<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 					<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
-					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 					<div class="card-body" style="background-color: white; color: black;">
 						<p class="card-text card-head font1">Some example text some example text. John Doe is an architect
 							and
 							engineer</p>
 					</div>
+					<?php while ($online_row = mysqli_fetch_array($online)): ?>
+					<a href="products.php?id=<?= $online_row['prod_id'] ?>">
 					<figcaption style="background-color: green; color: white;">
 						<h4 class="ih-fade-up font1">Some example text some example text. John Doe is an architect
 							and
@@ -329,6 +327,8 @@ include 'includes/header.php';
 							<i>"I have the simplest tastes, I am always satisfied with the best."</i>
 						</p>
 					</figcaption>
+					</a>
+					<?php endwhile; ?>
 				</figure>
 			</div>
 		</div>
@@ -336,7 +336,6 @@ include 'includes/header.php';
 			<div class="card">
 				<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 					<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
-					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 					<div class="card-body" style="background-color: white; color: black;">
 						<p class="card-text">Some example text some example text. John Doe is an architect
 							and
@@ -357,7 +356,6 @@ include 'includes/header.php';
 			<div class="card">
 				<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 					<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
-					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 					<div class="card-body" style="background-color: white; color: black;">
 						<p class="card-text">Some example text some example text. John Doe is an architect
 							and
@@ -378,7 +376,6 @@ include 'includes/header.php';
 			<div class="card">
 				<figure class="imghvr-reveal-up ih-delay-xxl" style="background-color: white;">
 					<img class="card-img-top" src="media/img.jpg" alt="Card image" style="width:100%">
-					<h3 style="position: relative;bottom: 20px;left: 3px; color: rgb(65, 235, 43);">01</h3>
 					<div class="card-body" style="background-color: white; color: black;">
 						<p class="card-text">Some example text some example text. John Doe is an architect
 							and

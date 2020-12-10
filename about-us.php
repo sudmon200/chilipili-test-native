@@ -6,7 +6,7 @@
 
 <!-- The About Us Starts Here -->
 
-<div class="about-wave" style="background-image: url('media/final-asset/about-wave.svg')">
+<div class="about-wave" style="background-image: url('media/flakes.png')">
 	<section class="container about-top">
 		<div class="row">
 			<!-- <div class="col-lg-6 col-md-6 col-sm-12 about-text" color="red" > -->
@@ -22,7 +22,7 @@
 		</div>
 	</section>
 
-	<section class="container m-def about-background" >
+	<section class="container m-def about-background"  >
 		<div>
 			<img src="media/final-asset/branch-1.svg" style="z-index:-1;" class="branch1" alt="branch">
 		</div>
