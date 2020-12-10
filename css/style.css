@@ -4,6 +4,7 @@
         padding: 0;
         font-family: 'Montserrat-Bold', 'sans-serif';
         overflow-x: hidden;
+        font-size: 16px;
     }
     
     .logo {
@@ -51,7 +52,7 @@
     .item-2 p,
     .item-3 p,
     .item-4 p {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
     
     .item-1 {
@@ -245,7 +246,7 @@
     .testimonial-slider {
         position: relative;
         top: 0%;
-        height: 38vh;
+        height: auto;
     }
     
     .slider-content {
@@ -329,7 +330,7 @@
     
     .home .caption h2 {
         margin: 0;
-        font-size: 35px;
+        font-size: 2.18rem;
         color: #333333;
         font-weight: 700;
         font-family: 'Montserrat-bold', 'sans-serif';
@@ -338,7 +339,7 @@
     .home .caption p {
         margin: 0;
         color: #333333;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-family: 'Montserrat-medium', 'sans-serif';
     }
     /* Slider Ends Here  */
@@ -369,7 +370,7 @@
     }
     
     .footer-menu h3 {
-        font-size: 35px;
+        font-size: 2.18rem;
         margin-left: auto;
     }
     
@@ -383,20 +384,20 @@
     
     .footer-menu ul li a {
         color: #333333;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .footer-menu ul li a:hover,
     .footer-menu-2 ul li a:hover {
         color: var(--color1);
         text-decoration: underline;
-        font-size: 22px;
+        font-size: 1.38rem;
         transition: ease-in-out;
     }
     
     .footer-menu-2 ul li a {
         color: #333333;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .footer-menu-2 ul li {
@@ -414,7 +415,7 @@
     }
     
     .footer-contact h3 {
-        font-size: 35px;
+        font-size: 2.18rem;
         margin-left: auto;
     }
     
@@ -424,7 +425,7 @@
     }
     
     .footer-social h3 {
-        font-size: 35px;
+        font-size: 2.18rem;
         margin-left: auto;
     }
     /* Home page Content Starts here  */
@@ -437,7 +438,7 @@
     }
     
     .main-content {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
     
     .card-h3 {
@@ -448,7 +449,7 @@
     }
     
     .card-head {
-        font-size: 18px;
+        font-size: 1.12rem;
     }
     
     .pop-up-effect {
@@ -553,12 +554,12 @@
     }
     
     .about-top .about-text h3 {
-        font-size: 50px;
+        font-size: 3.12rem;
         font-weight: 700;
     }
     
     .about-top .about-text p {
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: 500;
     }
     
@@ -572,31 +573,29 @@
         background-size: contain;
         background-position: 0 71vh;
         z-index: -22;
-        background: none;
     }
-    
-    .about-background {
+    /* .about-background {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-    }
+    } */
     
     .branch1 {
-        right: -35vw;
-        top: -136px;
+        right: -9vw;
+        top: -98px;
         position: absolute;
-        height: 50%;
-        width: 80%;
+        height: auto;
+        width: 24%;
         z-index: -3;
     }
     
     .about-background p {
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: 500;
     }
     
     .about-background h3 {
-        font-size: 35px;
+        font-size: 2.18rem;
         font-weight: 600;
         padding-bottom: 10vh;
     }
@@ -607,13 +606,13 @@
     }
     
     .about-vision h3 {
-        font-size: 35px;
+        font-size: 2.18rem;
         font-weight: 600;
     }
     
     .about-vision p {
         margin-top: 20px;
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: 500;
     }
     
@@ -627,7 +626,7 @@
     }
     
     .about-method h3 {
-        font-size: 35px;
+        font-size: 2.18rem;
         font-weight: 600;
         margin-top: 20%;
     }
@@ -639,7 +638,7 @@
     
     .about-method p {
         margin-top: 20px;
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: 500;
     }
     
@@ -651,13 +650,13 @@
     
     .about-tm h3 {
         text-align: center;
-        font-size: 50px;
+        font-size: 3.12rem;
         font-weight: 700;
     }
     
     .about-tm h5 {
         text-align: center;
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: 600;
         font-family: 'Montserrat-SemiBold', 'sans-serif';
     }
@@ -705,11 +704,13 @@
     .header-top {
         height: 50px;
         width: auto;
+        margin: 14vh 0;
     }
     
     .header-top h2 {
         position: relative;
         text-align: center;
+        font-size: 3.12rem;
     }
     
     .color1 {
@@ -905,7 +906,7 @@
     }
     
     .box-over h4 {
-        font-size: 30px;
+        font-size: 1.87rem;
     }
     
     .date-border {
@@ -964,7 +965,7 @@
     }
     
     .second-box-over h4 {
-        font-size: 30px;
+        font-size: 1.87rem;
     }
     
     .second-date-border {
@@ -1000,16 +1001,16 @@
     
     .second-d-image p {
         padding-left: 54%;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .second-d-image p a {
-        font-size: 20px;
+        font-size: 1.25rem;
         color: var(--color1);
     }
     
     .second-date {
-        font-size: 30px;
+        font-size: 1.87rem;
     }
     
     .excerpt {
@@ -1021,7 +1022,7 @@
     
     .title {
         padding-left: 8vw;
-        font-size: 30px;
+        font-size: 1.87rem;
     }
     
     .first-post {
@@ -1047,7 +1048,7 @@
     }
     
     .first-box-over h4 {
-        font-size: 30px;
+        font-size: 1.87rem;
     }
     
     .first-date-border {
@@ -1085,16 +1086,16 @@
     
     .first-d-image p {
         padding-left: 54%;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .first-d-image p a {
-        font-size: 20px;
+        font-size: 1.25rem;
         color: var(--color1);
     }
     
     .first-date {
-        font-size: 30px;
+        font-size: 1.87rem;
     }
     
     .excerpt {
@@ -1106,7 +1107,7 @@
     
     .title {
         padding-left: 8vw;
-        font-size: 30px;
+        font-size: 1.87rem;
     }
     /* Store Page Starts here */
     
@@ -1169,17 +1170,17 @@
     }
     
     .prod-title {
-        font-size: 22px;
+        font-size: 1.38rem;
     }
     
     .learn {
         color: var(--color1);
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .price {
         color: #FF5A1A;
-        font-size: 30px;
+        font-size: 1.87rem;
     }
     /* Store details page starts here */
     
@@ -1190,13 +1191,14 @@
     
     .hyper-links p {
         z-index: 888;
-        font-size: 25px;
+        font-size: 1.56rem;
         padding-left: 8vw;
         margin-top: -16vh;
     }
     
     .internal-header {
         display: flex;
+        position: relative;
     }
     
     .side1 {
@@ -1214,6 +1216,7 @@
     
     .internal-body {
         display: flex;
+        position: relative;
     }
     
     .side1 img {
@@ -1223,7 +1226,8 @@
     
     .internal-para {
         justify-content: center;
-        margin-top: 20%;
+        margin-top: 10%;
+        font-size: 1.56rem;
     }
     
     .internal-head {
@@ -1236,6 +1240,8 @@
     
     .internal-features h3 {
         text-align: center;
+        font-size: 1.87rem;
+        margin-bottom: 6vh;
     }
     
     .first-icon-row {
@@ -1243,13 +1249,24 @@
         margin: 0 auto;
     }
     
+    .section-head {
+        margin-bottom: 8vh;
+    }
+    
+    .section-head h4 {
+        font-size: 1.87rem;
+    }
+    
+    .section-head p {
+        font-size: 1.56rem;
+    }
+    
     .icon-box {
         border: 3px solid var(--color1);
         position: relative;
         height: 27vh;
         width: 17vw;
-        margin-bottom: 200px;
-        margin-right: 10vw;
+        margin: 72px auto;
     }
     
     .icon-box-over {
@@ -1267,8 +1284,8 @@
     }
     
     .icon img {
-        width: 112px;
-        height: 112px;
+        width: 125px;
+        height: 125px;
     }
     
     .icon-name {
@@ -1278,6 +1295,7 @@
     
     .icon-name p {
         margin: 0;
+        font-size: 1.38rem;
     }
     
     .second-icon-row {
@@ -1303,34 +1321,27 @@
     .language-header h4 {
         text-align: center;
         margin-bottom: 64px;
+        font-size: 1.87rem;
     }
     
     .language-header p {
         text-align: center;
+        font-size: 1.56rem;
     }
     
     .contact-form {
         background-color: #E8EDF7;
     }
     
-    .contact-form-inside {
-        margin: 0 250px;
+    .contact-form h4 {
+        margin: 8vh 0;
     }
     
-    .contact-flex {
-        display: flex;
-    }
-    
-    .contact-flex div {
-        display: block;
-    }
-    
-    .contact-subject div {
-        display: block;
-    }
-    
-    .contact-subject {
-        display: flex;
+    .contact-btn {
+        border: 1px solid;
+        background-color: var(--color1);
+        color: var(--color3);
+        align-content: center;
     }
     /* Phonics Page starts here   */
     
@@ -1339,7 +1350,7 @@
         background-size: cover;
         position: relative;
         background-position: center top;
-        z-index: -2;
+        /* z-index: -2; */
         height: auto;
     }
     
@@ -1348,7 +1359,7 @@
     }
     
     .phonics-img img {
-        width: 100%;
+        width: 85%;
         height: auto;
         display: block;
         margin: auto;
@@ -1357,33 +1368,57 @@
     .phonics-main h4 {
         margin-bottom: 39px;
         text-align: center;
+        font-size: 1.87rem;
     }
     
     .phonics-main p {
         margin-bottom: 41px;
         text-align: center;
+        font-size: 1.56rem;
+    }
+    
+    .modal-dialog {
+        max-width: 800px;
+        margin: 30px auto;
+    }
+    
+    .modal-body {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .close {
+        position: absolute;
+        right: -30px;
+        top: 0;
+        z-index: 999;
+        font-size: 2rem;
+        font-weight: normal;
+        color: #fff;
+        opacity: 1;
     }
     
     .testimonials {
         background-color: var(--color3);
         /* padding-bottom: 30vh; */
         display: block;
+        height: 90%;
     }
     
     .testimonial-head {
         margin-bottom: 9vh;
-        padding-top: 14vh;
+        padding-top: 8vh;
     }
     
     .testimonial-name {
         position: relative;
-        font-size: 30px;
+        font-size: 1.87rem;
         margin: auto;
     }
     
     .testimonial-desc {
         position: relative;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     /* Alternate School page Starts Here  */
     
@@ -1398,7 +1433,15 @@
     
     .alternate-text {
         padding-top: 13vh;
-        /* padding-bottom: 82vh; */
+        padding-bottom: 50vh;
+    }
+    
+    .alternate-text h3 {
+        font-size: 1.87rem;
+    }
+    
+    .alternate-text p {
+        font-size: 1.56rem;
     }
     
     .video-box {
@@ -1423,7 +1466,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        background-position: center top;
+        background-position: 0 -31%;
         z-index: -882;
         height: auto;
     }
@@ -1444,7 +1487,7 @@
         height: 36px;
         text-align: center;
         vertical-align: middle;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .home {
@@ -1510,7 +1553,7 @@
         height: 36px;
         text-align: center;
         vertical-align: middle;
-        font-size: 18px;
+        font-size: 1.12rem;
         background: #333333;
     }
     

@@ -2,6 +2,9 @@
 
 @media only screen and (max-width:600px) {
     /* Utils functions made for responsive design */
+    body {
+        margin: 1%;
+    }
     .m-def {
         margin-top: 30px;
         margin-bottom: 30px;
@@ -23,7 +26,7 @@
     .p-top {
         padding-top: 30px;
     }
-    .p-top {
+    .p-bottom {
         padding-bottom: 30px;
     }
     /* Features icon box made responsive */
@@ -43,6 +46,13 @@
     #bottom-image {
         display: none;
     }
+    /* Homepage Modifications */
+    .slider {
+        background: none;
+    }
+    .home-bg {
+        background: none !important;
+    }
     /* Store page Modifications */
     .search {
         margin: 0 1vw;
@@ -54,7 +64,7 @@
         background-image: none !important;
     }
     .slider {
-        height: 50vh;
+        height: 64%;
         right: -33%;
     }
     .slider-content {

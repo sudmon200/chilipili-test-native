@@ -11,6 +11,9 @@ include 'includes/header.php'
 </div>
 
 <section class="alternate-bg" style="background-image: url(media/final-asset/Alternate_wave-01.png);">
+	<div>
+		<img src="media/final-asset/branch-1.svg" class="branch1" alt="branch">
+	</div>
 	<div class="m-side internal-header">
 		<div class="side1">
 			<div class="section-head">
@@ -63,7 +66,7 @@ include 'includes/header.php'
 
 <div class="internal-features m-side">
 	<div class="section-head">
-		<h3>Key Feature</h3>
+		<h3>Key Features</h3>
 	</div>
 	<div class="first-icon-row align-self-center">
 		<div class="icon-box">

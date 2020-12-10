@@ -11,7 +11,7 @@ include 'includes/header.php'
 </div>
 <section class="phonics-bg" style="background-image: url(media/final-asset/phonics_wave-01.png);">
 	<div>
-		<img src="media/final-asset/branch-1.svg" class="branch1" alt="branch">
+		<img src="media/final-asset/branch-1.svg" class="branch1" alt="branch" style="right: -11vw; top: -38px; height: 23%; width: 34%">
 	</div>
 	<div class="phonics-img m-side">
 		<img src="media/PHONICS BULB-01.png" alt="phonics-img-1" align="middle">
@@ -26,10 +26,35 @@ include 'includes/header.php'
 	</div>
 
 	<div class="phonics-video">
-	<iframe src="https://player.vimeo.com/video/487199210" class="align-self-center" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		<!-- <iframe src="https://player.vimeo.com/video/3873878" width="630" height="255" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+		<!-- <img src="media/img.jpg" alt="" data-toggle="modal" class="video-btn" data-src="https://player.vimeo.com/video/58385453?badge=0" data-target="#myModal" onclick="playVideo()">	 -->
+		<button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/58385453?badge=0" data-target="#myModal">
+  			Play Vimeo Video
+		</button>
 	</div>
 
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
 
+			
+				<div class="modal-body">
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>        
+					<!-- 16:9 aspect ratio -->
+					<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+					</div>
+					
+					
+				</div>
+
+			</div>
+		</div>
+	</div> 
 	<div>
 		<img src="media/final-asset/bush-1.svg" class="branch2" alt="branch">
 	</div>
@@ -37,7 +62,7 @@ include 'includes/header.php'
 
 <div class="method m-top">
 	<div class="section-head">
-		<h3 class="font1">Methods</h3>
+		<h3 class="font1">Our Methods</h3>
 	</div>
 	<div class="phonics-img m-side">
 		<img src="media/infograpichs pjhonics-01.png" alt="phonics-img-1" align="middle">
@@ -84,7 +109,7 @@ include 'includes/header.php'
 		</div>
 	</div>
 
-	<div class="second-icon-row">
+	<div class="second-icon-row self-align-center">
 		<div class="icon-box">
 			<div class="icon-box-over">
 				<div class="icon">

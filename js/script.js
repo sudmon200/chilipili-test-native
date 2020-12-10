@@ -1,8 +1,6 @@
-
-
 // this approach adds active class using url and it works
 let href = window.location.href;
-let dynamicId = href.substring(href.lastIndexOf("/")+1,href.length)
+let dynamicId = href.substring(href.lastIndexOf("/") + 1, href.length)
 document.getElementById(dynamicId).classList.add("active")
 
 
@@ -27,7 +25,7 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
-owl.on('mousewheel', '.owl-stage', function (e) {
+owl.on('mousewheel', '.owl-stage', function(e) {
     if (e.deltaY > 0) {
         owl.trigger('next.owl');
     } else {
@@ -36,7 +34,7 @@ owl.on('mousewheel', '.owl-stage', function (e) {
     e.preventDefault();
 });
 
-$(document).ready(function () {
+$(document).ready(function() {
     $(".owl-carousel").owlCarousel();
 });
 
@@ -76,18 +74,18 @@ $(document).ready(function () {
 //     }
 // }
 
-function preschool(preschoolId){
+function preschool(preschoolId) {
     console.log(preschoolId)
     var dropdownContent = document.getElementById(preschoolId)
     if (dropdownContent.style.display === "block") {
         dropdownContent.style.display = "none";
-        }
-         else {
+    } else {
         dropdownContent.style.display = "block";
-        }
+    }
 
 }
-function deselect(preschoolId){
+
+function deselect(preschoolId) {
     var dropdownContent = document.getElementById(preschoolId)
     dropdownContent.style.display = "none";
 }
@@ -97,3 +95,47 @@ function deselect(preschoolId){
 // zoomImageGallery.addEventListener('click',(e)=>{
 //     console.log(e.target)
 // })
+
+function playVideo() {
+    var $videoSrc;
+    $('.video-btn').click(function() {
+        $videoSrc = $(this).data("src");
+    });
+    console.log($videoSrc);
+
+}
+
+$(document).ready(function() {
+
+    // Gets the video src from the data-src on each button
+
+    var $videoSrc;
+    $('.video-btn').click(function() {
+        $videoSrc = $(this).data("src");
+    });
+    console.log($videoSrc);
+
+
+
+    // when the modal is opened autoplay it  
+    $('#myModal').on('shown.bs.modal', function(e) {
+
+        // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+        $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+    })
+
+
+
+    // stop playing the youtube video when I close the modal
+    $('#myModal').on('hide.bs.modal', function(e) {
+        // a poor man's stop video
+        $("#video").attr('src', $videoSrc);
+    })
+
+
+
+
+
+
+    // document ready  
+});
