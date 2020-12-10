@@ -1,13 +1,13 @@
 <?php
 
-include 'config.php';
+// include 'config.php';
 
 
 include 'includes/header.php';
 
-$online_sql = "SELECT * FROM products WHERE category='online_course'";
+// $online_sql = "SELECT * FROM products WHERE category='online_course'";
 
-$online = $connection->query($online_sql);
+// $online = $connection->query($online_sql);
 
 ?>
 
@@ -317,8 +317,8 @@ $online = $connection->query($online_sql);
 							and
 							engineer</p>
 					</div>
-					<?php while ($online_row = mysqli_fetch_array($online)): ?>
-					<a href="products.php?id=<?= $online_row['prod_id'] ?>">
+					<!-- <?php //while ($online_row = mysqli_fetch_array($online)): ?> -->
+					<!-- <a href="products.php?id=<//$online_row['prod_id'] "> -->
 					<figcaption style="background-color: green; color: white;">
 						<h4 class="ih-fade-up font1">Some example text some example text. John Doe is an architect
 							and
@@ -327,8 +327,8 @@ $online = $connection->query($online_sql);
 							<i>"I have the simplest tastes, I am always satisfied with the best."</i>
 						</p>
 					</figcaption>
-					</a>
-					<?php endwhile; ?>
+					<!-- </a> -->
+					<?php //endwhile; ?>
 				</figure>
 			</div>
 		</div>
