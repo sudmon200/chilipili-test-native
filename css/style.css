@@ -569,9 +569,9 @@
     }
     
     .about-wave {
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-size: contain;
-        background-position: 0 59%;
+        background-position: 0 26%;
         z-index: -22;
     }
     /* .about-background {
@@ -870,20 +870,19 @@
     
     .blog-main {
         width: auto;
-        height: 100px;
-        margin: 0 150px;
+        height: auto;
         display: flex;
     }
     
     .blog-content {
         width: 65%;
-        height: 100px;
+        height: auto;
         margin-left: 2vw;
     }
     
     .blog-sidebar {
         width: 25%;
-        height: 100px;
+        height: auto;
         margin-left: 5vw;
     }
     
@@ -1433,7 +1432,7 @@
     
     .alternate-text {
         padding-top: 13vh;
-        padding-bottom: 50vh;
+        /* padding-bottom: 50vh; */
     }
     
     .alternate-text h3 {

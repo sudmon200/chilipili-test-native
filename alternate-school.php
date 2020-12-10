@@ -32,103 +32,107 @@ include 'includes/header.php'
 		</div>
 	</div>
 
-	<div class="alternate-text m-side">
-		<p>However, a child’s development is not confined just to learning concepts but also to many other factors like
-			socialization, team work, interactions, etc. Chilipili school pays keen attention to all the factors which
-			are crucial for a holistic development of a child making it the most unique and effective early education
-			system.</p>
-	</div>
+	<div class="flakes" style="background-image:url('media/final-asset/leaf_background.png')">
+		<div class="alternate-text m-side font3">
+			<p>However, a child’s development is not confined just to learning concepts but also to many other factors like
+				socialization, team work, interactions, etc. Chilipili school pays keen attention to all the factors which
+				are crucial for a holistic development of a child making it the most unique and effective early education
+				system.</p>
+		</div>
 
-	<div>
-		<img src="media/final-asset/bush-1.svg" class="branch2" alt="branch">
-	</div>
-	<div class="video-box m-side m-def">
-		<div class="video-boxover">
-			<img src="media/1.jpg" alt="">
+		<div>
+			<img src="media/final-asset/bush-1.svg" class="branch2" alt="branch">
+		</div>
+		<div class="video-box m-side m-def">
+			<div class="video-boxover">
+				<img src="media/1.jpg" alt="">
+			</div>
 		</div>
 	</div>
 </section>
 
+<div class="flakes" style="background-image:url('media/final-asset/leaf_background.png')">
+	<div class="video-box m-side m-def">
+		<div class="video-boxover">
+			<img src="media/2.jpg" alt="">
+		</div>
+	</div>
+	<div class="video-box m-side m-def">
+		<div class="video-boxover">
+			<img src="media/3.jpg" alt="">
+		</div>
+	</div>
 
-<div class="video-box m-side m-def">
-	<div class="video-boxover">
-		<img src="media/2.jpg" alt="">
+	<div class="internal-features m-side">
+		<div class="section-head">
+			<h3>Key Features</h3>
+		</div>
+		<div class="first-icon-row align-self-center">
+			<div class="icon-box">
+				<div class="icon-box-over">
+					<div class="icon">
+						<img src="media/Icons/PERSONALIZED TEACHING.svg" alt="personalized">
+					</div>
+					<div class="icon-name">
+						<p>Personalized Teaching</p>
+					</div>
+				</div>
+			</div>
+			<div class="icon-box">
+				<div class="icon-box-over">
+					<div class="icon">
+						<img src="media/Icons/CONCEPTUAL ICON.svg" alt="conceptual">
+					</div>
+					<div class="icon-name">
+						<p>Conceptual Learning</p>
+					</div>
+				</div>
+			</div>
+			<div class="icon-box">
+				<div class="icon-box-over">
+					<div class="icon">
+						<img src="media/Icons/APTITUDE.svg" alt="aptitude">
+					</div>
+					<div class="icon-name">
+						<p>Aptitude Developement</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="second-icon-row">
+			<div class="icon-box">
+				<div class="icon-box-over">
+					<div class="icon">
+						<img src="media/Icons/MULTIFACITATE.svg" alt="multi-facetated">
+					</div>
+					<div class="icon-name">
+						<p>Multi Facetated Curriculum</p>
+					</div>
+				</div>
+			</div>
+			<div class="icon-box">
+				<div class="icon-box-over">
+					<div class="icon">
+						<img src="media/Icons/colabrative team work.svg" alt="collaborative">
+					</div>
+					<div class="icon-name">
+						<p>Collaborative Learning Environment</p>
+					</div>
+				</div>
+			</div>
+			<div class="icon-box">
+				<div class="icon-box-over">
+					<div class="icon">
+						<img src="media/Icons/life skills.svg" alt="life-skill">
+					</div>
+					<div class="icon-name">
+						<p>Life Skill Developement</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
-<div class="video-box m-side m-def">
-	<div class="video-boxover">
-		<img src="media/3.jpg" alt="">
-	</div>
-</div>
 
-<div class="internal-features m-side">
-	<div class="section-head">
-		<h3>Key Features</h3>
-	</div>
-	<div class="first-icon-row align-self-center">
-		<div class="icon-box">
-			<div class="icon-box-over">
-				<div class="icon">
-					<img src="media/Icons/PERSONALIZED TEACHING.svg" alt="personalized">
-				</div>
-				<div class="icon-name">
-					<p>Personalized Teaching</p>
-				</div>
-			</div>
-		</div>
-		<div class="icon-box">
-			<div class="icon-box-over">
-				<div class="icon">
-					<img src="media/Icons/CONCEPTUAL ICON.svg" alt="conceptual">
-				</div>
-				<div class="icon-name">
-					<p>Conceptual Learning</p>
-				</div>
-			</div>
-		</div>
-		<div class="icon-box">
-			<div class="icon-box-over">
-				<div class="icon">
-					<img src="media/Icons/APTITUDE.svg" alt="aptitude">
-				</div>
-				<div class="icon-name">
-					<p>Aptitude Developement</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="second-icon-row">
-		<div class="icon-box">
-			<div class="icon-box-over">
-				<div class="icon">
-					<img src="media/Icons/MULTIFACITATE.svg" alt="multi-facetated">
-				</div>
-				<div class="icon-name">
-					<p>Multi Facetated Curriculum</p>
-				</div>
-			</div>
-		</div>
-		<div class="icon-box">
-			<div class="icon-box-over">
-				<div class="icon">
-					<img src="media/Icons/colabrative team work.svg" alt="collaborative">
-				</div>
-				<div class="icon-name">
-					<p>Collaborative Learning Environment</p>
-				</div>
-			</div>
-		</div>
-		<div class="icon-box">
-			<div class="icon-box-over">
-				<div class="icon">
-					<img src="media/Icons/life skills.svg" alt="life-skill">
-				</div>
-				<div class="icon-name">
-					<p>Life Skill Developement</p>
-				</div>
-			</div>
-		</div>
-	</div>
 </div>
 
 <div class="contact-form m-def m-side">
