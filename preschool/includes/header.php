@@ -10,30 +10,48 @@
 	<link rel="stylesheet" href="../css/imagehover.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-	<link rel="stylesheet" href="../css/style.css"></link>
+	<link rel="stylesheet" href="../css/style.css">
+	</link>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<!-- Custom CSS file -->
-	<link rel="stylesheet" href="../css/utils.css"></link>
-	<link rel="stylesheet" href="../css/responsive.css"></link>
+	<link rel="stylesheet" href="../css/utils.css">
+	</link>
+	<link rel="stylesheet" href="../css/responsive.css">
+	</link>
+	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css">
+	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css">
 	<style>
-		li{
-			font-size:20px;
+		li {
+			font-size: 20px;
 		}
-		.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    	color: var(--color1) !important;
+
+		.navbar-light .navbar-nav .nav-link:focus,
+		.navbar-light .navbar-nav .nav-link:hover {
+			color: var(--color1) !important;
 		}
+
 		.active {
-		color: var(--color1) ;
-		border-bottom:2px solid var(--color1);
-		border-width:20%;
-		text-align:center;
+			color: var(--color1);
+			border-bottom: 2px solid var(--color1);
+			border-width: 20%;
+			text-align: center;
 		}
 	</style>
+	<script>
+		if (window.NodeList && !NodeList.prototype.forEach) {
+			NodeList.prototype.forEach = function(callback, argument) {
+				argument = argument || window;
+				for (var i = 0; i < this.length; i++) {
+					callback.call(argument, this[i], i, this);
+				}
+			};
+		}
+	</script>
 </head>
 
 <body>
 	<?php include 'helper.php'; ?>
-	<nav class="navbar navbar-expand-md navbar-light" id="navbar-main"style="background-color:transparent">
+	<nav class="navbar navbar-expand-md navbar-light" id="navbar-main" style="background-color:transparent">
 		<a class="navbar-brand" href="index.php">
 			<img src="../media/logo.png" class="logo" alt="Chili Pili">
 		</a>
@@ -73,4 +91,3 @@
 			</ul>
 		</div>
 	</nav>
-

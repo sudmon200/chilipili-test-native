@@ -25,6 +25,7 @@
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv6Y1yutarDFYWNI_GidFdSf9TY0cwb_I&callback=initMap">
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.min.js"></script>
 <script src="jquery.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="../js/script.js"></script>

@@ -48,7 +48,7 @@ if (isset($_POST['submit'])) {
     $image6 = sanitize($_POST['image6']);
 
 
-    echo $searialized_include;
+    echo $group;
 
 
     // Uploading Image into database and folder
