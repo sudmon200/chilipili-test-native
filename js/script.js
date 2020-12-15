@@ -139,68 +139,27 @@ $(document).ready(function() {
 
     // document ready  
 });
-var urls = [
-    'https://source.unsplash.com/810x600',
-    'https://source.unsplash.com/800x610',
-    'https://source.unsplash.com/810x610',
-    'https://source.unsplash.com/800x600'
-];
-var placeholder = document.querySelector('.split-slider__placeholder')
-var slides = document.querySelectorAll('.slide');
-var slidesLength = slides.length;
-var currentElem = slides[0];
-var currentIndex = 0;
 
-function loadImage(url) {
-    return new Promise(function(resolve, reject) {
-        var img = new Image();
-        img.onload = function() {
-            img.onload = img.onerror = null;
-            resolve(img);
-        };
-        img.onerror = function(e) {
-            img.onload = img.onerror = null;
-            reject(e);
-        };
-        img.src = url;
-    });
+
+
+
+function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
 }
-
-function loadImages(urls) {
-    return Promise.all(urls.map(url => loadImage(url)))
-}
-
-function onError(error) {
-    // placeholder.classList.add('split-slider__placeholder_error');
-    placeholder.innerHTML = `
-		<pre><code>error</pre></code>`;
-    return error;
-}
-
-function setImagesUrls(images) {
-    slides.forEach((slide, index) => {
-        slide.querySelector('.slide__image')
-            .style.backgroundImage = `url(${images[index].src})`;
-        slide.classList.remove('slide_wait');
-    });
-}
-
-function setActiveSlide(index) {
-    slides[index].classList.add('slide_active');
-    currentElem.classList.remove('slide_active');
-    currentElem = slides[index];
-}
-
-function changeSlide() {
-    currentIndex = (currentIndex + 1 + slidesLength) % slidesLength;
-    setActiveSlide(currentIndex);
-}
-
-function start() {
-    setInterval(changeSlide, 4000);
-}
-
-loadImages(urls)
-    .then(setImagesUrls)
-    .then(start)
-    .catch(onError)

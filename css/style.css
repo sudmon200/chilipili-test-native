@@ -1689,143 +1689,20 @@
         /* ----------------------------------------------Pre-School Starts Here---------------------------- */
         /* Preschool Styling section starts here  */
         
-        .split-slider {
-            position: relative;
-            overflow: hidden;
-            color: #fff;
-            background-color: #444;
+        .background-image {
+            width: 47.8125rem;
+            height: auto;
+            display: flex;
         }
         
-        .split-slider__placeholder {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 0.25em;
-            line-height: 1.4;
-            font-size: 4vmax;
-            text-transform: uppercase;
-            letter-spacing: 1ch;
-        }
-        
-        .split-slider__placeholder_error {
-            background-color: red;
-        }
-        
-        .split-slider::before {
-            content: "";
-            display: block;
-            padding-top: calc(9 / 16 * 100%);
-        }
-        
-        .split-slider::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
+        .box-left {
             width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.2);
+            height: auto;
         }
         
-        .pre-slide {
-            margin: 0;
-            opacity: 1;
-            transition: opacity 0.75s;
-        }
-        
-        .pre-slide__image {
-            position: absolute;
-            top: 100%;
-            left: 0;
+        .box-right {
             width: 100%;
-            height: 100%;
-            background: none no-repeat 50% 50%;
-            background-size: cover;
-        }
-        
-        .pre-slide__image-part {
-            position: absolute;
-            top: 0;
-            height: 100%;
-            width: 50%;
-            overflow: hidden;
-            background: inherit;
-            /* 		animation-timing-function: cubic-bezier(0.51, 0.14, 0.32, 0.96); */
-            animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
-            animation-duration: 1s;
-            animation-fill-mode: forwards;
-        }
-        
-        .pre-slide__image-part::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            height: 100%;
-            width: 200%;
-            background: inherit;
-        }
-        
-        .pre-slide__image-part_left {
-            left: 0;
-            animation-name: toTop;
-        }
-        
-        .pre-slide__image-part_left::before {
-            left: 0;
-        }
-        
-        .pre-slide__image-part_right {
-            right: 0;
-            animation-name: toBottom;
-        }
-        
-        .pre-slide__image-part_right::before {
-            right: 0;
-        }
-        
-        .pre-slide__caption {
-            position: absolute;
-            z-index: 1;
-            right: 1em;
-            bottom: 1em;
-            height: 1em;
-            line-height: 1em;
-            overflow: hidden;
-            text-transform: uppercase;
-            text-align: right;
-            font-size: 6vw;
-            letter-spacing: 0.2em;
-        }
-        
-        .pre-slide__text {
-            position: relative;
-            top: 100%;
-            display: block;
-            animation: toBottom 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
-        }
-        
-        .pre-slide_active {}
-        
-        .pre-slide_active .pre-slide__image-part_left {
-            animation-name: fromBottom;
-        }
-        
-        .pre-slide_active .pre-slide__image-part_right {
-            animation-name: fromTop;
-        }
-        
-        .pre-slide_active .pre-slide__text {
-            animation-name: fromTop;
-        }
-        
-        .pre-slide_wait {
-            opacity: 0;
-        }
-        
-        .pre-slide_wait .pre-slide__image-part,
-        .pre-slide_wait .pre-slide__text {
-            animation-duration: 0s;
+            height: auto;
         }
         
         @keyframes fromBottom {
@@ -1872,6 +1749,13 @@
             }
         }
         
+        .slider-box {
+            width: 130px;
+            height: 130px;
+            border: 1px solid #32C195;
+            border-radius: 40px 3px;
+        }
+        
         .life-main {
             display: flex;
             flex-wrap: wrap;
@@ -1888,13 +1772,22 @@
         .sub-section {
             margin-top: 7.69rem;
             display: flex;
-            flex-wrap: wrap;
+            /* flex-wrap: wrap; */
             justify-content: space-around;
             height: auto;
         }
         
         .timing {
             display: flex;
+            position: relative;
+        }
+        
+        .timing img {
+            width: 126px;
+            height: auto;
+            position: relative;
+            top: -18%;
+            left: -4%;
         }
         
         .timing h4 {
@@ -1912,4 +1805,173 @@
             flex-direction: column;
             justify-content: space-around;
             margin: auto;
+        }
+        
+        .pre-video {
+            background-color: red;
+        }
+        
+        .video1 {
+            background-color: blueviolet;
+            width: 90%;
+            height: auto;
+            display: flex;
+        }
+        
+        .video-side1 {
+            width: 50%;
+            height: auto;
+            background-color: seashell;
+            margin: 3%;
+        }
+        
+        .video-side1 img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .video-side2 img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .video-side2 {
+            width: 50%;
+            height: auto;
+            background-color: thistle;
+            margin: 3%;
+        }
+        
+        .video2 {
+            background-color: fuchsia;
+            margin: 5.93rem 0;
+            margin-left: 5%;
+            width: 90%;
+            height: auto;
+            display: flex;
+        }
+        
+        .methods {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        
+        .methods::before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            margin-right: 5px;
+            background: #32C195;
+            background-size: 80%;
+            position: absolute;
+            z-index: -1;
+            opacity: 0.1;
+            left: -16px;
+            top: -6px;
+        }
+        
+        .method-info {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+        
+        #methods {
+            line-height: 1;
+            margin: 0;
+            margin-top: 3.62rem;
+            font-size: 1.87rem;
+        }
+        
+        .methods a {
+            color: black;
+            font-size: 1.87rem;
+        }
+        
+        .method {
+            width: 20%;
+            padding-top: 6.93rem;
+        }
+        
+        .method img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 3rem;
+            border-radius: 2%;
+            border: 1px solid #32C195;
+        }
+        
+        .method h4 {
+            font-size: 1.62rem;
+            margin-bottom: 0;
+        }
+        
+        .pre-icons {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding-top: 10.125rem;
+        }
+        
+        .pre-icon-row {
+            display: flex;
+            width: 100%;
+            height: auto;
+            justify-content: space-between;
+        }
+        
+        .pre-icon {
+            width: 28%;
+            height: auto;
+            text-align: center;
+        }
+        
+        .pre-icon h5 {
+            font-size: 1.56rem;
+        }
+        
+        .pre-icon p {
+            font-size: 1.25rem;
+        }
+        
+        .pre-header {
+            font-size: 3.62rem;
+        }
+        /* Style the tab */
+        
+        .tab {
+            overflow: hidden;
+        }
+        /* Style the buttons that are used to open the tab content */
+        
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+        }
+        /* Change background color of buttons on hover */
+        
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        /* Create an active/current tablink class */
+        
+        .tab button.active {
+            background-color: #ccc;
+        }
+        /* Style the tab content */
+        
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+        }
+        
+        .activity-main {
+            display: flex;
+            flex-wrap: wrap;
         }
