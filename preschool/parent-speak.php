@@ -2,13 +2,19 @@
 include 'includes/header.php'
 ?>
 
-<div class="container header-top m-def">
-    <h2 class="font1">
-        Parents Speak
-    </h2>
+<div class="pre-main-header m-def">
+
+    <h2 class="font1 text-center">Celebrations at Chili Pili</h2>
+
 </div>
-<section class="m-pre m-bottom">
-    
+
+<section class="m-side m-bottom parents-section">
+    <div class="parent-side">
+
+    </div>
+    <div class="parent-side">
+
+    </div>
 </section>
 
 

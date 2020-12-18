@@ -5,6 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chili Pili</title>
 
+		<!-- Montserrat Font for whole website -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 	<!-- Bootstrap CSS only -->
 	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
 	<link rel="stylesheet" href="../css/imagehover.min.css">
@@ -59,7 +63,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse " id="collapsibleNavbar">
-			<ul class="navbar-nav ml-auto">
+			<!-- <ul class="navbar-nav ml-auto">
 				<li class="nav-item ml-4 mr-4" id="index.php">
 					<a class="nav-link" href="../index.php">Home</a>
 				</li>
@@ -71,6 +75,8 @@
 						Our Services
 					</a>
 					<div class="dropdown-menu">
+						<a class="dropdown-item" href="index.php">Preschool</a>
+						
 						<a class="dropdown-item" href="../montessori.php">Montessori at Home</a>
 						<a class="dropdown-item" href="../language-training.php">New Language Training</a>
 						<a class="dropdown-item" href="../phonics.php">Phonics</a>
@@ -88,6 +94,113 @@
 					<a class="nav-link" href="../store.php">Shop</a>
 				</li>
 
-			</ul>
+			</ul> -->
+<!-- 
+			Second Level Not working With This Menu 
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item ml-4 mr-4" id="index.php">
+					<a class="nav-link" href="../index.php">Home</a>
+				</li>
+				<li class="nav-item ml-4 mr-4" id="about-us.php">
+					<a class="nav-link" href="../about-us.php">About Us</a>
+				</li>
+				<li class="nav-item ml-4 mr-4 dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Our Services
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="index.php">Preschool</a>
+							<ul class="dropdown-menu">
+								<a class="dropdown-item" href="#">
+									<li class="dropdown-second_submenu">
+										<a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Life at Chilipili</a>
+										<ul class="dropdown-menu">
+											<a class="dropdown-item" href="#">A</a>
+											<a class="dropdown-item" href="#">b</a>
+										</ul>
+									</li>
+								</a>
+								<a class="dropdown-item" href="#">
+									<li class="dropdown-second_submenu">
+										<a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Parents Corner</a>
+										<ul class="dropdown-menu">
+											<a class="dropdown-item" href="#">Something Written 1</a>
+											<a class="dropdown-item" href="#">Something Written 2</a>
+										</ul>
+									</li>
+								</a>
+								<a class="dropdown-item" href="#">Something Written 3</a>
+							</ul>
+						</li>
+						<li>
+							<a class="dropdown-item" href="../montessori.php">Montessori at Home</a>
+
+						</li>
+						<li>
+							<a class="dropdown-item" href="../language-training.php">New Language Training</a>
+
+						</li>
+						<li>
+							<a class="dropdown-item" href="../phonics.php">Phonics</a>
+
+						</li>
+						<li>
+							<a class="dropdown-item" href="../alternate-school.php">Alternate School</a>
+
+						</li>
+						<li>
+							<a class="dropdown-item" href="../teacher-training.php">Teacher Training</a>
+
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item ml-4 mr-4" id="about-us.php">
+					<a class="nav-link" href="../blog.php">Blog</a>
+				</li>
+				<li class="nav-item ml-4 mr-4" id="about-us.php">
+					<a class="nav-link" href="../contact-us.php">Contact Us</a>
+				</li>
+				<li class="nav-item ml-4 mr-4" id="about-us.php">
+					<a class="nav-link" href="../store.php">Shop</a>
+				</li>
+			</ul> -->
+			
+			<ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown link</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Submenu action</a></li>
+                            <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+                            <li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
 		</div>
 	</nav>
