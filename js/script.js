@@ -243,9 +243,9 @@ function showContentTime() {
 
 
 // Teacher Slider Controls 
+var count = 1;
 
 function slideImages(dir) {
-    var count = 0;
 
     var listEl = document.querySelector('.jslider-grid.scalable-grid.scalable-grid--max-4');
     var totalChildren = document.querySelectorAll('.item').length;

@@ -18,32 +18,29 @@ include 'includes/header.php';
 	<div class="container-fluid">
 
 
-		<div class="slider" style="background-image: url('media/final-asset/home.svg');">
+		<div class="slider" style="background-image: url('media/final-asset/home.png');">
 			<div class="slider-content">
 				<span class="item-1">
-					<h2 class="font1">Revolutionalize Learning 1</h2>
+					<h2 class="font1">Revolutionalize Learning</h2>
 					<p class="font3">Research , development and implementation of educational methodologies to make learning
 						effortless
 					</p>
 				</span>
 
 				<span class="item-2">
-					<h2 class="font1">Inspire Learning 2</h2>
-					<p class="font3">Research , development and implementation of educational methodologies to make learning
-						effortless
+					<h2 class="font1">inspire Learning</h2>
+					<p class="font3">Infusing love for learning
 					</p>
 				</span>
 
 				<span class="item-3">
-					<h2 class="font1">Inspire Learning 3</h2>
-					<p class="font3">Research , development and implementation of educational methodologies to make learning
-						effortless
+					<h2 class="font1">Unlimited Learning</h2>
+					<p class="font3">Unleashing potential through innovative educational solutions
 					</p>
 				</span>
 				<span class="item-4">
-					<h2 class="font1">Inspire Learning 4</h2>
-					<p class="font3">Research , development and implementation of educational methodologies to make learning
-						effortless
+					<h2 class="font1">Effectual Learning</h2>
+					<p class="font3">Ushering in a new era of efficacious early education
 					</p>
 				</span>
 			</div>

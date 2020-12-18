@@ -30,22 +30,22 @@
 }
 
 .font1 {
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
 .font2 {
-    font-family: 'Montserrat-SemiBold';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
 .font3 {
-    font-family: 'Montserrat-Medium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
 .font4 {
-    font-family: 'Montserrat-Medium';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
@@ -119,7 +119,35 @@
     z-index: 20;
 }
 
-.m-pre {
-    margin-right: 140px;
-    margin-left: 290px;
+.pre-tree1 {
+    position: absolute;
+    top: 11vh;
+    width: 57vh;
+    height: auto;
+}
+
+.pre-life-tree1 {
+    position: absolute;
+    top: 6vh;
+    width: 65vh;
+    height: auto;
+    transform: rotateY(180deg);
+    right: 0vw;
+}
+
+.pre-life-bird1 {
+    position: absolute;
+    top: 70vh;
+    width: 17vh;
+    height: auto;
+    transform: rotateY(180deg);
+    left: -5vw;
+}
+
+.pre-life-tree2 {
+    position: absolute;
+    top: -27vh;
+    width: 70vh;
+    height: auto;
+    right: -14vw;
 }

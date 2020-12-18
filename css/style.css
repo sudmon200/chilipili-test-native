@@ -252,17 +252,17 @@
         .slider-content {
             position: relative;
             top: 35%;
-            left: -10%;
+            left: 4%;
         }
         
         .slider {
-            background-size: contain;
-            height: 87vh;
-            /* width: 100%; */
+            background-size: cover;
+            height: 93vh;
+            width: 100%;
             position: relative;
-            right: -17%;
+            right: 0%;
             background-repeat: no-repeat;
-            background-position: right;
+            /* background-position: right; */
             z-index: 2;
         }
         
@@ -1108,6 +1108,38 @@
             padding-left: 8vw;
             font-size: 1.87rem;
         }
+        /* Blog Detail Page Starts Here  */
+        
+        .top-section-blog {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .top-section-blog a {
+            color: var(--color1);
+        }
+        
+        .blog-internal-content {
+            width: 65%;
+            height: auto;
+            margin-left: 2vw;
+            border: 2px solid var(--color1);
+            padding: 2rem;
+        }
+        
+        .main-blog-section {
+            width: 100%;
+            padding-top: 5rem;
+        }
+        
+        .main-blog-section h2 {
+            font-size: 1.56rem;
+        }
+        
+        .main-blog-section p {
+            padding-top: 2rem;
+            font-size: 1.25rem;
+        }
         /* Store Page Starts here */
         
         .main-img {
@@ -1688,6 +1720,137 @@
         }
         /* ----------------------------------------------Pre-School Starts Here---------------------------- */
         /* Preschool Styling section starts here  */
+        /* Multi-Level Menu Starts here  */
+        /* .dropdown-submenu {
+        position: relative;
+    }
+    
+    .dropdown-second_submenu {
+        position: relative;
+    }
+    
+    .dropdown-submenu a::after {
+        transform: rotate(-90deg);
+        position: absolute;
+        right: 3px;
+        top: 40%;
+    }
+    
+    .dropdown-second_submenu a::after {
+        transform: rotate(-90deg);
+        position: absolute;
+        right: 3px;
+        top: 40%;
+    }
+    
+    .dropdown-submenu:hover .dropdown-menu,
+    .dropdown-submenu:focus .dropdown-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute !important;
+        margin-top: -30px;
+        left: 100%;
+    }
+    
+    .dropdown-second_submenu:hover .dropdown-menu,
+    .dropdown-second_submenu:focus .dropdown-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute !important;
+        margin-top: -30px;
+        left: 100%;
+    } */
+        /* Multilevel take 2  */
+        
+        .navbar-light .navbar-nav .nav-link {
+            color: rgb(64, 64, 64);
+        }
+        
+        .btco-menu li>a {
+            padding: 10px 15px;
+            color: #000;
+        }
+        
+        .btco-menu .active a:focus,
+        .btco-menu li a:focus,
+        .navbar>.show>a:focus {
+            background: transparent;
+            outline: 0;
+        }
+        
+        .dropdown-menu .show>.dropdown-toggle::after {
+            transform: rotate(-90deg);
+        }
+        /*     
+    Media Query to transfer into responsive.css
+    @media (max-width: 992px) {
+        .dropdown-menu {
+            width: 50%;
+        }
+        .dropdown-menu .dropdown-submenu {
+            width: auto;
+        }
+    } 
+    */
+        /* Footer Section Opening Section Starts Here  */
+        
+        .opening {
+            margin: 0 14%;
+            display: flex;
+            flex-direction: column;
+            background-color: abe5d3;
+            padding: 1%;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .opening h3 {
+            font-size: 1.57rem;
+            padding-bottom: 2rem;
+            margin-top: 1.6rem;
+            padding-left: 1rem;
+        }
+        
+        .opening>p {
+            padding-left: 5rem;
+            font-size: 1.25rem;
+        }
+        
+        .opening hr {
+            color: #32C195;
+            width: 80%;
+            height: 3px;
+        }
+        
+        .opening-sec1 {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 5rem;
+            font-size: 1.25rem;
+        }
+        
+        .opening button {
+            background-color: #32C195;
+            padding: 1rem 1.2rem;
+            margin-top: 1.56rem;
+            align-self: center;
+            width: 20%;
+            border: none;
+        }
+        
+        .opening button a {
+            color: #fff;
+            font-size: 1.56rem;
+        }
+        
+        .opening button a:hover {
+            text-decoration: none;
+            font-size: 1.59rem;
+            transition: all ease-in-out
+        }
+        /* Main Preschool Homepage Starts Here  */
         
         .background-image {
             width: 47.8125rem;
@@ -1696,13 +1859,21 @@
         }
         
         .box-left {
-            width: 100%;
+            width: 30%;
             height: auto;
         }
         
         .box-right {
-            width: 100%;
+            width: 30%;
             height: auto;
+        }
+        
+        .slider-box-content {
+            position: relative;
+        }
+        
+        .skuder-content {
+            position: absolute;
         }
         
         @keyframes fromBottom {
@@ -1942,10 +2113,11 @@
         
         .tab {
             overflow: hidden;
+            display: flex;
         }
         /* Style the buttons that are used to open the tab content */
         
-        .tab button {
+        .tab p {
             background-color: inherit;
             float: left;
             border: none;
@@ -1956,13 +2128,14 @@
         }
         /* Change background color of buttons on hover */
         
-        .tab button:hover {
+        .tab p:hover {
             background-color: #ddd;
         }
         /* Create an active/current tablink class */
         
-        .tab button.active {
-            background-color: #ccc;
+        .tab p.active {
+            border: none;
+            border-bottom: 2px solid #32C195;
         }
         /* Style the tab content */
         
@@ -1974,4 +2147,211 @@
         .activity-main {
             display: flex;
             flex-wrap: wrap;
+        }
+        
+        .activity-side {
+            width: 50%;
+            height: auto;
+        }
+        
+        .activity-side img {
+            width: 52%;
+            height: auto;
+            margin: 0% 26%;
+        }
+        
+        .activity-sub-heading {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin: 5px 0;
+            align-items: center;
+        }
+        
+        .activity-sub-heading img {
+            color: #32C195;
+            width: 3%;
+            height: auto;
+            margin-right: 15px;
+        }
+        
+        .activity-sub-section {
+            padding: 1.58rem 0.7rem;
+            display: none;
+        }
+        
+        #content2 {
+            display: none;
+        }
+        
+        #content3 {
+            display: none;
+        }
+        /* Teacher Slider from Preschool Homepage */
+        
+        .pre-teacher {
+            background-color: #abe5d3;
+        }
+        
+        .jslider-scalable-new-hldr {
+            position: relative;
+            width: 1140px;
+        }
+        
+        .jslider-scalable-new {
+            width: 1140px;
+            height: 400px;
+            overflow: hidden;
+        }
+        
+        .jslider-grid.scalable-grid.scalable-grid--max-4 {
+            transition: -ms-transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s, transform 0.5s ease 0s;
+            position: relative;
+            white-space: nowrap;
+        }
+        
+        .item-container {
+            display: inline-block;
+            margin: 4px;
+            vertical-align: top;
+            width: 274px;
+            height: 400px;
+        }
+        
+        .slider-btn-hldr-left {
+            left: -32px;
+        }
+        
+        .slider-btn-hldr-right {
+            right: -32px;
+        }
+        
+        .slider-btn-hldr {
+            bottom: 0;
+            display: block;
+            padding: 0;
+            width: 24px;
+            position: absolute;
+            top: 40%;
+            z-index: 1;
+        }
+        
+        .slider-btn {
+            background-color: transparent;
+            border: 0 none;
+            color: buttontext;
+            cursor: pointer;
+            display: block;
+            width: 62px;
+            height: auto;
+        }
+        
+        #left-btn {
+            display: none;
+        }
+        
+        .slider-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+        
+        .scalable-grid .item {
+            margin-left: 0;
+            background: white;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+            float: left;
+        }
+        
+        .life-section {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            margin-top: 1rem;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+        }
+        
+        .pre-side1 {
+            width: 40%;
+        }
+        
+        .pre-side2 {
+            width: 40%;
+        }
+        
+        .pre-side1 img {
+            width: 80%;
+            height: auto;
+        }
+        
+        .pre-side2 img {
+            width: 80%;
+            height: auto;
+        }
+        
+        .pre-side1 p {
+            width: 100%;
+            height: auto;
+            font-size: 1.28rem;
+        }
+        
+        .pre-side2 p {
+            width: 100%;
+            height: auto;
+            font-size: 1.28rem;
+        }
+        
+        .pre-side1 li {
+            font-size: 1.28rem;
+            list-style-type: decimal;
+        }
+        
+        .pre-side2 li {
+            font-size: 1.28rem;
+            list-style-type: decimal;
+        }
+        
+        .parents-section {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            margin-top: 1rem;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+        }
+        
+        .parents-side {
+            width: 40%;
+            font-size: 1.25rem;
+        }
+        
+        .parents-side p {
+            text-indent: 2.56rem;
+        }
+        
+        .parents-side img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .curriculum-section {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            margin-top: 1rem;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .curriculum-side {
+            width: 40%;
+            font-size: 1.25rem;
+        }
+        
+        .curriculum-side p {
+            text-indent: 2.56rem;
+        }
+        
+        .curriculum-side img {
+            width: 100%;
+            height: auto;
         }
