@@ -4,6 +4,7 @@ let dynamicId = href.substring(href.lastIndexOf("/") + 1, href.length)
 document.getElementById(dynamicId).classList.add("active")
 
 
+
 var owl = $('.owl-carousel');
 $('.owl-carousel').owlCarousel({
     rtl: true,
@@ -163,3 +164,118 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+
+
+
+// Activities show content functions 
+
+// Function to show description section of activities 
+function showContent() {
+    content1 = document.getElementById('content1');
+    content2 = document.getElementById('content2');
+    content3 = document.getElementById('content3');
+
+    console.log(content2.style.display === "none" && content1.style.display === "block");
+    console.log(content2.style.display === "none");
+    console.log(content1.style.display === "block");
+    console.log(window.getComputedStyle(content2).display)
+
+    if (content1.style.display === "block") {
+        content1.style.display = "none"
+    } else if (content2.style.display === "none" || content2.style.display === "none") {
+        content2.style.display = "none";
+        content3.style.display = "none"
+    } else if (content1.style.display === "none") {
+        content1.style.display = "block";
+    }
+
+}
+
+// Function to show Age section of activities 
+
+function showContentAge() {
+    content1 = document.getElementById('content1');
+    content2 = document.getElementById('content2');
+    content3 = document.getElementById('content3');
+    if (window.getComputedStyle(content2).display === "none" && content1.style.display === "block") {
+        content1.style.display = "none";
+        content2.style.display = "block";
+
+    } else if (window.getComputedStyle(content2).display === "none" && content1.style.display === "none") {
+        content2.style.display = "block";
+
+    } else if (window.getComputedStyle(content2).display === "none" && window.getComputedStyle(content3).display === "block") {
+        content3.style.display = "none";
+        content2.style.display = "block";
+
+    } else if (content2.style.display === "block") {
+        content2.style.display = "none";
+    }
+}
+
+// Function to show Time section of activities 
+
+function showContentTime() {
+    content1 = document.getElementById('content1');
+    content2 = document.getElementById('content2');
+    content3 = document.getElementById('content3');
+    if (window.getComputedStyle(content3).display === "none" && content1.style.display === "block") {
+        content1.style.display = "none";
+        content3.style.display = "block";
+
+    } else if (window.getComputedStyle(content2).display === "none" && content1.style.display === "none") {
+        content3.style.display = "block";
+
+    } else if (window.getComputedStyle(content2).display === "block" && window.getComputedStyle(content3).display === "none") {
+        content3.style.display = "none";
+        content2.style.display = "block";
+
+    } else if (content3.style.display === "block") {
+        content3.style.display = "none";
+    }
+}
+
+// Activities show content functions Ends here
+
+
+
+
+
+// Teacher Slider Controls 
+
+function slideImages(dir) {
+    var count = 0;
+
+    var listEl = document.querySelector('.jslider-grid.scalable-grid.scalable-grid--max-4');
+    var totalChildren = document.querySelectorAll('.item').length;
+    btnLeftEl = document.getElementById('left-btn');
+    btnRightEl = document.getElementById('right-btn');
+    dir === "left" ? ++count : --count;
+    console.log(dir);
+    console.log(count);
+    listEl.style.left = count * 286 + "px";
+    console.log(count);
+    btnLeftEl.style.display = count < 0 ? "block" : "none";
+    console.log(count);
+
+    btnRightEl.style.display = count > 4 - totalChildren ? "block" : "none";
+    // 4 = max. number displayed
+    console.log(count);
+}
+
+
+
+function rightBtn() {
+
+    slideImages("right");
+
+}
+
+function leftBtn() {
+
+    slideImages("left");
+
+}
+
+// Teacher Slider Controls Ends Here
