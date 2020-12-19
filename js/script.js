@@ -1,41 +1,42 @@
 // this approach adds active class using url and it works
 let href = window.location.href;
 let dynamicId = href.substring(href.lastIndexOf("/") + 1, href.length)
-document.getElementById(dynamicId).classList.add("active")
+    // document.getElementById(dynamicId) ? .classList.add("active")
 
 
 
-var owl = $('.owl-carousel');
-$('.owl-carousel').owlCarousel({
-    rtl: true,
-    loop: true,
-    margin: 10,
-    nav: true,
-    responsiveClass: true,
-    items: 3,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 2
-        },
-        1000: {
-            items: 3
-        }
-    }
-});
 
-owl.on('mousewheel', '.owl-stage', function(e) {
-    if (e.deltaY > 0) {
-        owl.trigger('next.owl');
-    } else {
-        owl.trigger('prev.owl');
-    }
-    e.preventDefault();
-});
+
+// owl.on('mousewheel', '.owl-stage', function(e) {
+//     if (e.deltaY > 0) {
+//         owl.trigger('next.owl');
+//     } else {
+//         owl.trigger('prev.owl');
+//     }
+//     e.preventDefault();
+// });
 
 $(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+        // var owl = $('.owl-carousel');
+        rtl: true,
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsiveClass: true,
+        items: 3,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
     $(".owl-carousel").owlCarousel();
 });
 
@@ -194,47 +195,47 @@ function showContent() {
 
 // Function to show Age section of activities 
 
-function showContentAge() {
-    content1 = document.getElementById('content1');
-    content2 = document.getElementById('content2');
-    content3 = document.getElementById('content3');
-    if (window.getComputedStyle(content2).display === "none" && content1.style.display === "block") {
-        content1.style.display = "none";
-        content2.style.display = "block";
+// function showContentAge() {
+//     content1 = document.getElementById('content1');
+//     content2 = document.getElementById('content2');
+//     content3 = document.getElementById('content3');
+//     if (window.getComputedStyle(content2).display === "none" && content1.style.display === "block") {
+//         content1.style.display = "none";
+//         content2.style.display = "block";
 
-    } else if (window.getComputedStyle(content2).display === "none" && content1.style.display === "none") {
-        content2.style.display = "block";
+//     } else if (window.getComputedStyle(content2).display === "none" && content1.style.display === "none") {
+//         content2.style.display = "block";
 
-    } else if (window.getComputedStyle(content2).display === "none" && window.getComputedStyle(content3).display === "block") {
-        content3.style.display = "none";
-        content2.style.display = "block";
+//     } else if (window.getComputedStyle(content2).display === "none" && window.getComputedStyle(content3).display === "block") {
+//         content3.style.display = "none";
+//         content2.style.display = "block";
 
-    } else if (content2.style.display === "block") {
-        content2.style.display = "none";
-    }
-}
+//     } else if (content2.style.display === "block") {
+//         content2.style.display = "none";
+//     }
+// }
 
 // Function to show Time section of activities 
 
-function showContentTime() {
-    content1 = document.getElementById('content1');
-    content2 = document.getElementById('content2');
-    content3 = document.getElementById('content3');
-    if (window.getComputedStyle(content3).display === "none" && content1.style.display === "block") {
-        content1.style.display = "none";
-        content3.style.display = "block";
+// function showContentTime() {
+//     content1 = document.getElementById('content1');
+//     content2 = document.getElementById('content2');
+//     content3 = document.getElementById('content3');
+//     if (window.getComputedStyle(content3).display === "none" && content1.style.display === "block") {
+//         content1.style.display = "none";
+//         content3.style.display = "block";
 
-    } else if (window.getComputedStyle(content2).display === "none" && content1.style.display === "none") {
-        content3.style.display = "block";
+//     } else if (window.getComputedStyle(content2).display === "none" && content1.style.display === "none") {
+//         content3.style.display = "block";
 
-    } else if (window.getComputedStyle(content2).display === "block" && window.getComputedStyle(content3).display === "none") {
-        content3.style.display = "none";
-        content2.style.display = "block";
+//     } else if (window.getComputedStyle(content2).display === "block" && window.getComputedStyle(content3).display === "none") {
+//         content3.style.display = "none";
+//         content2.style.display = "block";
 
-    } else if (content3.style.display === "block") {
-        content3.style.display = "none";
-    }
-}
+//     } else if (content3.style.display === "block") {
+//         content3.style.display = "none";
+//     }
+// }
 
 // Activities show content functions Ends here
 
@@ -279,3 +280,19 @@ function leftBtn() {
 }
 
 // Teacher Slider Controls Ends Here
+
+
+// Open PDF in New Tab Starts Here
+
+function openPdf(e, path, redirect) {
+    e = e || window.event; // for IE
+    e.preventDefault();
+
+    // launch a new window with your PDF
+    window.open(path, 'somename');
+
+    // redirect current page to new location
+    window.location = redirect;
+}
+
+// Open PDF in New Tab Ends Here

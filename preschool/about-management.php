@@ -15,7 +15,7 @@ include 'includes/header.php'
 <section class="pre-about-main m-def">
     <div>
         <hr>
-        <h3 class="font2">Meet Our Teachers</h3>
+        <h3 class="font2">Management Team</h3>
     </div>
 
     <div class="m-side pre-about-teachers">
@@ -37,7 +37,7 @@ include 'includes/header.php'
                 <img src="../media/preschool/t2.jpg" alt="">
             </div>
         </div>
-        <div class="teacher-box1">
+        <!-- <div class="teacher-box1">
             <div>
                 <h4 class="font2">Haripriya</h4>
                 <p class="font3">Haripriya had been working in IT for more than a decade however she did not feel a belonging towards what she was doing and hence decided to quit her job. A Holistic Education course was a eye-opener for her which made her realise that she wanted to be a facilitator. This helped her in exploring her own self and found her to have a liking towards Carnatic Vocal, yoga, reading, listening to music , story telling and lot more to be added in future. She being passionate about her language as language for her is a window to a new lifestyle, to a culture , to a tradition and to our wisdom. In her view by losing a language we lose everything with it. It pained her to see the disconnect her own children had with their mother tongue and she believes that it is her responsibility to help them find their roots. She believes in doing her bit to share the passion she has for the language to her children and to whoever is interested in it so that they are in touch with the language. She wishes from her heart that one day they make the connection and find the beauty and profoundness of our roots , our culture and our wisdom and cherish it for their generations.</p>
@@ -117,14 +117,14 @@ include 'includes/header.php'
             <div>
                 <img src="../media/preschool/t1.jpg" alt="">
             </div>
-        </div>
+        </div> -->
 
     </div>
 
-    <div class="p-def m-def pre-about-advisor">
+    <!-- <div class="p-def m-def pre-about-advisor">
         <div class="advisor-head">
             <hr>
-            <h3 class="font2">Advisor</h3>
+            <h3 class="font2">Founder Introduction</h3>
         </div>
         <div class="advisors m-side">
             <div class="advisor">
@@ -141,7 +141,7 @@ include 'includes/header.php'
                 <p class="font3">Archana consults us on all aspects of the school, but in particular on the Montessori method.</p>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 <?php
 include 'includes/footer.php'

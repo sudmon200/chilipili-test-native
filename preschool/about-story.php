@@ -15,10 +15,10 @@ include 'includes/header.php'
 <section class="pre-about-main m-def">
     <div>
         <hr>
-        <h3 class="font2">Meet Our Teachers</h3>
+        <h3 class="font2">Our Story</h3>
     </div>
 
-    <div class="m-side pre-about-teachers">
+    <!-- <div class="m-side pre-about-teachers">
         <div class="teacher-box1">
             <div>
                 <h4 class="font2">Haripriya</h4>
@@ -119,26 +119,21 @@ include 'includes/header.php'
             </div>
         </div>
 
-    </div>
+    </div> -->
 
     <div class="p-def m-def pre-about-advisor">
-        <div class="advisor-head">
+        <!-- <div class="advisor-head">
             <hr>
             <h3 class="font2">Advisor</h3>
-        </div>
+        </div> -->
         <div class="advisors m-side">
             <div class="advisor">
-                <hr>
-                <h3 class="font2">Nina Kanjirath</h3>
-                <p class="font3">Nina has used Jolly Phonics and Jolly Music extensively to train management, teachers and young children from several international and underprivileged, non-English speaking schools, with the specific intention to develop and create self-learners who can read and write English with deep understanding.</p>
-                <p class="font3">She launched both programmes in her own preschool and childcare centre – Gaia – 10 years ago with excellent results. Nina also trains and coaches schools and staff in setting up systems, curriculum development, planning and assessment based on their needs and vision.</p>
-                <p class="font3">After being associated with Chili Pili she strongly believes that ChiliPili Phonics is the fastest and the most conceptual and logical way of learning English Language.</p>
-            </div>
-            <div class="advisor">
-                <hr>
-                <h3 class="font2">Archana for Montessori Education</h3>
-                <p class="font3">Archana started her career in 1997 and has about 20 years of experience in the field of Montessori Pre Primary education. A graduate in Home Science, she discovered that she loved working with children. With that passion she acquired an AMI (Association Montessori Internationale) certification Diploma. She started her own Montessori House of Children in 1999. She offers herself as a consultant and shares her vast experience with other schools and she represents the Indian Montessori Center (IMC, K) by being in the school recognition committee.</p>
-                <p class="font3">Archana consults us on all aspects of the school, but in particular on the Montessori method.</p>
+                <!-- <hr>
+                <h3 class="font2">Nina Kanjirath</h3> -->
+                <p class="font3">When we were searching for a school for our daughter, we were not no much worried about what she would be learning in school, but we were more worried about what she would potentially loose. Mundane schooling would make her dull and dependent. We wanted our child to retain her innate spontaneity , curiosity, learning ability and not be in a regimented spoon-fed system.</p>
+                <p class="font3">The other aspect was the total absence of local language in schools. It is unfortunate that there is so little effort to teach other languages, if at all present in all the schools we visited. English, she would anyway’s learn – we wanted our daughter to grow up good at multiple languages and especially also the local language. The early age is the age for language acquisition, and it should be used for that. Children growing up in a multilingual environment are more versatile, smarter, and it is integral to holistic learning.</p>
+                <p class="font3">Young children, at that age, should be spending time playing. Their love for nature and outdoors should be encouraged. It is is a very positive thing. Not finding a school which satisfied all this, we finally decided to start one on our own, supported by some of our friends, who shared this thinking.</p>
+                <p class="font3">Its been over five years now, and a very satisfying journey. We are a vibrant, multilingual, nature-loving school and children enjoy it thoroughly. They are active and happy. We always felt that having a liberal, friendly atmosphere should make them more interested in academics subjects, not less. That having free play should sharpen their minds and learning should be better, not worse. That teaching Kannada should actually improve their English. And we have a system that does that, at least as far as reading and writing goes. We have our new unique phonics call the Chili Pili Phonics which teaches languages conceptually. We have had children crack spelling Bee as well with his methodology with ease. Explore the website for more, and get in touch if it interests you.</p>
             </div>
         </div>
     </div>

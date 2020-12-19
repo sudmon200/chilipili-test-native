@@ -5,82 +5,7 @@ include 'includes/header.php'
 <section class="preschool-home m-side">
 
     <!-- BEGIN split-slider -->
-    <div class="split-slider">
-
-        <div class="split-slider__placeholder">
-            loading...
-        </div>
-
-        <div class="split-slider-contents">
-            <div class="slider-box-content">
-                <img src="../media/Preschool-Asset/box-left.png" alt="" class="box-left">
-                <img src="../media/Preschool-Asset/box-right.png" alt="" class="box-right">
-            </div>
-            <div class="slider-content">
-                <h4 class="font1">Engage Rather Than Teach</h4>
-            </div>
-            <div class="slider-content">
-                <h4 class="font1"></h4>
-            </div>
-            <div class="slider-content">
-                <h4 class="font1"></h4>
-            </div>
-            <div class="slider-content">
-                <h4 class="font1"></h4>
-            </div>
-
-        </div>
-
-        <!-- BEGIN slide -->
-        <figure class="pre-slide pre-slide_active pre-slide_wait">
-            <div class="pre-slide__image">
-                <div class="pre-slide__image-part pre-slide__image-part_left"></div>
-                <div class="pre-slide__image-part pre-slide__image-part_right"></div>
-            </div>
-            <figcaption class="pre-slide__caption">
-                <span class="pre-slide__text">Lorem 1.</span>
-            </figcaption>
-        </figure>
-        <!--END slide -->
-
-        <!-- BEGIN slide -->
-        <figure class="pre-slide pre-slide_wait">
-            <div class="pre-slide__image">
-                <div class="pre-slide__image-part pre-slide__image-part_left"></div>
-                <div class="pre-slide__image-part pre-slide__image-part_right"></div>
-            </div>
-            <figcaption class="pre-slide__caption">
-                <span class="pre-slide__text">Ipsum 2.</span>
-            </figcaption>
-        </figure>
-        <!--END slide -->
-
-        <!-- BEGIN slide -->
-        <figure class="pre-slide pre-slide_wait">
-            <div class="pre-slide__image">
-                <div class="pre-slide__image-part pre-slide__image-part_left"></div>
-                <div class="pre-slide__image-part pre-slide__image-part_right"></div>
-            </div>
-            <figcaption class="pre-slide__caption">
-                <span class="pre-slide__text">Dorem 3.</span>
-            </figcaption>
-        </figure>
-        <!--END slide -->
-
-        <!-- BEGIN slide -->
-        <figure class="pre-slide pre-slide_wait">
-            <div class="pre-slide__image">
-                <div class="pre-slide__image-part pre-slide__image-part_left"></div>
-                <div class="pre-slide__image-part pre-slide__image-part_right"></div>
-            </div>
-            <figcaption class="pre-slide__caption">
-                <span class="pre-slide__text">Ipsum 4.</span>
-            </figcaption>
-        </figure>
-        <!--END slide -->
-
-        <div class="slider-box"></div>
-    </div>
+    
     <!-- END split-slider -->
 
 
@@ -792,5 +717,6 @@ include 'includes/header.php'
 
 
 <?php
-include 'includes/footer.php'
+// include '../includes/preschool-nav.php';
+include 'includes/footer.php';
 ?>
