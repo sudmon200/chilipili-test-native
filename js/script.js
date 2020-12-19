@@ -171,16 +171,31 @@ function openCity(evt, cityName) {
 
 // Activities show content functions 
 
+
+let contents = document.querySelectorAll('.activity-sub-section')
+let arrow = document.querySelector('#show-content1');
+
+for (x in contents) {
+    // console.log(arrow)
+    console.log(contents[x])
+    arrow.onclick = function() {
+        if (contents[x].style.display === "block") {
+            contents[x].style.display = "none";
+        } else {
+            contents[x].style.display = "block";
+        }
+    };
+}
 // Function to show description section of activities 
 function showContent() {
     content1 = document.getElementById('content1');
     content2 = document.getElementById('content2');
     content3 = document.getElementById('content3');
 
-    console.log(content2.style.display === "none" && content1.style.display === "block");
-    console.log(content2.style.display === "none");
-    console.log(content1.style.display === "block");
-    console.log(window.getComputedStyle(content2).display)
+    // console.log(content2.style.display === "none" && content1.style.display === "block");
+    // console.log(content2.style.display === "none");
+    // console.log(content1.style.display === "block");
+    // console.log(window.getComputedStyle(content2).display)
 
     if (content1.style.display === "block") {
         content1.style.display = "none"
@@ -296,3 +311,35 @@ function openPdf(e, path, redirect) {
 }
 
 // Open PDF in New Tab Ends Here
+
+
+// Preschool Slider Starts Here 
+const preSlider = document.querySelector('.pre-img-slide');
+const preSliderImg = document.querySelector('.pre-img-slide img');
+
+const preSliderLArrow = document.querySelector('#left');
+const preSliderRArrow = document.querySelector('#right');
+
+let counter = 1;
+
+const size = preSlider.clientWidth;
+
+
+
+
+preSliderRArrow.addEventListener('click', function() {
+    console.log(-size * counter);
+    console.log("working!!");
+    counter++;
+    preSlider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+});
+
+preSliderLArrow.addEventListener('click', function() {
+    console.log(-size * counter);
+    console.log("working!!");
+    counter--;
+    if (counter <= 0) {
+        return;
+    }
+    preSlider.style.transform = 'translateX(' + (size * counter) + 'px)';
+});
