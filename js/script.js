@@ -178,9 +178,9 @@ let arrow = document.querySelector('#show-content1');
 for (x in contents) {
     // console.log(arrow)
     console.log(contents[x])
-    arrow.onclick = function() {
-        if (contents[x].style.display === "block") {
-            contents[x].style.display = "none";
+    contents[x].onclick = function() {
+        if (this.style.display === "block") {
+            this[x].style.display = "none";
         } else {
             contents[x].style.display = "block";
         }

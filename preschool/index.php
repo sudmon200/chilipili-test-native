@@ -260,8 +260,6 @@ include 'includes/header.php'
                     <p class="font3">3+</p>
                 </div>
 
-                <div class="activity-sub-section"></div>
-
                 <!-- Timing Section for page  -->
                 <!-- Activity Description Section  -->
                 <div class="activity-sub-heading">
