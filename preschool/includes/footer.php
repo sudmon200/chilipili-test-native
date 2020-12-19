@@ -95,7 +95,7 @@
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
 
 <!-- Custom JS -->
-
+<!-- 
 <script>
     function initMap() {
         const chilipili = {lat: 34.397, lng:150.644};
@@ -114,18 +114,20 @@
         });
     } // close function here
 </script>
+
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv6Y1yutarDFYWNI_GidFdSf9TY0cwb_I&callback=initMap">
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.min.js"></script>
-<script src="../js/jquery-1.8.3.min.js"></script>
-<script src="owlcarousel/owl.carousel.min.js"></script>
-<script src="../js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.min.js"></script> -->
+<!-- <script src="../js/jquery-1.8.3.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script defer src="../owlcarousel/owl.carousel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="../js/script.js"></script>
 
 
-
+<!-- 
 <script>
 
 // Multilevel Dropdown Menu 
@@ -144,7 +146,7 @@ $(window).on("load", function() {
         return false;
     });
 });
-</script>
+</script> -->
 </body>
 
 </html>
