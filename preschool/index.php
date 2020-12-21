@@ -5,33 +5,34 @@ include 'includes/header.php'
 <section class="preschool-home m-side">
 
     <!-- BEGIN split-slider -->
-    <div class="pre-slider">
 
-        <!-- <div class="pre-slider-text">
-            <p>Developing Excellence Naturally</p>
-            <p>Let children be, after all we are here to be free</p>
-            <p>Preschooling the way nature intended</p>
-            <p>Well rounded education for well grounded children</p>
-            <p>Learn to play, play to learn</p>
-            <p>Our children should know our languages and know them well.</p>
-        </div> -->
-        
-        <div class="pre-img-slide">
-            <img src="../media/preschool/Slider-1..jpg" alt="slider1">
-            <img src="../media/preschool/slider-2.jpg" alt="slider2">
-            <img src="../media/preschool/slider-3..jpg" alt="slider3">
-            <img src="../media/preschool/slider-4..jpg" alt="slider4">
-            <img src="../media/preschool/slider-5..jpg" alt="slider5">
-        </div>
-
+    <div class="pre-slider-main">
         <div class="pre-controls">
-            <span class="arrow" id="left"><</span>
-
-            <span class="arrow" id="right">></span>
+            <span class="arrow" id="left">
+                <</span> <span class="arrow" id="right">>
+            </span>
         </div>
-        
+        <div class="pre-slider-2">
+            <div class="pre-slider-text">
+                <p>Developing Excellence Naturally</p>
+                <p>Let children be, after all we are here to be free</p>
+                <p>Preschooling the way nature intended</p>
+                <p>Well rounded education for well grounded children</p>
+                <p>Learn to play, play to learn</p>
+                <p>Our children should know our languages and know them well.</p>
+            </div>
+        </div>
+        <div class="pre-slider-1">
+            <div class="pre-img-slide">
+                <img src="../media/preschool/Slider-1..jpg" alt="slider1">
+                <img src="../media/preschool/slider-2.jpg" alt="slider2">
+                <img src="../media/preschool/slider-3..jpg" alt="slider3">
+                <img src="../media/preschool/slider-4..jpg" alt="slider4">
+                <img src="../media/preschool/slider-5..jpg" alt="slider5">
+            </div>
+        </div>
+        <div class="slider-box"></div>
     </div>
-    <div class="slider-box"></div>
     <!-- END split-slider -->
 
 
@@ -244,7 +245,7 @@ include 'includes/header.php'
                 
                 <div class="activity-sub-heading">
                     <h4 class="font2">Activity Description</h4>
-                    <img src="../media/Preschool-Asset/arrowdown.svg" alt="" id="show-content1" onclick="contentToggle(this)">
+                    <img src="../media/Preschool-Asset/arrowdown.svg" alt="" id="show-content1">
                 </div>
                 <div class="activity-sub-section" id="content1" style="display: block;">
                     <p class="font3">Exposure to folk music from all across India, & also a variety of musical instruments used from the long past to the present. Sholka and Bhajans as well</p>

@@ -1,7 +1,7 @@
 // this approach adds active class using url and it works
 let href = window.location.href;
 let dynamicId = href.substring(href.lastIndexOf("/") + 1, href.length)
-    // document.getElementById(dynamicId) ? .classList.add("active")
+    document.getElementById(dynamicId)?.classList.add("active")
 
 
 
@@ -172,6 +172,7 @@ function openCity(evt, cityName) {
 // Activities show content functions 
 
 
+<<<<<<< HEAD
 // var contents = document.querySelectorAll('.activity-sub-heading')
 
 // for (x in contents) {
@@ -249,6 +250,20 @@ function showContent() {
 //     }
 // }
 
+=======
+let contents = document.querySelectorAll('.activity-sub-section')
+let heading = document.querySelectorAll('.activity-sub-heading');
+
+for (var x in heading) {
+        heading[x].onclick = function() {
+        if (this.nextElementSibling.style.display === "block") {
+            this.nextElementSibling.style.display = "none";
+        } else {
+            this.nextElementSibling.style.display = "block";
+        }
+    };
+}
+>>>>>>> df0f065aa5a0e6f341edc5e7f1ecc1bcbe284078
 // Activities show content functions Ends here
 
 
@@ -317,7 +332,7 @@ const preSlider = document.querySelector('.pre-img-slide');
 const preSliderLArrow = document.querySelector('#left');
 const preSliderRArrow = document.querySelector('#right');
 
-let counter = 1;
+let counter = 0;
 
 const size = preSlider.clientWidth;
 
@@ -326,18 +341,26 @@ const size = preSlider.clientWidth;
 
 preSliderRArrow.addEventListener('click', function() {
     console.log(-size * counter);
-    console.log("working!!");
+    if (counter > 3) {
+        console.log("working LEft!!");
+        return;
+    }
+    console.log("working Right!!");
     counter++;
     preSlider.style.transform = 'translateX(' + (-size * counter) + 'px)';
 });
 
 preSliderLArrow.addEventListener('click', function() {
     console.log(-size * counter);
-    console.log("working!!");
     counter--;
+<<<<<<< HEAD
     if (counter <= 0) {
         ''
+=======
+    if (counter < 0) {
+        console.log("working LEft!!");
+>>>>>>> df0f065aa5a0e6f341edc5e7f1ecc1bcbe284078
         return;
     }
-    preSlider.style.transform = 'translateX(' + (size * counter) + 'px)';
+    preSlider.style.transform = 'translateX(' + (-size * counter) + 'px)';
 });
