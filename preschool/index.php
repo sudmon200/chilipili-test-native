@@ -241,6 +241,7 @@ include 'includes/header.php'
                 <h3 class="font1">Music</h3>
 
                 <!-- Activity Description Section  -->
+                
                 <div class="activity-sub-heading">
                     <h4 class="font2">Activity Description</h4>
                     <img src="../media/Preschool-Asset/arrowdown.svg" alt="" id="show-content1" onclick="contentToggle(this)">

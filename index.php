@@ -59,6 +59,8 @@ include 'includes/header.php';
 			children learn uninhibited to maximize their potential with life long benefits. Chili Pili offers <strong>Learn at Home solutions</strong> for parents,<strong>SaPS (Small and Personalised Schools)</strong> from preschool onwards with Franchising/Enabling options for entrepreneurs, <strong>Chili Pili Plus</strong> learning solutions for adults including </strong>Teacher's Training, New Language Training for individuals as well as institutions(Corporate houses/Educational Institutes)</strong></p>
 	</div>
 	<h2 class="text-center m-top font1" style="padding-bottom: 5vh; margin-top:20vh;">Learn at Home</h2>
+	
+	
 	<!-- home solutions starts -->
 	<div class="container m-bottom home-section">
 		<div>
@@ -76,7 +78,10 @@ include 'includes/header.php';
 						<figcaption style="background-color: green; color: white;">
 							<h4 class="ih-fade-up font1">Chili Pili Phonics at Home</h4>
 							<p class="ih-fade-down-big font2">
-								<i>A Highly efficacious language learning system for children starting to learn reading and writing. This unique system enables a child to learn multiple languages simultaneously and become adept at handling the languages at an early stage.</i>
+								<i>A Highly efficacious language learning system for children starting to learn reading and writing. This unique system enables a child to learn multiple languages simultaneously and become adept at handling the languages at an early stage.
+								<a href="phonics.php" class="learn-more"></a>
+
+								</i>
 							</p>
 						</figcaption>
 					</figure>
@@ -94,6 +99,8 @@ include 'includes/header.php';
 							<h4 class="ih-fade-up font1">Chili Pili Maths with Montessori at Home</h4>
 							<p class="ih-fade-down-big font2">
 								<i>who said setting up a montessori corner at home for your child be out of your reach. These eco-friendly solutions comes up with online tutorials for the parents along with montessori toys at your doorstep. never let your child miss out on an opportunity to learn.</i>
+								<a href="montessori.php" class="learn-more"></a>
+
 							</p>
 						</figcaption>
 					</figure>
@@ -110,6 +117,8 @@ include 'includes/header.php';
 							<h4 class="ih-fade-up font1">Chili Pili Preschool at Home</h4>
 							<p class="ih-fade-down-big font2">
 								<i>Let the preschool come to your home. Don't miss out on the learning intensive period of a child's life due to external factors. Check out our unique playschool experience delivered right at home</i>
+								<a href="preschool/index.php" class="learn-more"></a>
+
 							</p>
 						</figcaption>
 					</figure>
@@ -141,6 +150,8 @@ include 'includes/header.php';
 								<h4 class="ih-fade-up font1">Chili Pili Makkala Kootta Preschools</h4>
 								<p class="ih-fade-down-big font2">
 									<i>this unique preschool situated in HSR Layout, Bangalore is often dubbed as ""the school a child always wants to go'. The innovation in curriculum and teaching methods allows for holistic growth of a child while giving them a learning experience that they cannot get enough of.</i>
+								<a href="preschool/index.php" class="learn-more"></a>
+
 								</p>
 							</figcaption>
 						</figure>
@@ -158,6 +169,8 @@ include 'includes/header.php';
 								<h4 class="ih-fade-up font1">Chili Pili Makkala Koota Preschool Franchise</h4>
 								<p class="ih-fade-down-big font2">
 									<i>Are you an entrepreneur thinking about setting up a preschool? We offer you opportunity to open a franchise with complete support over setting up, curriculum and training. Let us know and our expert team will make your dream come true.</i>
+								<a href="alternate.php" class="learn-more"></a>
+
 								</p>
 							</figcaption>
 						</figure>
@@ -174,6 +187,8 @@ include 'includes/header.php';
 								<h4 class="ih-fade-up font1">Curriculum Support for Preschools</h4>
 								<p class="ih-fade-down-big font2">
 									<i>Are you having a preschool and looking to revamp the curriculum into the most effective one providing tangible results? Our expert educators will help you transform your school by providing curriculum support and training. Let us know and we can discuss how the magic can happen</i>
+								<a href="alternate.php" class="learn-more"></a>
+
 								</p>
 							</figcaption>
 						</figure>
@@ -205,7 +220,9 @@ include 'includes/header.php';
 							<figcaption style="background-color: green; color: white;">
 								<h4 class="ih-fade-up font1">Chili Pili SaPS ( Small and Personal Schools)</h4>
 								<p class="ih-fade-down-big font2">
-									<i>"Are you concerned that your child's learning needs may not be addressed with individual care at a traditional school with classroom of 40 to 50 children? Are you that parent who recognize your child's ability to stand apart from crowd and achieve great success in whatever they choose to do? then we would want you to explore our unique schooling system which will let your child grow all facets that they will require to excel in the exam called life.</i>
+									<i>"Are you concerned that your child's learning needs may not be addressed with individual care at a traditional school with classroom of 40 to 50 children? Are you that parent who recognize your child's ability to stand apart from crowd and achieve great success in whatever they choose to do? then we would want you to explore our unique schooling system which will let your child grow all facets that they will require to excel in the exam called life.</i>0
+								<a href="alternate.php" class="learn-more"></a>
+
 								</p>
 							</figcaption>
 						</figure>
@@ -223,6 +240,8 @@ include 'includes/header.php';
 								<h4 class="ih-fade-up font1">Build your own SaP ( Small and Personal Schools)</h4>
 								<p class="ih-fade-down-big font2">
 									<i> Passionate about teaching and be responsible for the success of a handful of children? If you are interested in a career for teaching, why not have your own SaPS set up. Contact us and we can discuss how to set up your own Chili Pili SaPSunder our support.</i>
+								<a href="contact-us.php" class="learn-more"></a>
+
 								</p>
 							</figcaption>
 						</figure>
@@ -255,6 +274,8 @@ include 'includes/header.php';
 								<h4 class="ih-fade-up font1">NLT for Educational Institutes</h4>
 								<p class="ih-fade-down-big font2">
 									<i>We provide language training for education institutes at graduate and postgraduate level as an additional skill enabling them to excel at their future careers. The accelerated training module let the students learn a new language at a lightning pace in a fun and immersive way.</i>
+								<a href="language-training.php" class="learn-more"></a>
+
 								</p>
 							</figcaption>
 						</figure>
@@ -272,6 +293,8 @@ include 'includes/header.php';
 								<h4 class="ih-fade-up font1">NLT for Corporates</h4>
 								<p class="ih-fade-down-big font2">
 									<i>May it be a sales professional, supply chain professional or a civil servant, learning a local language will add an edge to their professional success. We offer specialized Language training module for corporates and other establishments which enable professionals in learning to talk, read and write a new language within a short period.</i>
+								<a href="language-training.php" class="learn-more"></a>
+
 								</p>
 							</figcaption>
 						</figure>
@@ -288,6 +311,8 @@ include 'includes/header.php';
 								<h4 class="ih-fade-up font1">Teacher's Training</h4>
 								<p class="ih-fade-down-big font2">
 									<i>Our specialized teacher's training program is aimed to create inspiring individuals who will be able to guide the future generation in the right path of growth.</i>
+								<a href="teacher-training.php" class="learn-more"></a>
+									
 								</p>
 							</figcaption>
 						</figure>

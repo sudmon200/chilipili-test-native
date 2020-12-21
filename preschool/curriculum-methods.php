@@ -32,7 +32,7 @@ include 'includes/header.php'
     </div>
 
     <div class="parents-side">
-        <img src="../media/preschool/curriculum.svg" alt="">
+        <img src="../media/preschool/curriculum-method.png" alt="">
     </div>
 
 </section>

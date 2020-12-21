@@ -6,7 +6,7 @@ include 'includes/header.php'
 
 <div class="container header-top m-def">
 	<h2 class="font1">
-		Alternate School
+		SAP(Small And Personal School)
 	</h2>
 </div>
 
@@ -19,13 +19,7 @@ include 'includes/header.php'
 			<div class="section-head">
 				<h4 class="font1 internal-head">Relevance of Alternate Learning System</h4>
 			</div>
-			<p class="internal-para font3">Montessori method is widely considered as an effective way to train your
-				child in the early stages of development. Developed over a hundred years ago, it uses specialized
-				learning materials to encourage a child to learn through play and activities. As learning is a
-				continuous process, the child should be having access to the learning aids at all times so that they can
-				engage in learning whenever they desire to do so.Any convenient place in the house can be converted into
-				a Montessori corner where all the learning materials and toys can be stored so that the child can go and
-				engage in learning.</p>
+			<p class="internal-para font3">Imagine a school where there are no more than 10 students in a class as opposed to forty to sixty students crammed in a room. Where the teacher knows the learning requirement of every child at a personal level and guides them individually as opposed to a system where a teacher have to cater to over 250 students in a span of a day. if you think that the former method is more beneficial for your child's education, read on.</p>
 		</div>
 		<div class="side2">
 			<img src="media/special.png" alt="Special-leaf">
@@ -34,10 +28,8 @@ include 'includes/header.php'
 
 	<div class="flakes" style="background-image:url('media/final-asset/leaf_background.png')">
 		<div class="alternate-text m-side font3">
-			<p>However, a child’s development is not confined just to learning concepts but also to many other factors like
-				socialization, team work, interactions, etc. Chilipili school pays keen attention to all the factors which
-				are crucial for a holistic development of a child making it the most unique and effective early education
-				system.</p>
+			<p>Chili Pili SaPS are designed as an elegant and effective system designed to eliminate the many shortcomings of education systems prevailant today. It is proved that a child absorbs learnings faster and more effective when they are given individual attention and learning is an involved process.  This has given rise to many new schooling systems such as homeschooling which are becoming prevailant in the developed nations. though most of these systems cater to the learning needs of the child, they fail to effectively stimulate various other growth facets such as social skills, which only flourishes when they interact with peers their age. 
+At Chili Pili, we follow our core value of a holistic development during the learning period so that they grow to be successful Throughout their life.The curriculum and teaching methodologies are designed to cater to every facet of a child's growth by paying special attention not only on academic excellence, but also to make them selfdriven, quick learners, and Complete individuals.</p>
 		</div>
 
 		<div>

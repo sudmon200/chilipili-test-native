@@ -172,20 +172,17 @@ function openCity(evt, cityName) {
 // Activities show content functions 
 
 
-let contents = document.querySelectorAll('.activity-sub-section')
-let arrow = document.querySelector('#show-content1');
+// var contents = document.querySelectorAll('.activity-sub-heading')
 
-for (x in contents) {
-    // console.log(arrow)
-    console.log(contents[x])
-    contents[x].onclick = function() {
-        if (this.style.display === "block") {
-            this[x].style.display = "none";
-        } else {
-            contents[x].style.display = "block";
-        }
-    };
-}
+// for (x in contents) {
+
+//     contents[x].addEventListener('click', function() {
+//         console.log(this);
+//         console.log(contents[x].nextElementSibling)
+//     })
+
+// }
+
 // Function to show description section of activities 
 function showContent() {
     content1 = document.getElementById('content1');
@@ -315,7 +312,7 @@ function openPdf(e, path, redirect) {
 
 // Preschool Slider Starts Here 
 const preSlider = document.querySelector('.pre-img-slide');
-const preSliderImg = document.querySelector('.pre-img-slide img');
+// const preSliderImg = document.querySelector('.pre-img-slide img');
 
 const preSliderLArrow = document.querySelector('#left');
 const preSliderRArrow = document.querySelector('#right');
@@ -339,6 +336,7 @@ preSliderLArrow.addEventListener('click', function() {
     console.log("working!!");
     counter--;
     if (counter <= 0) {
+        ''
         return;
     }
     preSlider.style.transform = 'translateX(' + (size * counter) + 'px)';
