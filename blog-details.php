@@ -22,8 +22,10 @@ $result = $connection->query($sql);
 <div class="font1 m-def text-center">
     <form action="blog-search.php" method="POST">
         <div class="search-form">
-            <input type="text" name="search" id="search" placeholder="Search">
-            <button>Submit</button>
+            <form action="blog-search.php" method="get">
+                <input type="text" name="search" id="search" placeholder="Search">
+                <input type="button" value="Submit">
+            </form>
         </div>
 
     </form>

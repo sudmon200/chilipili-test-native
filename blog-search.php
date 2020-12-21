@@ -9,6 +9,15 @@ $sql = "SELECT * FROM blog_post WHERE category='$category'";
 
 $result = $connection->query($sql);
 
+$search = $_GET['blog_search'];
+
+// echo $_GET['cat'];
+
+
+$sql2 = "SELECT * FROM blog_post WHERE (`title` LIKE '%".$search."%') OR (`content` LIKE '%".$search."%')";
+
+$result2 = $connection->query($sql2);
+
 ?>
 
 <div class="container" style="height:50px;">
@@ -22,8 +31,10 @@ $result = $connection->query($sql);
 <div class="font1 m-def text-center">
     <form action="blog-search.php" method="POST">
         <div class="search-form">
-            <input type="text" name="search" id="search" placeholder="Search" >
-            <button>Submit</button>
+            <form action="blog-search.php" method="get">
+                <input type="text" name="blog_search" id="blog_search" placeholder="Search" >
+                <button>Submit</button>
+            </form>
         </div>
 
     </form>
@@ -67,6 +78,29 @@ $result = $connection->query($sql);
                         </div>
                         <p class="title font2"><a href="blog-details.php?id=<?= $row['postID'] ?>"><?= $row['title'] ?></a></p>
                         <p class="excerpt font3"><?= $row['excerpt'] ?></p>
+                
+                    </div>
+                </div>
+            </div>
+            <?php endwhile; ?>
+
+            <?php while ($row_search = mysqli_fetch_array($result2)): ?>
+            <div class="second-post m-def">
+                <div class="second-box">
+                    <div class="second-box-over">
+                        <div class="second-date-border">
+                            <div class="second-date-box">
+                                <p class="second-date"><?= $row_search['postDate']; ?></p>
+                            </div>
+                        </div>
+                        <div class="second-d-image">
+                            <?php $img = $row_search['img']; ?>
+                            <?php $img_src = "media/".$img ; ?>
+                            <img src="<?php echo $img_src; ?>" alt="blog image">
+                            <p class="font2">POSTED IN: <a href="blog-search.php?cat=<?= $row_search['category'] ?>"><?= $row_search['category'] ?></a></p>
+                        </div>
+                        <p class="title font2"><a href="blog-details.php?id=<?= $row_search['postID'] ?>"><?//= $row_search['title'] ?></a></p>
+                        <p class="excerpt font3"><?= $row_search['excerpt'] ?></p>
                 
                     </div>
                 </div>

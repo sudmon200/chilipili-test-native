@@ -33,8 +33,10 @@ $bundles = $connection->query($bundles_sql);
 
 <div class="bg-image">
     <div class="search">
-        <input type="text" name="search" id="search" placeholder="Search">
-        <button>Search</button>
+        <form action="" method="post">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button>Search</button>
+        </form>
     </div>
     <div class="products">
         <div class="product">
