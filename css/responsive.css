@@ -72,6 +72,9 @@
     .branch1 {
         display: none;
     }
+    .rainbow {
+        display: none;
+    }
     /* Homepage Modifications */
     .slider {
         background: none;
