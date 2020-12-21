@@ -65,16 +65,13 @@
 				<li class="nav-item ml-4 mr-4" id="index.php">
 					<a class="nav-link" href="../index.php">Home</a>
 				</li>
-				<li class="nav-item ml-4 mr-4" id="about-us.php">
-					<a class="nav-link" href="../about-us.php">About Us</a>
-				</li>
 				<li class="nav-item ml-4 mr-4 dropdown">
 						<a class="nav-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Our Services
 						</a>
 						<ul class="dropdown-menu " role="menu" aria-labelledby="dropdownMenu">
 							<li class="dropdown-submenu">
-								<a class="dropdown-item" tabindex="-1" href="index.php">Preschool</a>
+								<a class="dropdown-item" href="index.php">Preschool</a>
 								<ul class="dropdown-menu">
 									<li class="dropdown-submenu">
 										<a class="dropdown-item" href="#">Life at Chili Pili</a>
@@ -131,22 +128,9 @@
 							<li class="dropdown-item"><a class="dropdown-item" href="../teacher-training.php">Teacher Training</a></li>
 						</ul>
 				</li>
-				<li class="nav-item ml-4 mr-4 dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-						Our Services
-					</a>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="index.php">Preschool</a>
-
-
-						<a class="dropdown-item" href="../montessori.php">Montessori at Home</a>
-						<a class="dropdown-item" href="../language-training.php">New Language Training</a>
-						<a class="dropdown-item" href="../phonics.php">Phonics</a>
-						<a class="dropdown-item" href="../alternate-school.php">Alternate School</a>
-						<a class="dropdown-item" href="../teacher-training.php">Teacher Training</a>
-					</div>
+				<li class="nav-item ml-4 mr-4" id="about-us.php">
+					<a class="nav-link" href="../about-us.php">About Us</a>
 				</li>
-				
 				<li class="nav-item ml-4 mr-4" id="blog.php">
 					<a class="nav-link" href="../blog.php">Blog</a>
 				</li>
@@ -158,114 +142,6 @@
 				</li>
 
 			</ul>
-			<!-- 
-			Second Level Not working With This Menu 
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item ml-4 mr-4" id="index.php">
-					<a class="nav-link" href="../index.php">Home</a>
-				</li>
-				<li class="nav-item ml-4 mr-4" id="about-us.php">
-					<a class="nav-link" href="../about-us.php">About Us</a>
-				</li>
-				<li class="nav-item ml-4 mr-4 dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Our Services
-					</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="index.php">Preschool</a>
-							<ul class="dropdown-menu">
-								<a class="dropdown-item" href="#">
-									<li class="dropdown-second_submenu">
-										<a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Life at Chilipili</a>
-										<ul class="dropdown-menu">
-											<a class="dropdown-item" href="#">A</a>
-											<a class="dropdown-item" href="#">b</a>
-										</ul>
-									</li>
-								</a>
-								<a class="dropdown-item" href="#">
-									<li class="dropdown-second_submenu">
-										<a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Parents Corner</a>
-										<ul class="dropdown-menu">
-											<a class="dropdown-item" href="#">Something Written 1</a>
-											<a class="dropdown-item" href="#">Something Written 2</a>
-										</ul>
-									</li>
-								</a>
-								<a class="dropdown-item" href="#">Something Written 3</a>
-							</ul>
-						</li>
-						<li>
-							<a class="dropdown-item" href="../montessori.php">Montessori at Home</a>
-
-						</li>
-						<li>
-							<a class="dropdown-item" href="../language-training.php">New Language Training</a>
-
-						</li>
-						<li>
-							<a class="dropdown-item" href="../phonics.php">Phonics</a>
-
-						</li>
-						<li>
-							<a class="dropdown-item" href="../alternate-school.php">Alternate School</a>
-
-						</li>
-						<li>
-							<a class="dropdown-item" href="../teacher-training.php">Teacher Training</a>
-
-						</li>
-					</ul>
-				</li>
-				<li class="nav-item ml-4 mr-4" id="about-us.php">
-					<a class="nav-link" href="../blog.php">Blog</a>
-				</li>
-				<li class="nav-item ml-4 mr-4" id="about-us.php">
-					<a class="nav-link" href="../contact-us.php">Contact Us</a>
-				</li>
-				<li class="nav-item ml-4 mr-4" id="about-us.php">
-					<a class="nav-link" href="../store.php">Shop</a>
-				</li>
-			</ul> -->
-
-			<!-- <ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
-				</li> -->
-			<!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown link</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Submenu action</a></li>
-                            <li><a class="dropdown-item" href="#">Another submenu action</a></li>
-
-                            <li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-			</li> -->
-
-
 
 		</div>
 
