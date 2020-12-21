@@ -1,7 +1,7 @@
 // this approach adds active class using url and it works
 let href = window.location.href;
 let dynamicId = href.substring(href.lastIndexOf("/") + 1, href.length)
-    // document.getElementById(dynamicId) ? .classList.add("active")
+    document.getElementById(dynamicId)?.classList.add("active")
 
 
 
@@ -173,85 +173,17 @@ function openCity(evt, cityName) {
 
 
 let contents = document.querySelectorAll('.activity-sub-section')
-let arrow = document.querySelector('#show-content1');
+let heading = document.querySelectorAll('.activity-sub-heading');
 
-for (x in contents) {
-    // console.log(arrow)
-    console.log(contents[x])
-    contents[x].onclick = function() {
-        if (this.style.display === "block") {
-            this[x].style.display = "none";
+for (var x in heading) {
+        heading[x].onclick = function() {
+        if (this.nextElementSibling.style.display === "block") {
+            this.nextElementSibling.style.display = "none";
         } else {
-            contents[x].style.display = "block";
+            this.nextElementSibling.style.display = "block";
         }
     };
 }
-// Function to show description section of activities 
-function showContent() {
-    content1 = document.getElementById('content1');
-    content2 = document.getElementById('content2');
-    content3 = document.getElementById('content3');
-
-    // console.log(content2.style.display === "none" && content1.style.display === "block");
-    // console.log(content2.style.display === "none");
-    // console.log(content1.style.display === "block");
-    // console.log(window.getComputedStyle(content2).display)
-
-    if (content1.style.display === "block") {
-        content1.style.display = "none"
-    } else if (content2.style.display === "none" || content2.style.display === "none") {
-        content2.style.display = "none";
-        content3.style.display = "none"
-    } else if (content1.style.display === "none") {
-        content1.style.display = "block";
-    }
-
-}
-
-// Function to show Age section of activities 
-
-// function showContentAge() {
-//     content1 = document.getElementById('content1');
-//     content2 = document.getElementById('content2');
-//     content3 = document.getElementById('content3');
-//     if (window.getComputedStyle(content2).display === "none" && content1.style.display === "block") {
-//         content1.style.display = "none";
-//         content2.style.display = "block";
-
-//     } else if (window.getComputedStyle(content2).display === "none" && content1.style.display === "none") {
-//         content2.style.display = "block";
-
-//     } else if (window.getComputedStyle(content2).display === "none" && window.getComputedStyle(content3).display === "block") {
-//         content3.style.display = "none";
-//         content2.style.display = "block";
-
-//     } else if (content2.style.display === "block") {
-//         content2.style.display = "none";
-//     }
-// }
-
-// Function to show Time section of activities 
-
-// function showContentTime() {
-//     content1 = document.getElementById('content1');
-//     content2 = document.getElementById('content2');
-//     content3 = document.getElementById('content3');
-//     if (window.getComputedStyle(content3).display === "none" && content1.style.display === "block") {
-//         content1.style.display = "none";
-//         content3.style.display = "block";
-
-//     } else if (window.getComputedStyle(content2).display === "none" && content1.style.display === "none") {
-//         content3.style.display = "block";
-
-//     } else if (window.getComputedStyle(content2).display === "block" && window.getComputedStyle(content3).display === "none") {
-//         content3.style.display = "none";
-//         content2.style.display = "block";
-
-//     } else if (content3.style.display === "block") {
-//         content3.style.display = "none";
-//     }
-// }
-
 // Activities show content functions Ends here
 
 
@@ -320,7 +252,7 @@ const preSliderImg = document.querySelector('.pre-img-slide img');
 const preSliderLArrow = document.querySelector('#left');
 const preSliderRArrow = document.querySelector('#right');
 
-let counter = 1;
+let counter = 0;
 
 const size = preSlider.clientWidth;
 
@@ -329,17 +261,21 @@ const size = preSlider.clientWidth;
 
 preSliderRArrow.addEventListener('click', function() {
     console.log(-size * counter);
-    console.log("working!!");
+    if (counter > 3) {
+        console.log("working LEft!!");
+        return;
+    }
+    console.log("working Right!!");
     counter++;
     preSlider.style.transform = 'translateX(' + (-size * counter) + 'px)';
 });
 
 preSliderLArrow.addEventListener('click', function() {
     console.log(-size * counter);
-    console.log("working!!");
     counter--;
-    if (counter <= 0) {
+    if (counter < 0) {
+        console.log("working LEft!!");
         return;
     }
-    preSlider.style.transform = 'translateX(' + (size * counter) + 'px)';
+    preSlider.style.transform = 'translateX(' + (-size * counter) + 'px)';
 });

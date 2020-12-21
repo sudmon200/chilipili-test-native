@@ -56,6 +56,9 @@
     .icon-box {
         width: 60vw;
     }
+    .second-icon-row {
+        flex-wrap: wrap;
+    }
     /* Page elements removed in responsive design */
     .branch2 {
         display: none;
@@ -64,6 +67,9 @@
         display: block;
     }
     #bottom-image {
+        display: none;
+    }
+    .branch1 {
         display: none;
     }
     /* Homepage Modifications */
@@ -94,5 +100,55 @@
     .testimonial-slider {
         top: 5%;
         height: 40vh;
+    }
+
+    /* Contact Us Page Modifications */
+
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .contact-main-left {
+        width: auto;
+        margin: auto
+    }
+    .contact-main-right {
+        width: auto;
+        margin: auto
+    }
+
+    .left2 {
+        flex-direction: column;
+    }
+
+    .left-content {
+        margin: auto;
+    }
+
+    .fill {
+        display: none;
+    }
+
+    /* Internal Pages Modifications */
+
+    .internal-header {
+        flex-direction: column-reverse;
+        width: 100vw;
+    }
+
+    .header-top {
+        margin-top: 8%;
+        margin-bottom: 43%;
+    }
+
+    .internal-body{
+        flex-direction: column;
+    }
+    .side1, .side2{
+        width: auto;
+    }
+
+    .method img {
+        width: 100vw;
     }
 }

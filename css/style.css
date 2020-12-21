@@ -2004,10 +2004,11 @@
         .timing {
             display: flex;
             position: relative;
+            width: 30%;
         }
         
         .timing img {
-            width: 126px;
+            width: 20%;
             height: auto;
             position: relative;
             top: -18%;
@@ -2021,14 +2022,14 @@
         
         .timing p {
             font-size: 1.875rem;
-            line-height: 1.4rem;
+            /* line-height: 1.4rem; */
         }
         
         .life-text-section {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            margin: auto;
+            /* margin: auto; */
         }
         
         .pre-video {
@@ -2584,7 +2585,7 @@
             padding-left: 2rem;
         }
         
-        .pre-slider {
+        .pre-slider-1 {
             display: flex;
             position: relative;
             width: 72vw;
@@ -2592,6 +2593,28 @@
             border: 2px solid #32c195;
             margin: auto;
             right: -10vw;
+            overflow: hidden;
+        }
+        
+        .pre-slider-2 {
+            display: flex;
+            position: absolute;
+            width: 26vw;
+            height: 31vh;
+            border: 2px solid #32c195;
+            /* margin: auto; */
+            /* right: -10vw; */
+            /* overflow: hidden; */
+            z-index: 30;
+            top: 42%;
+            background-color: #32c195;
+        }
+
+        .pre-slider-text {
+            width: 500%;
+            height: auto;
+            display: flex;
+            align-items: center;
         }
         
         .pre-img-slide {
@@ -2601,21 +2624,7 @@
             display: flex;
             /* overflow: hidden;  */
         }
-        /* .pre-slider-text {
-            display: flex;
-            position: absolute;
-            width: 47%;
-            height: 44%;
-            background-color: #32c195;
-            top: 24vh;
-            left: -20vw;
-            overflow: hidden;
-        }
         
-        .pre-slider-text p {
-            width: 100%;
-            height: auto;
-        } */
         
         .pre-img-slide img {
             width: 100%;
@@ -2631,9 +2640,11 @@
         }
         
         #left {
-            left: -22vw;
+            left: 2vw;
+            z-index: 50;
         }
         
         #right {
             right: -2vw;
+            z-index: 50;
         }
