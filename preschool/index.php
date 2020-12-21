@@ -24,11 +24,11 @@ include 'includes/header.php'
         </div>
         <div class="pre-slider-1">
             <div class="pre-img-slide">
-                <img src="../media/preschool/Slider-1..jpg" alt="slider1">
-                <img src="../media/preschool/slider-2.jpg" alt="slider2">
-                <img src="../media/preschool/slider-3..jpg" alt="slider3">
-                <img src="../media/preschool/slider-4..jpg" alt="slider4">
-                <img src="../media/preschool/slider-5..jpg" alt="slider5">
+                <img src="../media/preschool/slider1-min.jpg" alt="slider1">
+                <img src="../media/preschool/slider2-min.jpg" alt="slider2">
+                <img src="../media/preschool/slider3-min.jpg" alt="slider3">
+                <img src="../media/preschool/slider4-min.jpg" alt="slider4">
+                <img src="../media/preschool/slider5-min.jpg" alt="slider5">
             </div>
         </div>
         <div class="slider-box"></div>
@@ -142,22 +142,22 @@ include 'includes/header.php'
         <a href="../phonics.php" class="font2">Visit our Phonics website</a>
         <div class="method-info">
             <div class="method">
-                <img src="../media/preschool/Holistic.jpg" alt="holistic">
+                <img src="../media/preschool/Holistic-min.jpg" alt="holistic">
                 <h4 class="font2">Holistic</h4>
                 <p class="font3">We genuinely mean it. Whether it is a daily dose of sports, dance and drama, music, clay, arts …or free play, we want children to be exposed to multiple aspects when young and grow multi-dimensionally. We want children to be active, healthy, confident, capable and naughty too.</p>
             </div>
             <div class="method">
-                <img src="../media/preschool/Montessori++.jpg" alt="montessori">
+                <img src="../media/preschool/Montessori++-min.jpg" alt="montessori">
                 <h4 class="font2">Montessori ++</h4>
                 <p class="font3">While we like the underlying principles of Montessori, such as “follow the child”, self-paced learning and allow the child to explore and complete their work cycle, we do not restrict ourselves to the official Montessori materials or even sequences.</p>
             </div>
             <div class="method">
-                <img src="../media/preschool/engageratherthanteach.jpg" alt="engage">
+                <img src="../media/preschool/engageratherthanteach-min.jpg" alt="engage">
                 <h4 class="font2">Engage rather than Teach</h4>
                 <p class="font3">We value conceptual learning over information overload. Our way is to be friendly and interest the child, rather than look down and “teach”. Let the concept evolve/develop in the child rather than “explain” it to her.</p>
             </div>
             <div class="method">
-                <img src="../media/preschool/multilingual.jpg" alt="multilingual">
+                <img src="../media/preschool/multilingual-min.jpg" alt="multilingual">
                 <h4 class="font2">Mutilingual</h4>
                 <p class="font3">As mentioned elsewhere, we feel our multilingual culture is one of the best advantages India has, which unfortunately this generation is loosing. Not only do we teach the local language from day one, but we reach out and explain to children in their own language, wherever required.</p>
             </div>
@@ -176,34 +176,34 @@ include 'includes/header.php'
         <div class="pre-icons">
             <div class="pre-icon-row">
                 <div class="pre-icon">
-                    <img src="" alt="">
+                    <img src="../media/preschool/Icon/infrastructre2.0-min.svg" alt="infrastructure">
                     <h5 class="font2">Infrastructure</h5>
                     <p class="font3">Beautiful green campus with an expansive outdoor play area. Lush green views from every classroom.</p>
                 </div>
                 <div class="pre-icon">
-                    <img src="" alt="">
+                    <img src="../media/preschool/Icon/safety2.0-min.svg" alt="safety">
                     <h5 class="font2">Safety</h5>
                     <p class="font3">We take extreme care that there are no serious injuries by having padded staircases, foam at corners, ensuring no sharp edges, compulsory fire & first aid trainings and padding in play areas.</p>
                 </div>
                 <div class="pre-icon">
-                    <img src="" alt="">
+                    <img src="../media/preschool/Icon/smallclasssize2.0-min.svg" alt="small_class">
                     <h5 class="font2">Small Class Size</h5>
                     <p class="font3">To ensure personal interaction and individual attention we ensure that during a class a teacher does not see more than 8 students. We have a number of classrooms to facilitiate this.</p>
                 </div>
             </div>
             <div class="pre-icon-row">
                 <div class="pre-icon">
-                    <img src="" alt="">
+                    <img src="../media/preschool/Icon/daycare2.0-min.svg" alt="day_care">
                     <h5 class="font2">Day Care</h5>
                     <p class="font3">A full fledged Montessori Setup, A toy room, A mini library, Sand pit area, Hand wash areas distributed across the building and play areas are some of the enablers for a child's enjoyable school experience.</p>
                 </div>
                 <div class="pre-icon">
-                    <img src="" alt="">
+                    <img src="../media/preschool/Icon/transport2.0-min.svg" alt="transport">
                     <h5 class="font2">Transport</h5>
                     <p class="font3">Our supportive and friendly staff ensure children can relax after school and enjoy the multiple activities and play areas at our infrastructure.</p>
                 </div>
                 <div class="pre-icon">
-                    <img src="" alt="">
+                    <img src="../media/preschool/Icon/activities2.0-min.svg" alt="activities">
                     <h5 class="font2">Activities</h5>
                     <p class="font3">We offer to and fro transport within the layout with a GPS enabled school van.</p>
                 </div>
@@ -213,11 +213,6 @@ include 'includes/header.php'
 </div>
 
 <!-- Our Facilities section Ends Here  -->
-
-
-
-<div class="pre-testimonials"></div>
-
 
 <!-- Activities section Starts Here  -->
 
@@ -275,7 +270,7 @@ include 'includes/header.php'
 
             </div>
             <div class="activity-side">
-                <img src="../media/preschool/music-01.png" alt="">
+                <img src="../media/preschool/music-01-min.png" alt="">
             </div>
 
         </div>
@@ -321,7 +316,7 @@ include 'includes/header.php'
 
             </div>
             <div class="activity-side">
-                <img src="../media/preschool/dance-01.png" alt="">
+                <img src="../media/preschool/dance-01-min.png" alt="">
             </div>
 
         </div>
@@ -370,7 +365,7 @@ include 'includes/header.php'
 
             </div>
             <div class="activity-side">
-                <img src="../media/preschool/freeplay-01.png" alt="">
+                <img src="../media/preschool/freeplay-01-min.png" alt="">
             </div>
 
         </div>
@@ -416,7 +411,7 @@ include 'includes/header.php'
 
             </div>
             <div class="activity-side">
-                <img src="../media/preschool/artandcraft-01.png" alt="">
+                <img src="../media/preschool/artandcraft-01-min.png" alt="">
             </div>
 
         </div>
@@ -462,7 +457,7 @@ include 'includes/header.php'
 
             </div>
             <div class="activity-side">
-                <img src="../media/preschool/publicspeaking-01.png" alt="">
+                <img src="../media/preschool/publicspeaking-01-min.png" alt="">
             </div>
 
         </div>
@@ -508,7 +503,7 @@ include 'includes/header.php'
 
             </div>
             <div class="activity-side">
-                <img src="../media/preschool/event-01.png" alt="">
+                <img src="../media/preschool/event-01-min.png" alt="">
             </div>
 
         </div>
@@ -554,7 +549,7 @@ include 'includes/header.php'
 
             </div>
             <div class="activity-side">
-                <img src="../media/preschool/celebration-01.png" alt="">
+                <img src="../media/preschool/celebration-01-min.png" alt="">
             </div>
 
         </div>
@@ -600,7 +595,7 @@ include 'includes/header.php'
 
             </div>
             <div class="activity-side">
-                <img src="../media/preschool/roleplay-01.png" alt="">
+                <img src="../media/preschool/roleplay-01-min.png" alt="">
             </div>
 
         </div>
@@ -647,7 +642,7 @@ include 'includes/header.php'
 
             </div>
             <div class="activity-side">
-                <img src="../media/preschool/breakfast-01.png" alt="">
+                <img src="../media/preschool/breakfast-01-min.png" alt="">
             </div>
 
         </div>

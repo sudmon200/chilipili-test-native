@@ -172,85 +172,6 @@ function openCity(evt, cityName) {
 // Activities show content functions 
 
 
-<<<<<<< HEAD
-// var contents = document.querySelectorAll('.activity-sub-heading')
-
-// for (x in contents) {
-
-//     contents[x].addEventListener('click', function() {
-//         console.log(this);
-//         console.log(contents[x].nextElementSibling)
-//     })
-
-// }
-
-// Function to show description section of activities 
-function showContent() {
-    content1 = document.getElementById('content1');
-    content2 = document.getElementById('content2');
-    content3 = document.getElementById('content3');
-
-    // console.log(content2.style.display === "none" && content1.style.display === "block");
-    // console.log(content2.style.display === "none");
-    // console.log(content1.style.display === "block");
-    // console.log(window.getComputedStyle(content2).display)
-
-    if (content1.style.display === "block") {
-        content1.style.display = "none"
-    } else if (content2.style.display === "none" || content2.style.display === "none") {
-        content2.style.display = "none";
-        content3.style.display = "none"
-    } else if (content1.style.display === "none") {
-        content1.style.display = "block";
-    }
-
-}
-
-// Function to show Age section of activities 
-
-// function showContentAge() {
-//     content1 = document.getElementById('content1');
-//     content2 = document.getElementById('content2');
-//     content3 = document.getElementById('content3');
-//     if (window.getComputedStyle(content2).display === "none" && content1.style.display === "block") {
-//         content1.style.display = "none";
-//         content2.style.display = "block";
-
-//     } else if (window.getComputedStyle(content2).display === "none" && content1.style.display === "none") {
-//         content2.style.display = "block";
-
-//     } else if (window.getComputedStyle(content2).display === "none" && window.getComputedStyle(content3).display === "block") {
-//         content3.style.display = "none";
-//         content2.style.display = "block";
-
-//     } else if (content2.style.display === "block") {
-//         content2.style.display = "none";
-//     }
-// }
-
-// Function to show Time section of activities 
-
-// function showContentTime() {
-//     content1 = document.getElementById('content1');
-//     content2 = document.getElementById('content2');
-//     content3 = document.getElementById('content3');
-//     if (window.getComputedStyle(content3).display === "none" && content1.style.display === "block") {
-//         content1.style.display = "none";
-//         content3.style.display = "block";
-
-//     } else if (window.getComputedStyle(content2).display === "none" && content1.style.display === "none") {
-//         content3.style.display = "block";
-
-//     } else if (window.getComputedStyle(content2).display === "block" && window.getComputedStyle(content3).display === "none") {
-//         content3.style.display = "none";
-//         content2.style.display = "block";
-
-//     } else if (content3.style.display === "block") {
-//         content3.style.display = "none";
-//     }
-// }
-
-=======
 let contents = document.querySelectorAll('.activity-sub-section')
 let heading = document.querySelectorAll('.activity-sub-heading');
 
@@ -263,7 +184,6 @@ for (var x in heading) {
         }
     };
 }
->>>>>>> df0f065aa5a0e6f341edc5e7f1ecc1bcbe284078
 // Activities show content functions Ends here
 
 
@@ -353,13 +273,8 @@ preSliderRArrow.addEventListener('click', function() {
 preSliderLArrow.addEventListener('click', function() {
     console.log(-size * counter);
     counter--;
-<<<<<<< HEAD
     if (counter <= 0) {
         ''
-=======
-    if (counter < 0) {
-        console.log("working LEft!!");
->>>>>>> df0f065aa5a0e6f341edc5e7f1ecc1bcbe284078
         return;
     }
     preSlider.style.transform = 'translateX(' + (-size * counter) + 'px)';

@@ -2147,6 +2147,11 @@
             height: auto;
             text-align: center;
         }
+
+        .pre-icon img {
+            width: 60%;
+            height: auto;
+        }
         
         .pre-icon h5 {
             font-size: 1.56rem;

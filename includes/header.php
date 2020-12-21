@@ -74,7 +74,7 @@
 						</a>
 						<ul class="dropdown-menu " role="menu" aria-labelledby="dropdownMenu">
 							<li class="dropdown-submenu">
-								<a class="dropdown-item" href="index.php">Preschool</a>
+								<a class="dropdown-item" href="preschool/index.php">Preschool</a>
 								<ul class="dropdown-menu">
 									<li class="dropdown-submenu">
 										<a class="dropdown-item" href="#">Life at Chili Pili</a>
@@ -124,11 +124,11 @@
 									</li>
 								</ul>
 							</li>
-							<li class="dropdown-item"><a class="dropdown-item" href="../montessori.php">Montessori at Home</a></li>
-							<li class="dropdown-item"><a class="dropdown-item" href="../language-training.php">New Language Training</a></li>
-							<li class="dropdown-item"><a class="dropdown-item" href="../phonics.php">Phonics</a></li>
-							<li class="dropdown-item"><a class="dropdown-item" href="../alternate-school.php">Alternate School</a></li>
-							<li class="dropdown-item"><a class="dropdown-item" href="../teacher-training.php">Teacher Training</a></li>
+							<li class="dropdown-item"><a class="dropdown-item" href="montessori.php">Montessori at Home</a></li>
+							<li class="dropdown-item"><a class="dropdown-item" href="language-training.php">New Language Training</a></li>
+							<li class="dropdown-item"><a class="dropdown-item" href="phonics.php">Phonics</a></li>
+							<li class="dropdown-item"><a class="dropdown-item" href="alternate-school.php">Alternate School</a></li>
+							<li class="dropdown-item"><a class="dropdown-item" href="teacher-training.php">Teacher Training</a></li>
 						</ul>
 				</li>
 				<li class="nav-item ml-4 mr-4" id="blog.php">
