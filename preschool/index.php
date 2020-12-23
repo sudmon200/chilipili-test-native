@@ -14,12 +14,12 @@ include 'includes/header.php'
         </div>
         <div class="pre-slider-2">
             <div class="pre-slider-text">
-                <p>Developing Excellence Naturally</p>
-                <p>Let children be, after all we are here to be free</p>
-                <p>Preschooling the way nature intended</p>
-                <p>Well rounded education for well grounded children</p>
-                <p>Learn to play, play to learn</p>
-                <p>Our children should know our languages and know them well.</p>
+                <p class="font2">Developing Excellence Naturally</p>
+                <p class="font2">Let children be, after all we are here to be free</p>
+                <p class="font2">Preschooling the way nature intended</p>
+                <p class="font2">Well rounded education for well grounded children</p>
+                <p class="font2">Learn to play, play to learn</p>
+                <p class="font2">Our children should know our languages and know them well.</p>
             </div>
         </div>
         <div class="pre-slider-1">
@@ -80,7 +80,7 @@ include 'includes/header.php'
             <div class="video-side1">
                 <div class="pre-video-box">
                     <div class="pre-video-box-over">
-                        <img src="../media/1.jpg" alt="">
+                        <img src="../media/preschool/gallery/AtPlay/AtPlayThumbnail.png" alt="">
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@ include 'includes/header.php'
             <div class="video-side2">
                 <div class="pre-video-box">
                     <div class="pre-video-box-over">
-                        <img src="../media/1.jpg" alt="">
+                        <img src="../media/preschool/gallery/AtPlay/AtPlayThumbnail.png" alt="">
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ include 'includes/header.php'
             <div class="video-side1">
                 <div class="pre-video-box">
                     <div class="pre-video-box-over">
-                        <img src="../media/1.jpg" alt="">
+                        <img src="../media/preschool/gallery/AtPlay/AtPlayThumbnail.png" alt="">
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@ include 'includes/header.php'
             <div class="video-side2">
                 <div class="pre-video-box">
                     <div class="pre-video-box-over">
-                        <img src="../media/1.jpg" alt="">
+                        <img src="../media/preschool/gallery/AtPlay/AtPlayThumbnail.png" alt="">
                     </div>
                 </div>
             </div>
@@ -136,8 +136,10 @@ include 'includes/header.php'
 
 <!-- Our Methods section Starts Here  -->
 <div class="methods p-def">
+    <img src="../media/Preschool-Asset/Group 6246.png" alt="Pre-Tree-1" class="pre-home-tree1">
+
     <div class="m-side">
-        <h3 class="font1 pre-header">Our Methods</h3>
+        <h3 class="font1 pre-header p-def">Our Methods</h3>
         <p class="font2" id="methods">For Our innovative and highly effective phonics methodology,</p>
         <a href="../phonics.php" class="font2">Visit our Phonics website</a>
         <div class="method-info">
@@ -147,12 +149,12 @@ include 'includes/header.php'
                 <p class="font3">We genuinely mean it. Whether it is a daily dose of sports, dance and drama, music, clay, arts …or free play, we want children to be exposed to multiple aspects when young and grow multi-dimensionally. We want children to be active, healthy, confident, capable and naughty too.</p>
             </div>
             <div class="method">
-                <img src="../media/preschool/Montessori++-min.jpg" alt="montessori">
+                <img src="../media/preschool/Montessori-min.jpg" alt="montessori">
                 <h4 class="font2">Montessori ++</h4>
                 <p class="font3">While we like the underlying principles of Montessori, such as “follow the child”, self-paced learning and allow the child to explore and complete their work cycle, we do not restrict ourselves to the official Montessori materials or even sequences.</p>
             </div>
             <div class="method">
-                <img src="../media/preschool/engageratherthanteach-min.jpg" alt="engage">
+                <img src="../media/preschool/EngageRatherTeach-min.jpg" alt="engage">
                 <h4 class="font2">Engage rather than Teach</h4>
                 <p class="font3">We value conceptual learning over information overload. Our way is to be friendly and interest the child, rather than look down and “teach”. Let the concept evolve/develop in the child rather than “explain” it to her.</p>
             </div>
@@ -170,9 +172,11 @@ include 'includes/header.php'
 <!-- Our Facilities section Starts Here  -->
 
 <div class="facilities p-def">
+    <img src="../media/Preschool-Asset/Group 8144.png" alt="Pre-Tree-1" class="pre-home-tree2">
+
     <div class="m-side">
 
-        <h3 class="font1 pre-header">Our Facilities</h3>
+        <h3 class="font1 pre-header p-def">Our Facilities</h3>
         <div class="pre-icons">
             <div class="pre-icon-row">
                 <div class="pre-icon">
@@ -217,6 +221,9 @@ include 'includes/header.php'
 <!-- Activities section Starts Here  -->
 
 <div class="pre-activities m-side">
+    <img src="../media/Preschool-Asset/Group 8278.png" alt="Pre-Tree-1" class="pre-home-tree3">
+
+    <h3 class="font1 pre-header p-def">Our Activities</h3>
     <!-- Tab links -->
     <div class="tab">
         <p class="tablinks" onclick="openCity(event, 'Music')">Music</p>
@@ -237,7 +244,7 @@ include 'includes/header.php'
                 <h3 class="font1">Music</h3>
 
                 <!-- Activity Description Section  -->
-                
+
                 <div class="activity-sub-heading">
                     <h4 class="font2">Activity Description</h4>
                     <img src="../media/Preschool-Asset/arrowdown.svg" alt="" id="show-content1">
@@ -655,11 +662,10 @@ include 'includes/header.php'
 <!-- Teacher section Starts Here  -->
 
 <div class="pre-teacher m-def">
+    <img src="../media/Preschool-Asset/Group 8278.png" alt="Pre-Tree-1" class="pre-home-tree3">
+
     <div class="m-side">
-        <div>
-            <h3 class="font1 pre-header p-def">Teachers</h3>
-            <img src="" alt="">
-        </div>
+        <h3 class="font1 pre-header p-def">Teachers</h3>
         <div class="teach-img-slider">
             <div class="jslider-scalable-new-hldr">
                 <div class="slider-btn-hldr slider-btn-hldr-left">
@@ -671,22 +677,22 @@ include 'includes/header.php'
                     <div class="jslider-grid scalable-grid scalable-grid--max-4" style="left: 0px;">
                         <div class="item-container">
                             <div class="item">
-                                <img src="https://unsplash.it/274/400?image=1069" />
+                                <img src="../media/preschool/t1-min.jpg" />
                             </div>
                         </div>
                         <div class="item-container">
                             <div class="item">
-                                <img src="https://unsplash.it/274/400?image=1074" />
+                                <img src="../media/preschool/t2-min.jpg" />
                             </div>
                         </div>
                         <div class="item-container">
                             <div class="item">
-                                <img src="https://unsplash.it/274/400?image=1084" />
+                                <img src="../media/preschool/t3-min.jpg" />
                             </div>
                         </div>
                         <div class="item-container">
                             <div class="item">
-                                <img src="https://unsplash.it/274/400?image=1024" />
+                                <img src="../media/preschool/t1-min.jpg" />
                             </div>
                         </div>
                         <div class="item-container">
@@ -730,11 +736,82 @@ include 'includes/header.php'
 
 <!-- Gallery section Starts Here  -->
 
-<div class="gallery">
+<div class="gallery m-side m-def">
 
+    <h3 class="font1 pre-header p-def">Our Gallery</h3>
+    <img src="../media/Preschool-Asset/layer 3.png" alt="Pre-Tree-1" class="pre-home-bird1">
+
+    <div>
+        <div class="pre-photo-row p-bottom">
+            <div class="photo-column">
+                <img src="../media/preschool/gallery/AtPlay/20191122_103857-min.jpg" alt="">
+                <h6 class="font2">@Play : Learning is fun.</h6>
+                <!-- <p class="font3">Children are enjoying playing with the tyre</p>
+                <p class="font3">yet learning various concepts of geomety </p>
+                <p class="font3">and shapes.</p> -->
+                <a href="gallery-play.php" class="font3">
+                    View more
+                </a>
+            </div>
+            <div class="photo-column">
+                <img src="../media/preschool/gallery/Art _ Craft/IMG_20190610_103339339-min.jpg" alt="">
+                <h6 class="font2">@Art :  loads of colours</h6>
+                <!-- <p class="font3">The child is enjoying the organic non toxic colours</p> -->
+                <a href="gallery-play.php" class="font3">
+                    View more
+                </a>
+            </div>
+            <div class="photo-column">
+                <img src="../media/preschool/gallery/Celebration/DSC_0021-min.JPG" alt="">
+                <h6 class="font2">@Celebrations : Festival Time</h6>
+                <a href="gallery-festival.php" class="font3">See More...</a>
+            </div>
+            <div class="photo-column">
+                <img src="../media/preschool/gallery/ClassRoom/IMG-20190830-WA0000-min.jpg" alt="">
+                <h6 class="font2">@Class : Appreciation time</h6>
+                <a href="gallery-classroom.php" class="font3">See More...</a>
+            </div>
+
+        </div>
+        <div class="pre-photo-row p-bottom">
+            <div class="photo-column">
+                <img src="../media/preschool/gallery/AtPlay/IMG-20190617-WA0026-min.jpg" alt="">
+                <h6 class="font2">@Play : Friends time.</h6>
+                <a href="gallery-play.php" class="font3">See More...</a>
+            </div>
+            <div class="photo-column">
+                <img src="../media/preschool/gallery/ClassRoom/IMG_20190726_114320407-min.jpg" alt="">
+                <h6 class="font2">@Class : Vegetable Market</h6>
+                <a href="gallery-craft.php" class="font3">See More...</a>
+            </div>
+            <div class="photo-column">
+                <img src="../media/preschool/gallery/Celebration/IMG-20190913-WA0015-min.jpg" alt="">
+                <h6 class="font2">Celebrations : Pookalam</h6>
+                <a href="gallery-festival.php" class="font3">See More...</a>
+            </div>
+            <div class="photo-column">
+                <img src="../media/preschool/gallery/Montessori/IMG_20180703_115727-min.jpg" alt="">
+                <h6 class="font2">@Montessori: Focused Self time</h6>
+                <a href="gallery-montessori.php" class="font3">See More...</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Gallery section Ends Here  -->
+
+<!-- Media section Starts Here  -->
+
+<div class="pre-media m-bottom">
+    <h3 class="font1 pre-header p-def" style="margin-left:16.63rem;">Chili Pili in Media</h3>
+    <div class="media-img p-bottom">
+        <a href="https://education.siliconindia.com/others/institution/chilli-pilli-makkala-koota-implementing-a-novel-phonetics-pedagogy-to-rear-multilingual-children-cid-10595.html">
+            <img src="https://www.siliconindia.com/images/dynamiclogo/GVNlbKz2Zd.png" alt="Silicon-India">
+        </a>
+    </div>
+</div>
+
+<!-- Media section Ends Here  -->
 
 
 <?php

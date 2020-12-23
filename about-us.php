@@ -10,8 +10,8 @@ include 'includes/header.php';
 	<div class="row">
 		<!-- <div class="col-lg-6 col-md-6 col-sm-12 about-text" color="red" > -->
 		<div class="col-lg-6 col-md-6 col-12 about-text">
-			<h3>Welcome to Chili Pili</h3>
-			<p>We are a group of motivated individuals who are passionate about bettering the lives of children of
+			<h3 class="font3">Welcome to Chili Pili</h3>
+			<p class="font3">We are a group of motivated individuals who are passionate about bettering the lives of children of
 				today. We find the schooling woefully inadequate to meet the needs of the coming generation. We aim to
 				make education fun and about building intelligence, not just dumping of information.</p>
 		</div>
@@ -22,20 +22,20 @@ include 'includes/header.php';
 </section>
 
 <div class="flakes" style="background-image:url('media/final-asset/leaf_background.png')">
-	<section class="container m-def about-background">
+	<section class="container m-bottom about-background">
 		<div>
 			<img src="media/final-asset/branch-1.svg" style="z-index:-1;" class="branch1" alt="branch">
 		</div>
-		<h3>The Background</h3>
-		<p>We are primarily a research and training company focusing on the field of early-stage education. Our team of
+		<h3 class="font2">The Background</h3>
+		<p class="font3">We are primarily a research and training company focusing on the field of early-stage education. Our team of
 			experts has created and tested learning methodologies that enable a child to absorb concepts and learn faster.
 			We offer online courses for parents on these methodologies which will help them teach their child the basics of
 			language and maths through simple steps making the entire learning process immersive and fun for both parent and
 			child.</p>
-		<p>We understand that learning is not about what you teach, or how much you teach but it is about how you teach. How
+		<p class="font3">We understand that learning is not about what you teach, or how much you teach but it is about how you teach. How
 			you teach makes all the difference in the quality of learning of a child. How you teach is not just about
 			standardized methodology like CBSE or ICSE, nor is it about non-conventional methods like Montessori or Waldorf
-			or Multiple Intelligence or learning apps . How you teach – very simply is about the teacher and how they
+			or Multiple Intelligence or learning apps. How you teach – very simply is about the teacher and how they
 			interact with the learner, engaging their mind and attention. We work on a continuous basis with our teachers,
 			giving them the knowledge, tools, materials, and processes to help them become more capable teachers and better
 			human beings, which in turn will help our children become better human beings and more capable individuals. Our
@@ -45,8 +45,8 @@ include 'includes/header.php';
 	</section>
 
 	<section class="about-vision container">
-		<h3>Our Vision:</h3>
-		<p>To develop methodologies, teachers and material in early education, such that every person touched by our methods
+		<h3 class="font2">Our Vision:</h3>
+		<p class="font3">To develop methodologies, teachers and material in early education, such that every person touched by our methods
 			across the world gets the best all-round developmental improvement possible, ultimately flowering into adults
 			fulfilling their highest potential.</p>
 		<img src="media/final-asset/bush-1.svg" style="z-index:-1;opacity:0.5;width:600px" alt="">
@@ -55,72 +55,72 @@ include 'includes/header.php';
 
 	<section class="container m-def about-method">
 
-		<h3>Our Mission:</h3>
+		<h3 class="font2">Our Mission:</h3>
 		<ul style="list-style-image:url('media/final-asset/star-1.svg')">
 			<li>
-				<p>By developing a most efficient education methodology aimed at developing enhanced learning skills for age
-					3-12</p>
+				<p class="font3">By developing a most efficient education methodology aimed at developing enhanced learning skills for age
+					3-12.</p>
 			</li>
 			<li>
-				<p>By developing learning materials, books, toys, etc. to aid learning in this methodology and make it
-					accessible via various channels</p>
+				<p class="font3">By developing learning materials, books, toys, etc. to aid learning in this methodology and make it
+					accessible via various channels.</p>
 			</li>
 			<li>
-				<p>An overall curriculum and approach incorporating the above and myriad other dimensions of developing an
-					individual</p>
+				<p class="font3">An overall curriculum and approach incorporating the above and myriad other dimensions of developing an
+					individual.</p>
 			</li>
 			<li>
-				<p>To explore real-life applications of these methodologies and create profitable lines of businesses which
-					can scale to impact wider demographics</p>
+				<p class="font3">To explore real-life applications of these methodologies and create profitable lines of businesses which
+					can scale to impact wider demographics.</p>
 			</li>
 
 		</ul>
 	</section>
 
 	<section class="about-tm">
-		<h3>TEAM MEMBERS</h3>
+		<h3>Team Members</h3>
 		<div class="container">
 			<div class="row">
 				<div class="card col-lg-4 col-md-6 col-12 mb-1">
 					<span class="img-lable">Founder</span>
-					<img class="card-img-top" src="media/Suhas.jpg" alt="Card image cap">
+					<img class="card-img-top" src="media/FounderSuhas_AU-min.jpg" alt="Card image cap">
 					<div class="card-body">
-						<h5 class="card-title">Suhas Kulhali</h5>
-						<h6 class="card-subtitle">Founder</h6>
-						<p class="card-text">An inventor and entrepreneur, Suhas holds 6 US patents in addition to multiple
+						<h5 class="card-title font2">Suhas Kulhali</h5>
+						<h6 class="card-subtitle font3">Founder</h6>
+						<p class="card-text font3">An inventor and entrepreneur, Suhas holds 6 US patents in addition to multiple
 							international patents. Suhas turned into early stage education after a long and fruitful career in
-							Semi-conductor industry. He founded Chilli-Pilli pre schools and<span id="dots1">.....</span><span id="more1"> invented the Chilli-pilli phonics system for language training .Work Exp: MGTS (Texas
+							Semi-conductor industry. He founded Chili Pili Pre schools and<span id="dots1">.....</span><span id="more1"> invented the Chili Pili Phonics system for language training. Work Exp: MGTS (Texas
 								Instruments), Analog Manager (insilica), Director (SiRF Tech), Sr Mnager (BROADCOM), VP
-								Engineering (Siliconch Systems)</span></p>
+								Engineering (Siliconch Systems).</span></p>
 						<a onclick="readMoreSuhas()" id="myBtn1" class="badge badge-dark">Read more</a>
 					</div>
 				</div>
 				<div class="card col-lg-4 col-md-6 col-12 mb-1">
 					<span class="img-lable">Co-Founder</span>
-					<img class="card-img-top" src="media/Deepak.jpg" alt="Card image cap">
+					<img class="card-img-top" src="media/CoFounderDeepak_AU-min.jpg" alt="Card image cap">
 					<div class="card-body">
-						<h5 class="card-title">Deepak Nambiar</h5>
-						<h6 class="card-subtitle">Co-Founder</h6>
-						<p class="card-text">Deepak is highly effective Leadership developer with over 15 year of experience
-							specializing in talent, learning and organizational development Proven ability to lead organization
+						<h5 class="card-title font2">Deepak Nambiar</h5>
+						<h6 class="card-subtitle font3">Co-Founder</h6>
+						<p class="card-text font3">Deepak is highly effective Leadership developer with over 15 year of experience
+							specializing in talent, learning and organizational development, proven ability to lead organization
 							effectiveness program and managing multi-disciplined function.<span id="dots2">.....</span><span id="more2"> Work Exp: Sr. Operations Manager (Convergys India services) Management Consultant
 								(AdStock Global, Sunny International, Vivartha Global, Sri Dharmasthala, Manjunatha Trust,Veon
 								Systems,Future Appliances, Worcraft Consulting Services Pvt. Ltd, ArchstudioV Associates,
-								Angelo's Academy, Millennium Aero Dynamics Pvt. Ltd., Magnum Networks Pvt. ltd</span></p>
+								Angelo's Academy, Millennium Aero Dynamics Pvt. Ltd., Magnum Networks Pvt. ltd.</span></p>
 						<a onclick="readMoreDeepak()" id="myBtn2" class="badge badge-dark">Read more</a>
 					</div>
 				</div>
 				<div class="card col-lg-4 col-md-6 col-12 mb-1">
 					<span class="img-lable">Co-Founder</span>
-					<img class="card-img-top" src="media/Arun.jpg" alt="Card image cap">
+					<img class="card-img-top" src="media/CoFounderArun_AU.jpg" alt="Card image cap">
 					<div class="card-body">
-						<h5 class="card-title">Arun R S</h5>
-						<h6 class="card-subtitle">Co-Founder</h6>
-						<p class="card-text">Passionate about entrepreneurship, Arun had worked across industries including real
-							estate, Logistics,entertainment and has been actively involved with start-ups since 2014. Currently
-							practice as a consultants for budding entrepreneurs in<span id="dots3">.....</span><span id="more3"> developing ideas into viable business plans. Work Exp: Young Leader:Brand Management
+						<h5 class="card-title font2">Arun R S</h5>
+						<h6 class="card-subtitle font3">Co-Founder</h6>
+						<p class="card-text font3">Passionate about entrepreneurship, Arun had worked across industries including real
+							estate, logistics, entertainment and has been actively involved with start-ups since 2014. Currently
+							practises as a consultant for budding entrepreneurs in<span id="dots3">.....</span><span id="more3"> developing ideas into viable business plans. Work Exp: Young Leader:Brand Management
 								(Bharti Realty Ltd.), Co-Founder (Yantrams Enterprises), Head-Marketing (Pikkol), Strategy
-								Consultant -Start-ups (Freelance)</span></p>
+								Consultant -Start-ups (Freelance).</span></p>
 						<a onclick="readMoreArun()" id="myBtn3" class="badge badge-dark">Read more</a>
 					</div>
 				</div>

@@ -4,7 +4,7 @@ include 'includes/header.php'
 
 <div class="pre-main-header m-def">
 
-    <h2 class="font1 text-center">Guidelines for Parents</h2>
+    <h2 class="font1 text-center">Be involved</h2>
 
 </div>
 
@@ -20,7 +20,7 @@ include 'includes/header.php'
     </div>
 
     <div class="parents-side">
-        <img src="../media/preschool/parents_guidlines.png" alt="">
+        <img src="../media/preschool/be_involveld.png" alt="">
     </div>
 
 </section>

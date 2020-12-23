@@ -151,3 +151,35 @@
     height: auto;
     right: -14vw;
 }
+
+.pre-home-tree1{
+    position: absolute;
+    top: -21vh;
+    width: 70vh;
+    height: auto;
+    left: 0vw;
+}
+
+.pre-home-tree2{
+    position: absolute;
+    top: -8vh;
+    width: 54vh;
+    height: auto;
+    right: 0vw;
+}
+
+.pre-home-tree3{
+    position: absolute;
+    top: -8vh;
+    width: 45vh;
+    height: auto;
+    right: -8vw;
+}
+
+.pre-home-bird1 {
+    position: absolute;
+    top: 6vh;
+    width: 22vh;
+    height: auto;
+    right: -4vw;
+}

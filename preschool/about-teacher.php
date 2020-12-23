@@ -25,7 +25,7 @@ include 'includes/header.php'
                 <p class="font3">Haripriya had been working in IT for more than a decade however she did not feel a belonging towards what she was doing and hence decided to quit her job. A Holistic Education course was a eye-opener for her which made her realise that she wanted to be a facilitator. This helped her in exploring her own self and found her to have a liking towards Carnatic Vocal, yoga, reading, listening to music , story telling and lot more to be added in future. She being passionate about her language as language for her is a window to a new lifestyle, to a culture , to a tradition and to our wisdom. In her view by losing a language we lose everything with it. It pained her to see the disconnect her own children had with their mother tongue and she believes that it is her responsibility to help them find their roots. She believes in doing her bit to share the passion she has for the language to her children and to whoever is interested in it so that they are in touch with the language. She wishes from her heart that one day they make the connection and find the beauty and profoundness of our roots , our culture and our wisdom and cherish it for their generations.</p>
             </div>
             <div>
-                <img src="../media/preschool/t1.jpg" alt="">
+                <img src="../media/preschool/t3-min.jpg" alt="">
             </div>
         </div>
         <div class="teacher-box2">
@@ -34,25 +34,7 @@ include 'includes/header.php'
                 <p class="font3">Lavanya being a Finance professional (Chartered Accountant) worked for a few MNCs before taking a break to move the family way to raise her son.Since teaching had been her passion since childhood days , she had spent time tutoring high school children in her neighbourhood and was happy to see them achieve their goals.She strongly believes that teaching not only helps the students to learn but also the tutor herself to improve his/her skills. The methodologies and teaching of Chili Pili impressed her and hence decided to join the Chili Pili family. She believes that teaching helps build strong conceptual skills. She also strongly liked the fact that chilipili gave importance to our own languages and not just English. She hopes to learn kannada also pretty soon. </p>
             </div>
             <div>
-                <img src="../media/preschool/t2.jpg" alt="">
-            </div>
-        </div>
-        <div class="teacher-box1">
-            <div>
-                <h4 class="font2">Haripriya</h4>
-                <p class="font3">Haripriya had been working in IT for more than a decade however she did not feel a belonging towards what she was doing and hence decided to quit her job. A Holistic Education course was a eye-opener for her which made her realise that she wanted to be a facilitator. This helped her in exploring her own self and found her to have a liking towards Carnatic Vocal, yoga, reading, listening to music , story telling and lot more to be added in future. She being passionate about her language as language for her is a window to a new lifestyle, to a culture , to a tradition and to our wisdom. In her view by losing a language we lose everything with it. It pained her to see the disconnect her own children had with their mother tongue and she believes that it is her responsibility to help them find their roots. She believes in doing her bit to share the passion she has for the language to her children and to whoever is interested in it so that they are in touch with the language. She wishes from her heart that one day they make the connection and find the beauty and profoundness of our roots , our culture and our wisdom and cherish it for their generations.</p>
-            </div>
-            <div>
-                <img src="../media/preschool/t1.jpg" alt="">
-            </div>
-        </div>
-        <div class="teacher-box2">
-            <div>
-                <h4 class="font2">Lavanya</h4>
-                <p class="font3">Lavanya being a Finance professional (Chartered Accountant) worked for a few MNCs before taking a break to move the family way to raise her son.Since teaching had been her passion since childhood days , she had spent time tutoring high school children in her neighbourhood and was happy to see them achieve their goals.She strongly believes that teaching not only helps the students to learn but also the tutor herself to improve his/her skills. The methodologies and teaching of Chili Pili impressed her and hence decided to join the Chili Pili family. She believes that teaching helps build strong conceptual skills. She also strongly liked the fact that chilipili gave importance to our own languages and not just English. She hopes to learn kannada also pretty soon. </p>
-            </div>
-            <div>
-                <img src="../media/preschool/t2.jpg" alt="">
+                <img src="../media/preschool/t2-min.jpg" alt="">
             </div>
         </div>
         <div class="teacher-box1">
@@ -61,7 +43,7 @@ include 'includes/header.php'
                 <p class="font3">Carmel being a Bangalorean reading and writing was a second nature to her. Though coming from difficult times her determination made her complete her graduation. She realized that her core interest was being with children and hence became a co-ordinator in a preschool after which she joined the Chili Pili family and is enjoying her time with the children. She strongly believes in the Chili Pili Principles that the nature’s ways is the only way to develop the child in the wholistic manner.</p>
             </div>
             <div>
-                <img src="../media/preschool/t1.jpg" alt="">
+                <img src="../media/preschool/t1-min.jpg" alt="">
             </div>
         </div>
         <div class="teacher-box2">

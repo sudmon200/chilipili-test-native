@@ -24,7 +24,7 @@ include 'includes/header.php'
         <p class="font3"><strong>4. A lot of exposure .. naturally: friends, relatives, shopping, office, parks & playgrounds, festivals.</strong></p>
         <p class="font3">This exposure results in an all round development which is more important in the long run than pure academics.</p>
         <p class="font3"><strong>5. Unstructured free play: Learning happens.</strong></p>
-        <p class="font3">Children are at their creative best when they are left to themselves. Unstructured play develops their fine motor skills, gross motor skills, language ,vocal development and teamwork abilities. Play is nature’s development plan. why not just let nature do her job.</p>
+        <p class="font3">Children are at their creative best when they are left to themselves. Unstructured play develops their fine motor skills, gross motor skills, language, vocal development and teamwork abilities. Play is nature’s development plan. why not just let nature do her job.</p>
         <a href="../blog.php" class="font3">..see our blogs for more insight into these</a>
     </div>
 

@@ -79,7 +79,7 @@
 											<li class="dropdown-item"><a class="dropdown-item" href="life-day.php">A Day in Chili Pili</a></li>
 											<li class="dropdown-item"><a class="dropdown-item" href="life-safety.php">Safety at Chili Pili</a></li>
 											<li class="dropdown-item"><a class="dropdown-item" href="life-outdoor.php">Outdoor Play At Chili Pili</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="life-day.php">Infrastructure</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="life-infrastructure.php">Infrastructure</a></li>
 											<li class="dropdown-item"><a class="dropdown-item" href="life-celebrations.php">Celebrations</a></li>
 										</ul>
 									</li>

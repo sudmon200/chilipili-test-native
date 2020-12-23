@@ -14,21 +14,21 @@ include 'includes/header.php'
         <img src="media/final-asset/branch-1.svg" class="branch1" alt="branch">
     </div>
     <div class="side1">
-        <h4 class="font1 internal-head">What is montessori at home?</h4>
-        <p class="internal-para font3">Montessori method is widely considered as an effective way to train your child in the early stages of development. Developed over a hundred years ago, it uses specialized learning materials to encourage a child to learn through play and activities. As learning is a continuous process, the child should be having access to the learning aids at all times so that they can engage in learning whenever they desire to do so.Any convenient place in the house can be converted into a Montessori corner where all the learning materials and toys can be stored so that the child can go and engage in learning.</p>
+        <h4 class="font1 internal-head">What is Montessori at home?</h4>
+        <p class="internal-para font3">Montessori method is widely considered as an effective way to train your child in the early stages of development. Developed over a hundred years ago, it uses specialized learning materials to encourage a child to learn through play and activities. As learning is a continuous process, the child should be having access to the learning aids at all times so that they can engage in learning whenever they desire to do so. Any convenient place in the house can be converted into a Montessori corner where all the learning materials and toys can be stored so that the child can go and engage in learning.</p>
     </div>
     <div class="side2">
-        <img src="media/montessori_new-01.png" alt="Montessori-leaf">
+        <img src="media/Image1b_M-min.png" alt="Montessori-leaf">
     </div>
 </div>
 <div class="flakes" style="background-image:url('media/final-asset/leaf_background.png')">
     <div class="internal-body m-def m-side">
         <div class="side1">
-            <img src="media/montessorrii.png" alt="Montessori-leaf">
+            <img src="media/Image2a_M-min.png" alt="Montessori-leaf">
         </div>
         <div class="side2">
             <h4 class="font1 internal-head">Chili Pili Montessori at Home</h4>
-            <p class="internal-para font3">The two main constraints that parents face when setting up a Montessori at home are the expense and lack of proper training support. Chili Pili Montessori at Home solves these by giving you access to high quality affordable kits accompanied by instruction videos for parents to guide their child the right way. These specially designed kits are safe to use and will incur minimal wear and tear.Our trained guides will give you the most effective ways to guide your child and make learning an organic process, not bound by time or location. Explore our range of Montessori materials and get them today.</p>
+            <p class="internal-para font3">The two main constraints that parents face when setting up a Montessori at home are the expense and lack of proper training support. Chili Pili Montessori at Home solves these by giving you access to high quality affordable kits accompanied by instruction videos for parents to guide their child the right way. These specially designed kits are safe to use and will incur minimal wear and tear. Our trained guides will give you the most effective ways to guide your child and make learning an organic process, not bound by time or location. Explore our range of Montessori materials and get them today.</p>
         </div>
         <div>
             <img src="media/final-asset/bush-1.svg" style="bottom: -10vh; left: -28vw" class="branch2" alt="branch">

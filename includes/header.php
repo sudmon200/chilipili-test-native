@@ -65,9 +65,6 @@
 				<li class="nav-item ml-4 mr-4" id="index.php">
 					<a class="nav-link" href="index.php">Home</a>
 				</li>
-				<li class="nav-item ml-4 mr-4" id="about-us.php">
-					<a class="nav-link" href="about-us.php">About Us</a>
-				</li>
 				<li class="nav-item ml-4 mr-4 dropdown">
 						<a class="nav-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Our Services
@@ -79,47 +76,47 @@
 									<li class="dropdown-submenu">
 										<a class="dropdown-item" href="#">Life at Chili Pili</a>
 										<ul class="dropdown-menu">
-											<li class="dropdown-item"><a class="dropdown-item" href="life-day.php">A Day in Chili Pili</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="life-safety.php">Safety at Chili Pili</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="life-outdoor.php">Outdoor Play At Chili Pili</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="life-day.php">Infrastructure</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="life-celebrations.php">Celebrations</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/life-day.php">A Day in Chili Pili</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/life-safety.php">Safety at Chili Pili</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/life-outdoor.php">Outdoor Play At Chili Pili</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/life-day.php">Infrastructure</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/life-celebrations.php">Celebrations</a></li>
 										</ul>
 									</li>
 									<li class="dropdown-submenu">
 										<a class="dropdown-item" href="#">Parents Corner</a>
 										<ul class="dropdown-menu">
-											<li class="dropdown-item"><a class="dropdown-item" href="parents-guildlines.php">Guidelines For Parents</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="parents-speak.php">Parents Speak</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="parents-after.php">What After Chili Pili</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="parents-involved.php">Be Involved</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/parents-guildlines.php">Guidelines For Parents</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/parents-speak.php">Parents Speak</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/parents-after.php">What After Chili Pili</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/parents-involved.php">Be Involved</a></li>
 										</ul>
 									</li>
 									<li class="dropdown-submenu">
 										<a class="dropdown-item" href="#">Curriculum</a>
 										<ul class="dropdown-menu">
-											<li class="dropdown-item"><a class="dropdown-item" href="../media/pdf/Syllabus.pdf" onclick="openPdf(event, '../media/pdf/Syllabus.pdf', 'newpage.php')">Syllabus</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="curriculum-methods.php">Our Methods</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="curriculum-ensuring.php">Ensuring Development Of Every Child</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="curriculum-innovative.php">Our Own Innovative Phonics Approach</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="media/pdf/Syllabus.pdf" onclick="openPdf(event, '../media/pdf/Syllabus.pdf', 'newpage.php')">Syllabus</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/curriculum-methods.php">Our Methods</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/curriculum-ensuring.php">Ensuring Development Of Every Child</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/curriculum-innovative.php">Our Own Innovative Phonics Approach</a></li>
 										</ul>
 									</li>
 									<li class="dropdown-submenu">
 										<a class="dropdown-item" href="#">Gallery</a>
 										<ul class="dropdown-menu">
-											<li class="dropdown-item"><a class="dropdown-item" href="gallery-classroom.php">Classrooom</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="gallery-play.php">Play</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="gallery-montessori.php">Montessori</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="gallery-festival.php">Festival</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="gallery-craft.php">Craft</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/gallery-classroom.php">Classrooom</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/gallery-play.php">Play</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/gallery-montessori.php">Montessori</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/gallery-festival.php">Festival</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/gallery-craft.php">Craft</a></li>
 										</ul>
 									</li>
 									<li class="dropdown-submenu">
 										<a class="dropdown-item" href="#">About Us</a>
 										<ul class="dropdown-menu">
-											<li class="dropdown-item"><a class="dropdown-item" href="about-teacher.php">Meet Our Teachers</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="about-story.php">Our Story</a></li>
-											<li class="dropdown-item"><a class="dropdown-item" href="about-management.php">Management Team</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/about-teacher.php">Meet Our Teachers</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/about-story.php">Our Story</a></li>
+											<li class="dropdown-item"><a class="dropdown-item" href="preschool/about-management.php">Management Team</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -130,6 +127,9 @@
 							<li class="dropdown-item"><a class="dropdown-item" href="alternate-school.php">Alternate School</a></li>
 							<li class="dropdown-item"><a class="dropdown-item" href="teacher-training.php">Teacher Training</a></li>
 						</ul>
+				</li>
+				<li class="nav-item ml-4 mr-4" id="about-us.php">
+					<a class="nav-link" href="about-us.php">About Us</a>
 				</li>
 				<li class="nav-item ml-4 mr-4" id="blog.php">
 					<a class="nav-link" href="blog.php">Blog</a>

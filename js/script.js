@@ -41,41 +41,6 @@ $(document).ready(function() {
 });
 
 
-// // Initialize and add the map
-// function initMap() {
-//     // The location of Uluru
-//     const uluru = { lat: -25.344, lng: 131.036 };
-//     // The map, centered at Uluru
-//     const map = new google.maps.Map(document.getElementById("map"), {
-//         zoom: 4,
-//         center: uluru,
-//     });
-//     // The marker, positioned at Uluru
-//     const marker = new google.maps.Marker({
-//         position: uluru,
-//         map: map,
-//     });
-// }
-
-
-// function myDropdown() {
-//     document.getElementById("myDropdown").classList.toggle("show");
-// }
-
-// // Close the dropdown menu if the user clicks outside of it
-// window.onclick = function(event) {
-//     if (!event.target.matches('.dropbtn')) {
-//         var dropdowns = document.getElementsByClassName("dropdown-content");
-//         var i;
-//         for (i = 0; i < dropdowns.length; i++) {
-//             var openDropdown = dropdowns[i];
-//             if (openDropdown.classList.contains('show')) {
-//                 openDropdown.classList.remove('show');
-//             }
-//         }
-//     }
-// }
-
 function preschool(preschoolId) {
     console.log(preschoolId)
     var dropdownContent = document.getElementById(preschoolId)
@@ -247,6 +212,7 @@ function openPdf(e, path, redirect) {
 
 // Preschool Slider Starts Here 
 const preSlider = document.querySelector('.pre-img-slide');
+const preTextSlider = document.querySelector('.pre-slider-text');
 // const preSliderImg = document.querySelector('.pre-img-slide img');
 
 const preSliderLArrow = document.querySelector('#left');
@@ -255,12 +221,13 @@ const preSliderRArrow = document.querySelector('#right');
 let counter = 0;
 
 const size = preSlider.clientWidth;
+const size2 = preTextSlider.clientWidth;
 
 
 
 
 preSliderRArrow.addEventListener('click', function() {
-    console.log(-size * counter);
+    console.log(-size2 * counter);
     if (counter > 3) {
         console.log("working LEft!!");
         return;
@@ -268,14 +235,16 @@ preSliderRArrow.addEventListener('click', function() {
     console.log("working Right!!");
     counter++;
     preSlider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    preTextSlider.style.transform = 'translateX(' + (-size2 * counter) + 'px)';
 });
 
 preSliderLArrow.addEventListener('click', function() {
-    console.log(-size * counter);
+    console.log(-size2 * counter);
     counter--;
-    if (counter <= 0) {
+    if (counter < 0) {
         ''
         return;
     }
     preSlider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    preTextSlider.style.transform = 'translateX(' + (-size2 * counter) + 'px)';
 });

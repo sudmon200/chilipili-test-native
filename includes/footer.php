@@ -46,7 +46,7 @@
 
 	<div>
 		<hr>
-		<p class="text-center font3">Copyright &copy; 2020-21 Chili Pili by Shri Vigneshwara Vidyadeepam Educational Ventures PVT LTD</p>
+		<p class="text-center font3">Copyright &copy; 2020-21 Chili Pili by Shri Vigneshwara Vidyadeepam Educational Ventures PVT LTD.</p>
 	</div>
 
 </footer>

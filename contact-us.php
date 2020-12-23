@@ -5,10 +5,10 @@ include "includes/header.php";
 <!-- Contact Us Page Starts here  -->
 <div class="container" style="height:50px;">
 </div>
-<div class="container contact-top m-def">
-	<h3 class="font1">
+<div class="container header-top m-def">
+	<h2 class="font1">
 		Contact Us
-	</h3>
+	</h2>
 </div>
 
 <div class="contact-main">
@@ -60,9 +60,9 @@ include "includes/header.php";
 				<input type="number" name="number" id="number" placeholder="+91 8888999955">
 			</div>
 			<div class="form-content font2">
-				<label for="Name">Intrested In</label>
+				<label for="Name">Interested In</label>
 				<select name="intested" id="interested">
-					<option value="">I'm Intested In</option>
+					<option value="">I'm Interested In</option>
 					<option value="school">School/Preschool Admissions</option>
 					<option value="language-corporate">Language Training Corporate/Institutes</option>
 					<option value="language">Language Training Individual</option>
