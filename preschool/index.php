@@ -140,8 +140,6 @@ include 'includes/header.php'
 
     <div class="m-side">
         <h3 class="font1 pre-header p-def">Our Methods</h3>
-        <p class="font2" id="methods">For Our innovative and highly effective phonics methodology,</p>
-        <a href="../phonics.php" class="font2">Visit our Phonics website</a>
         <div class="method-info">
             <div class="method">
                 <img src="../media/preschool/Holistic-min.jpg" alt="holistic">
@@ -159,11 +157,13 @@ include 'includes/header.php'
                 <p class="font3">We value conceptual learning over information overload. Our way is to be friendly and interest the child, rather than look down and “teach”. Let the concept evolve/develop in the child rather than “explain” it to her.</p>
             </div>
             <div class="method">
-                <img src="../media/preschool/multilingual-min.jpg" alt="multilingual">
+                <img src="../media/preschool/MultiLingual-min.jpg" alt="multilingual">
                 <h4 class="font2">Mutilingual</h4>
                 <p class="font3">As mentioned elsewhere, we feel our multilingual culture is one of the best advantages India has, which unfortunately this generation is loosing. Not only do we teach the local language from day one, but we reach out and explain to children in their own language, wherever required.</p>
             </div>
         </div>
+        <p class="font2" id="methods">For Our innovative and highly effective phonics methodology,</p>
+        <a href="../phonics.php" class="font2">Visit our Phonics website</a>
     </div>
 </div>
 
@@ -739,7 +739,7 @@ include 'includes/header.php'
 <div class="gallery m-side m-def">
 
     <h3 class="font1 pre-header p-def">Our Gallery</h3>
-    <img src="../media/Preschool-Asset/layer 3.png" alt="Pre-Tree-1" class="pre-home-bird1">
+    <img src="../media/Preschool-Asset/layer_3.png" alt="Pre-Tree-1" class="pre-home-bird1">
 
     <div>
         <div class="pre-photo-row p-bottom">

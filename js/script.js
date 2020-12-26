@@ -16,6 +16,48 @@ let dynamicId = href.substring(href.lastIndexOf("/") + 1, href.length)
 //     e.preventDefault();
 // });
 
+
+// Home Page Slider for main website 
+var line = $('.item-slider');
+
+var tl = new TimelineLite({
+			onComplete: function(){
+				tl.restart();
+			}
+		});
+
+ 
+TweenLite.defaultEase = Circ.easeInOut;
+
+var time = 0.9;
+var y = 100;
+
+tl
+	.add ( TweenMax.staggerFromTo (
+		line, time,
+			{
+				opacity: 0,
+				y:y,
+			},
+			{	
+				opacity: 1,
+				y: 0,
+			},
+		2 ))
+	.add ( TweenMax.staggerTo (
+		line, time,
+			{
+				delay: time,
+				opacity: 0,
+				y: -y,
+			},
+        2 ), 1.3)
+        
+
+// Home Page Slider for main website Ends Here
+
+
+
 $(document).ready(function() {
     $('.owl-carousel').owlCarousel({
         // var owl = $('.owl-carousel');
